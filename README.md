@@ -1,5 +1,5 @@
 
-## Clases 
+## Lecciones 
 
 {% include clases-impartidas.md %}
 
