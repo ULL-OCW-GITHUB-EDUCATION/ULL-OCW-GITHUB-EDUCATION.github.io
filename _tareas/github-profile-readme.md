@@ -1,6 +1,6 @@
 ---
 layout: default
-title: github-profile-readme
+title: Creando un Perfil
 #permalink: tema0-introduccion/practicas/p02-t0-aprender-markdown/
 name: Managing your profile README
 date: 0000/01/03

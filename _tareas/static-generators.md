@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Generating a Web Site with a Static Generator
+title: Generando un Web Site con un Gnerador estático
 #permalink: tema0-introduccion/practicas/p02-t0-aprender-markdown/
 date: 0000/01/04
 ---

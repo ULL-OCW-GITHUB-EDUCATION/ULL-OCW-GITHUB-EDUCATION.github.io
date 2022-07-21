@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Trabajo Final de la Parte Desarrollo Colaborativo de Proyectos de AET
+title: Trabajo Final de GitHub Education en el Aula
 #permalink: tema0-introduccion/practicas/p02-t0-aprender-markdown/
 date: 0000/01/06
 ---

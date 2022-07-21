@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Generating Different Formats with pandoc
+title: LaTeX y Markdown
 #permalink: tema0-introduccion/practicas/p02-t0-aprender-markdown/
 date: 0000/01/05
 ---
