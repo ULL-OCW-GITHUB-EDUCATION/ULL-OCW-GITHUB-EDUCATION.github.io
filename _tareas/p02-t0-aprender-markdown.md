@@ -1,14 +1,13 @@
 ---
 layout: default
 title: Aprender Markdown
-myurl: https://campusdoctoradoyposgrado.ull.es/mod/assign/view.php?id=282485&forceview=1
-permalink: tema0-introduccion/practicas/p02-t0-aprender-markdown/
+permalink: aprender-markdow
 name: Aprender Markdown
 date: 0000/01/02
 toc: true
 ---
 
-# Aprender Markdown (aprender-markdown)
+# {{ page.title }}
 
 ## Aceptando la Tarea
 

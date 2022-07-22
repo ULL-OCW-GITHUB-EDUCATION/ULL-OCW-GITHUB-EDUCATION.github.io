@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Creando un Perfil
-permalink: github-profile-readme
+permalink: creando-un-perfil
 name: Managing your profile README
 date: 0000/01/03
 ---

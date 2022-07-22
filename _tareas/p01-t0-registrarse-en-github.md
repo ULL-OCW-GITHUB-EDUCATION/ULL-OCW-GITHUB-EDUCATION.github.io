@@ -3,11 +3,11 @@ layout: default
 title: Registrarse en GitHub
 name: Registrarse en GitHub
 myurl: https://campusdoctoradoyposgrado.ull.es/mod/assign/view.php?id=282455&forceview=1
-permalink: /tema0-introduccion/practicas/p01-t0-registrarse-en-github/
+permalink: registrarse-en-github
 date: 0000/01/01
 ---
 
-# Registrarse en GitHub (registrarse-en-github)
+# {{ page.title }}
 
 En esta tarea deberás registrarte en [GitHub.com](https://github.com).
 GitHub es una plataforma de desarrollo colaborativo.

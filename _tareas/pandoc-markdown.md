@@ -1,11 +1,11 @@
 ---
 layout: default
 title: LaTeX y Markdown
-#permalink: tema0-introduccion/practicas/p02-t0-aprender-markdown/
+permalink: latex-markdown
 date: 0000/01/05
 ---
 
-# Generating Different Formats with pandoc
+# {{ page.title }}
 
 En esta tarea vamos a aprender a convertir entre formatos y a generar distintos formatos, sobre todo PDFs. Para ello usaremos [pandoc](https://pandoc.org/). Estudiaremos también como escribir una memoria de fin de título, un artículo científico, unos apuntes etc. así como manejar bibliografía usando MarkDown y  $$\LaTeX$$ con [pandoc](https://pandoc.org/).
 
