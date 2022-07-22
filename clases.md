@@ -2,6 +2,6 @@
 layout: default
 ---
 
-# Lecciones
+# Temas
 
 {% include clases-impartidas.md %}
