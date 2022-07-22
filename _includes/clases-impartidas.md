@@ -4,7 +4,7 @@
       {%- if currentMonth != previousMonth %}
 <!-- ### Classes during the month of {{ currentMonth }} -->
       {%- endif %}
-1. [{{ post.title }}]({{site.baseurl}}{{ post.url }})  [📝]({{site.organization.master}}/{{post.path}})
+1. [{{ post.title }}]({{site.baseurl}}{{ post.url }}) 
   {%- if post.video %} 
   * [Vídeo]({{post.video}}) 
   {%- endif %}
