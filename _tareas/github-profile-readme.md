@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Creando un Perfil
-#permalink: tema0-introduccion/practicas/p02-t0-aprender-markdown/
+permalink: github-profile-readme
 name: Managing your profile README
 date: 0000/01/03
 ---
 
-# Managing your profile README (github-profile-readme)
+# {{ page.title }}
 
 Siguiendo las instrucciones en la documentación de GitHub [Managing your profile README](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme) añade un README a tu perfil de GitHub para que otras personas sepan sobre ti.
 

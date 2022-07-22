@@ -1,11 +1,11 @@
 ---
 layout: default
 title: Trabajo Final de GitHub Education en el Aula
-#permalink: tema0-introduccion/practicas/p02-t0-aprender-markdown/
+permalink: trabajo-final
 date: 0000/01/06
 ---
 
-# Trabajo Final de la Parte Desarrollo Colaborativo de Proyectos de AET
+# {{ page.title }}
 
 Estos son los objetivos:
 

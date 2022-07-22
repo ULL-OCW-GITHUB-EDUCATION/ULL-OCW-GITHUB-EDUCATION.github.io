@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Generando un Web Site con un Gnerador estático
-#permalink: tema0-introduccion/practicas/p02-t0-aprender-markdown/
+title: Construyendo un Web Site con un Generador estático
+permalink: generador-estatico
 date: 0000/01/04
 ---
 
-# Generating a Web Site with a Static Generator
+# {{ page.title}}
 
 En esta tarea vamos a construir un web site. Para ello usaremos los servicios de alojamiento de websites que provee GitHub mediante [GitHub Pages](https://pages.github.com/) y el generador de web sites estáticos Jekyll.
 
