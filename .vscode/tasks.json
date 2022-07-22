@@ -6,7 +6,7 @@
         {
             "label": "echo",
             "type": "shell",
-            "command": "git ci -am README.md && git push origin master",
+            "command": "rake",
             "group": {
                 "kind": "build",
                 "isDefault": true
