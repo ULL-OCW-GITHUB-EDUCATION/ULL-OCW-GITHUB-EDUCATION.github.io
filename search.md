@@ -1,15 +1,15 @@
 ---
 layout: default
 permalink: /search/
-title: Search
+title: Búsqueda
 ---
 
 {% capture initSearch %}
 
-<h1>Search</h1>
+<h1>{{page.title}}</h1>
 
 <form id="search-form" action="">
-  <label class="label" for="search">Search term (accepts a regex):</label>
+  <label class="label" for="search">Frase a buscar (puede usar una expresión regular):</label>
   <br/>
   <input class="input" id="search" type="text" name="search" autofocus placeholder="e.g. Promise" autocomplete="off">
   
