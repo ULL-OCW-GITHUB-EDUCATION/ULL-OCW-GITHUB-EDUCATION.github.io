@@ -26,5 +26,4 @@ Para realizar estas tareas lo único que necesiats es tener acceso a un navegado
 ## [Referencias](references)
 
 * [GitHub Docs: Education](https://docs.github.com/en/education)
-* [Repaso de la Guia Docente y Primeros Pasos en esta parte]({{ site.baseurl }}/tema0-introduccion/guia-docente.html)
 * [Versión de la charla sobre gitHub Education en el seminario UAI de 2018 (Google Slides)](https://docs.google.com/presentation/d/1LAZUS4SX7axmzEUElh2Oz2DqC1cJA6PUvb1KixJ1KWw/edit?usp=sharing)
