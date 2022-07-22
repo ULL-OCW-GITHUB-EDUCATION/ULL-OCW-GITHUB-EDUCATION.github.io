@@ -13,7 +13,7 @@ En esta tarea deberás registrarte en [GitHub.com](https://github.com).
 GitHub es una plataforma de desarrollo colaborativo.
 
 * Sigue los pasos explicados en este vídeo en YouTube: <a href="https://youtu.be/ezxRcdJ8glM" target="_blank">How to Create a GitHub Account • A Quick Look</a>
-* Usa tu correo `ull.edu.es` como correo asociado a la cuenta
+* Usa tu correo académico de la institución en la que enseñas (en nuestra universidad es el que tiene el sufijo `ull.edu.es`) como correo asociado a la cuenta
 * Rellena en GitHub los datos de tu perfil (Arriba a la derecha en el menu desplegable eliges Settings ➡︎ Profile)
 * Aquí tienes el <a href="https://github.com" target="_blank">Enlace a GitHub</a>
 
