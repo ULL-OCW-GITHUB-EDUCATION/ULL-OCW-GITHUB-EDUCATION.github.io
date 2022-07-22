@@ -12,15 +12,15 @@ google_plus:
 
 
 
-En esta clase comenzaremos con tarea:
+En esta clase comenzaremos con la tarea:
 
-* [registrarse-en-github]({{site.baseurl}}/tema0-introduccion/practicas/p01-t0-registrarse-en-github/)
+* [registrarse-en-github]({{site.baseurl}}/registrarse-en-github/)
 
-y luego haremos la tarea:
+y luego haremos esta otra tarea:
 
-* [aprender-markdown]({{site.baseurl}}/tema0-introduccion/practicas/p02-t0-aprender-markdown/)
+* [aprender-markdown]({{site.baseurl}}/aprender-markdown/)
 
-Para realizar estas tareas lo único que necesiats es tener acceso a un navegador actualizado. 
+Para realizar estas dos tareas lo único que necesitas es tener acceso a un navegador actualizado. 
 
 
 ## [Referencias](references)

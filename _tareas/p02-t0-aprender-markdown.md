@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Aprender Markdown
-permalink: aprender-markdow
+permalink: aprender-markdown
 name: Aprender Markdown
 date: 0000/01/02
 toc: true
