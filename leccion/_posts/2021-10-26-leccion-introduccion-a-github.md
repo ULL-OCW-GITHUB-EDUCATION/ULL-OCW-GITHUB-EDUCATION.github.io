@@ -1,9 +1,9 @@
 ---
 layout: default
-title:  "Introducción a GitHub y a Markdown"
+title:  "Introducción a GitHub"
 categories: Clases
 tags: competencias guia-docente presentacion
-permalink: introduccion-github-markdown
+permalink: introduccion-github
 github_alu: 
 google_plus: 
 ---
@@ -13,10 +13,6 @@ google_plus:
 En esta clase comenzaremos con la tarea:
 
 * [Registrarse, Obtener Descuentos y Crear un Aula]({{site.baseurl}}/registrarse-en-github)
-
-y luego haremos esta otra tarea:
-
-* [aprender-markdown]({{site.baseurl}}/aprender-markdown/)
 
 Para realizar estas dos tareas lo único que necesitas es tener acceso a un navegador actualizado. 
 
