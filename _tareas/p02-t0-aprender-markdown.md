@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Aprender Markdown
+title: La Tarea Aprender Markdown
 permalink: aprender-markdown
 name: Aprender Markdown
 date: 0000/01/02
@@ -11,7 +11,10 @@ toc: true
 
 ## Aceptando la Tarea
 
+Los profesores han configurado esta segunda tarea usando [GitHub Classroom](https://docs.github.com/es/education/manage-coursework-with-github-classroom/teach-with-github-classroom). GitHub Classroom es una aplicación web para los docentes que proporciona herramientas para la administración de cursos integradas con GitHub. 
+
 Esta tarea inicial ha sido configurada por el profesor como una tarea de equipo.
+
 Eso significa que cuando hagan click en la aceptación  de la tarea les saldrá un formulario para elegir el nombre del equipo. En este caso el equipo será individual. Escriba su nombre y apellidos seguido de su ID de la ULL:
 
 ![]({{site.baseurl}}/assets/images/github-classroom-team-assignment-1.png)
@@ -21,6 +24,9 @@ Eso significa que cuando hagan click en la aceptación  de la tarea les saldrá 
 ### Entrega en el Campus virtual
 
 En la tarea del campus simplemente escribes el enlace al repo de la tarea.
+
+Si te animas, ahora puedes ir al [foro de la organización y saludar](https://github.com/orgs/ULL-OCW-GITHUB-EDUCATION/discussions)
+
 
 ## Referencias de consulta para empezar
 
