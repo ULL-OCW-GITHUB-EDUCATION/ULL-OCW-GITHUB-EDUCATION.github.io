@@ -21,7 +21,7 @@ El otro objetivo de esta tarea es aprender Markdown. Para ello, en el repositori
 En este [enlace puedes visitar ejemplos de lo que han hecho algunos alumnos de la asignatura *Aprendizaje y Enseñanza de la Tecnología* del master de Formación de Profesorado en el curso 21/22](https://github.com/orgs/ULL-MFP-AET-2122/repositories?q=aprender-markdown&type=all&language=&sort=)
 
 
-Cuando termines esta tarea puedes ir al [foro de la organización y saludar](https://github.com/orgs/ULL-OCW-GITHUB-EDUCATION/discussions). Así practicas un poco mas de markdown. Publica tu entrada en la categoría **Cuéntanos lo que haces** (tienes un ejemplo en <https://github.com/orgs/ULL-OCW-GITHUB-EDUCATION/discussions/2>).
+Cuando termines esta tarea puedes ir al [foro de la organización y saludar](https://github.com/orgs/ULL-OCW-GITHUB-EDUCATION/discussions). Así practicas un poco mas de markdown. Publica tu entrada en la categoría **Cuéntanos lo que haces** (tienes un ejemplo en <https://github.com/orgs/ULL-OCW-GITHUB-EDUCATION/discussions/2>). Si quieres saber mas sobre como añadir un foro de debate a tus repos y como administrar los foros puedes consultar la documentación en [GitHub Discussions](https://docs.github.com/en/discussions)
 
 
 ## Introducción a GitHub Classroom
