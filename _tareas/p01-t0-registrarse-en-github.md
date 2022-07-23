@@ -9,7 +9,12 @@ date: 0000/01/01
 
 # {{ page.title }}
 
-En esta tarea deberás registrarte en [GitHub.com](https://github.com), solicitar un descuento para docentes, crear una organización para un curso y crear un aula github classroom asociada a la organización.
+En esta tarea deberás 
+
+1. registrarte en [GitHub.com](https://github.com), 
+2. solicitar un descuento para docentes, 
+3. crear una organización para un curso y 
+4. crear un aula github classroom asociada a la organización.
 
 * Si eres profesor, sigue los pasos explicados en la sección [Inicio rápido para GitHub Educators](https://docs.github.com/es/education/quickstart). Si te encuentras cómodo con el lenguaje Inglés es mejor usar la [versión inglesa de la guía](https://docs.github.com/en/education/quickstart).
 
