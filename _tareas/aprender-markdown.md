@@ -20,7 +20,7 @@ Deberás aceptar la tarea asociada a esta parte haciendo click en el [enlace de 
 Otro objetivo de esta tarea es aprender Markdown. Para ello, en el repositorio que se crea cuando aceptas la asignación  deberás rellenar los contenidos del fichero `README.md` con un pequeño curriculum vitae/carta de presentación usando markdown. 
 
 * Incluye alguna imagen 
-* Incluye algunos enlaces (por ejemplo un enlace a tu usuario en el campus virtual).
+* Incluye algunos enlaces (por ejemplo un enlace a tu usuario en el campus virtual o el LMS de tu institución educativa).
 * Incluya alguna lista 
 * Una cita favorita (blockquote)
 * Un fragmento de código inline de un lenguaje de programación 
@@ -67,7 +67,9 @@ Cuando termines esta tarea puedes ir al [foro de la organización y saludar](htt
 
 Los profesores de este curso han configurado la tarea asociada usando [GitHub Classroom  (que abreviaremos a veces como GHC)](https://docs.github.com/es/education/manage-coursework-with-github-classroom/teach-with-github-classroom). GitHub Classroom es una aplicación web para los docentes que proporciona herramientas para la administración de cursos integradas con GitHub. 
 
-Para aprender a usar esta herramienta es conveniente seguir el curso [Teach with GitHub Classroom](https://docs.github.com/en/education/manage-coursework-with-github-classroom/teach-with-github-classroom). Puedes encontrar un buen número de vídeos que complementan el curso en la sección [Videos about GitHub Classroom](https://docs.github.com/en/education/manage-coursework-with-github-classroom/get-started-with-github-classroom/basics-of-setting-up-github-classroom#videos-about-github-classroom)
+Para aprender a usar esta herramienta es conveniente 
+1. seguir el curso [Teach with GitHub Classroom](https://docs.github.com/en/education/manage-coursework-with-github-classroom/teach-with-github-classroom). 
+2. Puedes encontrar un buen número de vídeos que complementan el curso en la sección [Videos about GitHub Classroom](https://docs.github.com/en/education/manage-coursework-with-github-classroom/get-started-with-github-classroom/basics-of-setting-up-github-classroom#videos-about-github-classroom)
 
 Verás que con GHC permite crear [asignaciones individuales](https://docs.github.com/en/education/manage-coursework-with-github-classroom/teach-with-github-classroom/create-an-individual-assignment) y de grupo. 
 Esta tarea inicial ha sido configurada por el profesor como una [tarea de grupo o tarea de equipo](https://docs.github.com/en/education/manage-coursework-with-github-classroom/teach-with-github-classroom/create-a-group-assignment).
