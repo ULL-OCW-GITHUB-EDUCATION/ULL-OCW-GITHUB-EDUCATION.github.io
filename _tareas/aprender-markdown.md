@@ -2,7 +2,7 @@
 layout: default
 title: La Tarea Aprender Markdown
 permalink: aprender-markdown
-name: Aprender Markdown
+name: aprender-markdown
 date: 0000/01/02
 toc: true
 ---
@@ -32,6 +32,7 @@ Si te animas, ahora puedes ir al [foro de la organización y saludar](https://gi
 
 Lee 
 
+1. [Escrinir en GitHub](https://docs.github.com/es/get-started/writing-on-github)
 1. El tutorial <a href="https://guides.github.com/features/mastering-markdown/" target="_blank">Mastering Markdown</a> para saber mas sobre esta forma de elaborar documentos
 2. Para mas detalles consulta la guía de usuario
 <a href="https://docs.github.com/en/free-pro-team@latest/github/writing-on-github/getting-started-with-writing-and-formatting-on-github" target="_blank">Getting started with writing and formatting on GitHub</a>
