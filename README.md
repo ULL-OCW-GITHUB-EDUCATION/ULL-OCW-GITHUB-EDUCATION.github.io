@@ -1,9 +1,9 @@
+---
+title: Contenidos
+permalink: index.html
+---
 
-## Temas 
-
-{% include clases-impartidas.md %}
-
-## Prácticas
+## {{ page.title }}
 
 {% include practicas-publicadas.md  %}
 

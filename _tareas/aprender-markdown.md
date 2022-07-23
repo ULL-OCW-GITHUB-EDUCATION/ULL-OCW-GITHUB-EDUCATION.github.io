@@ -1,6 +1,6 @@
 ---
 layout: default
-title: La Tarea Aprender Markdown
+title: Aprender Markdown
 permalink: aprender-markdown
 name: aprender-markdown
 date: 0000/01/02
@@ -8,6 +8,13 @@ toc: true
 ---
 
 # {{ page.title }}
+
+## Objetivo
+
+En el repositorio de la entrega deberás rellenar los contenidos del fichero `README.md` con un pequeño curriculum vitae/carta de presentación usando markdown.
+
+En este [enlace puedes visitar ejemplos de lo que han hecho algunos alumnos de *Aprendizaje y Enseñanza de la Tecnología* del curso 21/22 en esta tarea](https://github.com/orgs/ULL-MFP-AET-2122/repositories?q=aprender-markdown&type=all&language=&sort=)
+
 
 ## Aceptando la Tarea
 
