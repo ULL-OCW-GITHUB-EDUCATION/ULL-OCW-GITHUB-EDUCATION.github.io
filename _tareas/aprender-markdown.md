@@ -11,7 +11,7 @@ toc: true
 
 ## Objetivos
 
-Deberás aceptar la tarea asociada a esta parte haciendo click en el [enlace de aceptación](https://classroom.github.com/a/PlGuI8vJ). Es una tarea que fue configurada por los profesores usando [GitHub Classroom](). Un primer objetivo a conseguir es la familiaridad con los conceptos que conlleva Github Classroom.
+Deberás aceptar la tarea asociada a esta parte haciendo click en el [enlace de aceptación](https://classroom.github.com/a/PlGuI8vJ). Es una tarea que fue configurada por los profesores usando [GitHub Classroom](). Un primer objetivo de esta lección/tarea es conseguir cierta familiaridad con los conceptos que conlleva Github Classroom.
 
 El otro objetivo de esta tarea es aprender Markdown. Para ello, en el repositorio que se crea cuando aceptas la asignación  deberás rellenar los contenidos del fichero `README.md` con un pequeño curriculum vitae/carta de presentación usando markdown. Es conveniente que 
 
