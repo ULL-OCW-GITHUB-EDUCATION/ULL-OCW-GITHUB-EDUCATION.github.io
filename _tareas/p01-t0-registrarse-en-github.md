@@ -40,7 +40,7 @@ Para optar debes cumplir con los siguientes requisitos:
 En cualquier caso, seas profesor o estudiante, para completar esta tarea deberás completar estos  puntos:
 
 1. Registrarte en GitHub
-2. Obtener tus descuentos
+2. Obtener tus correspondientes descuentos
 2. Crear una organización para un curso que vas a impartir. 
   * Para el nombre de la organización y de la asignatura es aconsejable seguir un patrón. Por ejemplo, esta organización se llama `ULL-OCW-GITHUB-EDUCATION`. Otros ejemplos de nombres de organizaciones combinan los acrónimos de los ámbitos: la universidad, el centro, la asignatura y el curso. Por ejemplo `ULL-ESIT-PL-2122`. 
   * Si eres profesor la organización será privada, si eres estudiante la organización creada deberá ser pública ya que este privilegio no se encuentra en el *student-developer-pack*
