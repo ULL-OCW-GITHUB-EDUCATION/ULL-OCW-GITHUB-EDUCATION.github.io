@@ -9,10 +9,11 @@ toc: true
 
 # {{ page.title }}
 
-## Objetivo
+## Objetivos
 
-En el repositorio de la entrega deberás rellenar los contenidos del fichero `README.md` con un pequeño curriculum vitae/carta de presentación usando markdown.
+Deberás aceptar la tarea asociada a esta parte haciendo click en el [enlace de la misma en el campus virtual](https://classroom.github.com/a/PlGuI8vJ). Es una tarea que fue configurada por los profesores usando [GitHub Classroom](). Un primer objetivo a conseguir es la familiaridad con los conceptos que conlleva Github Classroom.
 
+el otro objetivo es aprender Markdown. Para ello, en el repositorio que se crea cuando aceptas la asignación  deberás rellenar los contenidos del fichero `README.md` con un pequeño curriculum vitae/carta de presentación usando markdown.
 En este [enlace puedes visitar ejemplos de lo que han hecho algunos alumnos de *Aprendizaje y Enseñanza de la Tecnología* del curso 21/22 en esta tarea](https://github.com/orgs/ULL-MFP-AET-2122/repositories?q=aprender-markdown&type=all&language=&sort=)
 
 
