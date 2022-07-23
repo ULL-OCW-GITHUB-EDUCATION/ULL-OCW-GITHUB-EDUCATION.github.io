@@ -35,7 +35,7 @@ disqus:
   url: https://procesadores-de-lenguajes.disqus.com/embed.js
   comments: true
 classroom: 
-  url: https://classroom.github.com/classrooms/90842445-ull-mfp-aet-2122
+  url: https://classroom.github.com/classrooms/109737506-ull-ocw-github-education 
   name: GHA
 collections:
   tareas:
