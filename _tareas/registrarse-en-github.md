@@ -25,7 +25,7 @@ Para obtener descuentos de docente o investigador, debes cumplir con los siguien
 2. Tener una dirección de correo electrónico verificable que haya emitido una institución educativa. En nuestra universidad es el que tiene el sufijo `ull.edu.es`
 3. Cargar los documentos que comprueben tu afiliación a la institución educativa.
 
-Si eres estudiante no podrás obtener los descuentos de profesor pero puedes optar a los descuentos del *Paquete de desarrollo para estudiantes* de GitHub.
+Si eres estudiante puedes optar a los descuentos del *Paquete de desarrollo para estudiantes* de GitHub.
 Sigue las instrucciones en la sección [Aplicar un paquete de desarrollo para alumnos
 ](https://docs.github.com/es/education/explore-the-benefits-of-teaching-and-learning-with-github-education/use-github-for-your-schoolwork/apply-for-a-student-developer-pack).
 
