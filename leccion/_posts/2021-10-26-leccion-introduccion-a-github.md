@@ -14,7 +14,7 @@ En esta clase comenzaremos con la tarea:
 
 * [Registrarse, Obtener Descuentos y Crear un Aula]({{site.baseurl}}/registrarse-en-github)
 
-Para realizar esta tareas lo único que necesitas es tener acceso a un navegador actualizado. 
+Para realizar esta tarea lo único que necesitas es tener acceso a un navegador actualizado. 
 
 
 ## [Referencias](references)
