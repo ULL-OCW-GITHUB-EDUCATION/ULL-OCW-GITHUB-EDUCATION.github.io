@@ -92,7 +92,7 @@ En general, este es lo que ocurre cuando el alumno acepta una asignación de gru
 {% include instrucciones-tareas-de-equipo.md %}
 
 
-## Referencias de consulta para empezar
+## Introduccion a MarkDown
 
 Lee 
 
@@ -101,7 +101,7 @@ Lee
 2. Para mas detalles consulta la guía de usuario
 <a href="https://docs.github.com/en/free-pro-team@latest/github/writing-on-github/getting-started-with-writing-and-formatting-on-github" target="_blank">Getting started with writing and formatting on GitHub</a>
 
-## Edición en la Nube de Repositorios GitHub
+## Introducción a la Edición en la Nube de Repositorios GitHub
 
 Para manejar todo el proceso de edición pueden ayudarte estas notas:
 
