@@ -11,9 +11,15 @@ toc: true
 
 ## Objetivos
 
-Deberás aceptar la tarea asociada a esta parte haciendo click en el [enlace de la misma en el campus virtual](https://classroom.github.com/a/PlGuI8vJ). Es una tarea que fue configurada por los profesores usando [GitHub Classroom](). Un primer objetivo a conseguir es la familiaridad con los conceptos que conlleva Github Classroom.
+Deberás aceptar la tarea asociada a esta parte haciendo click en el [enlace de aceptación](https://classroom.github.com/a/PlGuI8vJ). Es una tarea que fue configurada por los profesores usando [GitHub Classroom](). Un primer objetivo a conseguir es la familiaridad con los conceptos que conlleva Github Classroom.
 
-el otro objetivo es aprender Markdown. Para ello, en el repositorio que se crea cuando aceptas la asignación  deberás rellenar los contenidos del fichero `README.md` con un pequeño curriculum vitae/carta de presentación usando markdown.
+El otro objetivo de esta tarea es aprender Markdown. Para ello, en el repositorio que se crea cuando aceptas la asignación  deberás rellenar los contenidos del fichero `README.md` con un pequeño curriculum vitae/carta de presentación usando markdown. Es conveniente que 
+
+1. Incluyas alguna imagen en el repo en una carpeta `img` y la muestres desde el texto
+2. Añadas un segundo fichero en el repo `objetivos.md`  contando cuáles son tus objetivos con respecto a este curso y lo referencies desde el fichero `README.md`. Añade una referencia/enlace  de vuelta en `objetivos.md` a  tu `README.md`
+
+
+
 En este [enlace puedes visitar ejemplos de lo que han hecho algunos alumnos de *Aprendizaje y Enseñanza de la Tecnología* del curso 21/22 en esta tarea](https://github.com/orgs/ULL-MFP-AET-2122/repositories?q=aprender-markdown&type=all&language=&sort=)
 
 
