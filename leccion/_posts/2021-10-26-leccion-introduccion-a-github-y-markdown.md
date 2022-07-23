@@ -14,7 +14,7 @@ google_plus:
 
 En esta clase comenzaremos con la tarea:
 
-* [registrarse-en-github]({{site.baseurl}}/registrarse-en-github/)
+* [registrarse-en-github]({{site.baseurl}}/registrarse-en-github
 
 y luego haremos esta otra tarea:
 
