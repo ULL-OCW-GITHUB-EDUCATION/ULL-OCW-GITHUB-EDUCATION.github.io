@@ -10,11 +10,9 @@ google_plus:
 
 # {{ page.title }}
 
-
-
 En esta clase comenzaremos con la tarea:
 
-* [registrarse-en-github]({{site.baseurl}}/registrarse-en-github)
+* [Registrarse, Obtener Descuentos y Crear un Aula]({{site.baseurl}}/registrarse-en-github)
 
 y luego haremos esta otra tarea:
 
