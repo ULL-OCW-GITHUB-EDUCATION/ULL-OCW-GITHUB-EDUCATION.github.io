@@ -103,9 +103,7 @@ Lee
 
 ## Introducción a la Edición en la Nube de Repositorios GitHub
 
-Para manejar todo el proceso de edición pueden ayudarte estas notas:
-
-* [Visual Studio Code in Browsers]({{site.baseurl}}/pages/gitpod)
+* Para manejar todo el proceso de edición pueden ayudarte estas [notas]({{site.baseurl}}/pages/gitpod)
 
 ## [Referencias](references)
 

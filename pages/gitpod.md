@@ -1,7 +1,21 @@
 ---
-title: VS Code in Browsers
+title: Edición en la Nube 
 toc: true
 --- 
+
+# {{ page.title }}
+
+Hay múltiples formas de editar en la nube un repositorio GitHub.
+Recogemos aquí estos:
+
+1. Editar directamente usando el editor on-line de GitHub
+2. Usar el editor GitHub.dev: simplemente  tecleando el punto cuando se está visitando el repo
+3. Usar gitpod
+4. Usar Codespaces (si se dispone de este servicio)
+
+## Editor on-line de GitHub
+
+Véase la sección [Editar archivos](https://docs.github.com/es/repositories/working-with-files/managing-files/editing-files). El Editor usado es [Codemirror](https://codemirror.net/)
 
 ## Editing with GitHub.dev Editor
 
