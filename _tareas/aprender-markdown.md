@@ -92,7 +92,7 @@ En general, este es lo que ocurre cuando el alumno acepta una asignación de gru
 {% include instrucciones-tareas-de-equipo.md %}
 
 
-## Introduccion a MarkDown
+## Introduccion ala Lenguaje de Marcas MarkDown
 
 Lee 
 
