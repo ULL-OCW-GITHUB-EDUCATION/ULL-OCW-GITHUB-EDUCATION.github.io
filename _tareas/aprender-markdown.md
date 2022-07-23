@@ -16,16 +16,18 @@ Deberás aceptar la tarea asociada a esta parte haciendo click en el [enlace de 
 El otro objetivo de esta tarea es aprender Markdown. Para ello, en el repositorio que se crea cuando aceptas la asignación  deberás rellenar los contenidos del fichero `README.md` con un pequeño curriculum vitae/carta de presentación usando markdown. Es conveniente que 
 
 1. Incluyas alguna imagen en el repo en una carpeta `img` y la muestres desde el texto
-2. Añadas un segundo fichero en el repo `objetivos.md`  contando cuáles son tus objetivos con respecto a este curso y lo referencies desde el fichero `README.md`. Añade una referencia/enlace  de vuelta en `objetivos.md` a  tu `README.md`
+2. Añadas un segundo fichero en el repo con nombre  `objetivos.md`  contando cuáles son tus objetivos con respecto a este curso y lo referencies desde el fichero `README.md`. Añade una referencia/enlace  de vuelta en `objetivos.md` a  tu `README.md`
 
 
 
-En este [enlace puedes visitar ejemplos de lo que han hecho algunos alumnos de *Aprendizaje y Enseñanza de la Tecnología* del curso 21/22 en esta tarea](https://github.com/orgs/ULL-MFP-AET-2122/repositories?q=aprender-markdown&type=all&language=&sort=)
+En este [enlace puedes visitar ejemplos de lo que han hecho algunos alumnos de la asignatura *Aprendizaje y Enseñanza de la Tecnología* del master de Formación de Profesorado en el curso 21/22](https://github.com/orgs/ULL-MFP-AET-2122/repositories?q=aprender-markdown&type=all&language=&sort=)
 
 
 ## Introducción a GitHub Classroom
 
 Los profesores han configurado esta segunda tarea usando [GitHub Classroom](https://docs.github.com/es/education/manage-coursework-with-github-classroom/teach-with-github-classroom). GitHub Classroom es una aplicación web para los docentes que proporciona herramientas para la administración de cursos integradas con GitHub. 
+
+Para aprender a usar esta herramienta es conveniente seguir el curso [Teach with GitHub Classroom](https://docs.github.com/en/education/manage-coursework-with-github-classroom/teach-with-github-classroom). Puedes encontrar un buen número de vídeos que complementan el curso en la sección [Videos about GitHub Classroom](https://docs.github.com/en/education/manage-coursework-with-github-classroom/get-started-with-github-classroom/basics-of-setting-up-github-classroom#videos-about-github-classroom)
 
 Esta tarea inicial ha sido configurada por el profesor como una tarea de equipo.
 
