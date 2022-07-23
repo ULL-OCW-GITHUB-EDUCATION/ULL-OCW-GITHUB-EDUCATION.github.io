@@ -11,11 +11,11 @@ toc: true
 
 ## Objetivos
 
-### 1: Primeros Pasos con GitHub Classroom
+### Objetivo 1: Primeros Pasos con GitHub Classroom
 
 Deberás aceptar la tarea asociada a esta parte haciendo click en el [enlace de aceptación](https://classroom.github.com/a/PlGuI8vJ). Es una tarea que fue configurada por los profesores usando [GitHub Classroom](). Un primer objetivo de esta lección/tarea es conseguir cierta familiaridad con los conceptos que conlleva Github Classroom: asignación, asignación individual, asignación de grupo, identificación del alumnado, *rosters*, etc.
 
-### 2: Aprender Markdown
+### Objetivo 2: Aprender Markdown
 
 Otro objetivo de esta tarea es aprender Markdown. Para ello, en el repositorio que se crea cuando aceptas la asignación  deberás rellenar los contenidos del fichero `README.md` con un pequeño curriculum vitae/carta de presentación usando markdown. 
 
@@ -58,7 +58,19 @@ a otra página
 
 En este [enlace puedes visitar ejemplos de lo que han hecho algunos alumnos de la asignatura *Aprendizaje y Enseñanza de la Tecnología* del master de Formación de Profesorado en el curso 21/22](https://github.com/orgs/ULL-MFP-AET-2122/repositories?q=aprender-markdown&type=all&language=&sort=)
 
-### 3: Aprender a Usar GitHub Discussions
+### Objetivo 3: Aprender a Usar un Editor en la Nube
+
+Hay múltiples formas de editar en la nube un repositorio GitHub.
+en estas [notas]({{site.baseurl}}/pages/gitpod) recogemos estas alternativas:
+
+1. Editar directamente usando el editor on-line de GitHub
+2. Usar el editor GitHub.dev: simplemente  tecleando el punto cuando se está visitando el repo
+3.  Usar [GitPod]({{ site.baseurl }}/pages/gitpod#gitpod)
+4. Usar Codespaces (si dispones de este servicio)
+
+
+
+### Objetivo 4: Aprender a Usar GitHub Discussions
 
 Cuando termines esta tarea puedes ir al [foro de la organización y saludar](https://github.com/orgs/ULL-OCW-GITHUB-EDUCATION/discussions). Así practicas un poco mas de markdown. Publica tu entrada en la categoría **Cuéntanos lo que haces** (tienes un ejemplo de entrada en <https://github.com/orgs/ULL-OCW-GITHUB-EDUCATION/discussions/2>). Si quieres saber mas sobre como añadir un foro de debate a tus repos y como administrar los foros puedes consultar la documentación en [GitHub Discussions](https://docs.github.com/en/discussions)
 

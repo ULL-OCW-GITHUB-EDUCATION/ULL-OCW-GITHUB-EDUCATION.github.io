@@ -10,7 +10,7 @@ Recogemos aquí estos:
 
 1. Editar directamente usando el editor on-line de GitHub
 2. Usar el editor GitHub.dev: simplemente  tecleando el punto cuando se está visitando el repo
-3. Usar gitpod
+3. Usar GitPod
 4. Usar Codespaces (si se dispone de este servicio)
 
 ## Editor on-line de GitHub
