@@ -18,9 +18,10 @@ El otro objetivo de esta tarea es aprender Markdown. Para ello, en el repositori
 1. Incluyas alguna imagen en el repo en una carpeta `img` y la muestres desde el texto
 2. Añadas un segundo fichero en el repo con nombre  `objetivos.md`  contando cuáles son tus objetivos con respecto a este curso y lo referencies desde el fichero `README.md`. Añade una referencia/enlace  de vuelta en `objetivos.md` a  tu `README.md`
 
-
-
 En este [enlace puedes visitar ejemplos de lo que han hecho algunos alumnos de la asignatura *Aprendizaje y Enseñanza de la Tecnología* del master de Formación de Profesorado en el curso 21/22](https://github.com/orgs/ULL-MFP-AET-2122/repositories?q=aprender-markdown&type=all&language=&sort=)
+
+
+Cuando termines esta tarea puedes ir al [foro de la organización y saludar](https://github.com/orgs/ULL-OCW-GITHUB-EDUCATION/discussions). Así practicas un poco mas de markdown. Publica tu entrada en la categoría **Cuéntanos lo que haces** (tienes un ejemplo en <https://github.com/orgs/ULL-OCW-GITHUB-EDUCATION/discussions/2>).
 
 
 ## Introducción a GitHub Classroom
@@ -32,17 +33,21 @@ Para aprender a usar esta herramienta es conveniente seguir el curso [Teach with
 Verás que con GHC permite crear [asignaciones individuales](https://docs.github.com/en/education/manage-coursework-with-github-classroom/teach-with-github-classroom/create-an-individual-assignment) y de grupo. 
 Esta tarea inicial ha sido configurada por el profesor como una [tarea de grupo o tarea de equipo](https://docs.github.com/en/education/manage-coursework-with-github-classroom/teach-with-github-classroom/create-a-group-assignment).
 
-Eso significa que - desde la perspectiva del alumno - cuando hagan click en la aceptación  de la tarea les saldrá un formulario para elegir el nombre del equipo. 
+Eso significa que - desde la perspectiva del alumno - cuando hagas click en la aceptación  de la tarea  saldrá un formulario para elegir el nombre del equipo. 
 
-En este caso el equipo será individual. Escriba su nombre y apellidos seguido de su ID de la institución educativa en la que estudia/trabaja:
+En este caso los profesores han indicado que el equipo no puede tener mas de un miembro. 
+Escriba su nombre y apellidos seguido de su ID en la institución educativa en la que estudia/trabaja.
+La siguiente figura muestra un ejemplo de como ve el formulario un alumno aceptando una asignación como esta para un classroom con nombre `ULL-MFP-AET-2122`:
 
 ![]({{site.baseurl}}/assets/images/github-classroom-team-assignment-1.png)
 
+La siguiente figura muestra un  ejemplo de como quedan los equipos/teams creados por GHC una vez que los alumnos han aceptado una asignación similar a esta:
+
+![ejemplos de individual team assignment for identification]({{site.baseurl}}/assets/images/github-individual-teams-examples.png)
+
+En general, este es lo que ocurre cuando el alumno acepta una asignación de grupo: 
+
 {% include instrucciones-tareas-de-equipo.md %}
-
-### Usa el Foro
-
-Si te animas, ahora puedes ir al [foro de la organización y saludar](https://github.com/orgs/ULL-OCW-GITHUB-EDUCATION/discussions). Así practicas un poco mas de markdown. Pon en tu entrada del for un enlace a tu entrega.
 
 
 ## Referencias de consulta para empezar
