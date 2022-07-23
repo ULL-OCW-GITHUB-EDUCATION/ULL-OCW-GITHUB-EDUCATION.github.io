@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Aprender Markdown
+title: Aprender GitHub Classroom y Markdown
 permalink: aprender-markdown
 name: aprender-markdown
 date: 0000/01/02
@@ -16,7 +16,7 @@ En el repositorio de la entrega deberás rellenar los contenidos del fichero `RE
 En este [enlace puedes visitar ejemplos de lo que han hecho algunos alumnos de *Aprendizaje y Enseñanza de la Tecnología* del curso 21/22 en esta tarea](https://github.com/orgs/ULL-MFP-AET-2122/repositories?q=aprender-markdown&type=all&language=&sort=)
 
 
-## Aceptando la Tarea
+## Introducción a GitHub Classroom
 
 Los profesores han configurado esta segunda tarea usando [GitHub Classroom](https://docs.github.com/es/education/manage-coursework-with-github-classroom/teach-with-github-classroom). GitHub Classroom es una aplicación web para los docentes que proporciona herramientas para la administración de cursos integradas con GitHub. 
 
@@ -28,11 +28,9 @@ Eso significa que cuando hagan click en la aceptación  de la tarea les saldrá 
 
 {% include instrucciones-tareas-de-equipo.md %}
 
-### Entrega en el Campus virtual
+### Usa el Foro
 
-En la tarea del campus simplemente escribes el enlace al repo de la tarea.
-
-Si te animas, ahora puedes ir al [foro de la organización y saludar](https://github.com/orgs/ULL-OCW-GITHUB-EDUCATION/discussions)
+Si te animas, ahora puedes ir al [foro de la organización y saludar](https://github.com/orgs/ULL-OCW-GITHUB-EDUCATION/discussions). Así practicas un poco mas de markdown. Pon en tu entrada del for un enlace a tu entrega.
 
 
 ## Referencias de consulta para empezar
