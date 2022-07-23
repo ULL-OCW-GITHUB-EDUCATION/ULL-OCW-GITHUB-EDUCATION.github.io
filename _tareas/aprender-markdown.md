@@ -25,13 +25,14 @@ En este [enlace puedes visitar ejemplos de lo que han hecho algunos alumnos de l
 
 ## Introducción a GitHub Classroom
 
-Los profesores han configurado esta  tarea usando [GitHub Classroom](https://docs.github.com/es/education/manage-coursework-with-github-classroom/teach-with-github-classroom). GitHub Classroom es una aplicación web para los docentes que proporciona herramientas para la administración de cursos integradas con GitHub. 
+Los profesores han configurado esta  tarea usando [GitHub Classroom  (que abreviaremos a veces como GHC)](https://docs.github.com/es/education/manage-coursework-with-github-classroom/teach-with-github-classroom). GitHub Classroom es una aplicación web para los docentes que proporciona herramientas para la administración de cursos integradas con GitHub. 
 
 Para aprender a usar esta herramienta es conveniente seguir el curso [Teach with GitHub Classroom](https://docs.github.com/en/education/manage-coursework-with-github-classroom/teach-with-github-classroom). Puedes encontrar un buen número de vídeos que complementan el curso en la sección [Videos about GitHub Classroom](https://docs.github.com/en/education/manage-coursework-with-github-classroom/get-started-with-github-classroom/basics-of-setting-up-github-classroom#videos-about-github-classroom)
 
-Esta tarea inicial ha sido configurada por el profesor como una tarea de equipo.
+Verás que con GHC permite crear [asignaciones individuales](https://docs.github.com/en/education/manage-coursework-with-github-classroom/teach-with-github-classroom/create-an-individual-assignment) y de grupo. 
+Esta tarea inicial ha sido configurada por el profesor como una [tarea de grupo o tarea de equipo](https://docs.github.com/en/education/manage-coursework-with-github-classroom/teach-with-github-classroom/create-a-group-assignment).
 
-Eso significa que cuando hagan click en la aceptación  de la tarea les saldrá un formulario para elegir el nombre del equipo. En este caso el equipo será individual. Escriba su nombre y apellidos seguido de su ID de la ULL:
+Eso significa que cuando hagan click en la aceptación  de la tarea les saldrá un formulario para elegir el nombre del equipo. En este caso el equipo será individual. Escriba su nombre y apellidos seguido de su ID de la institución educativa en la que estudia/trabaja:
 
 ![]({{site.baseurl}}/assets/images/github-classroom-team-assignment-1.png)
 
