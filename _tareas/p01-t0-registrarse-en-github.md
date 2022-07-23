@@ -17,10 +17,10 @@ Para obtener descuentos de docente o investigador, debes cumplir con los siguien
 
 1. Tener una cuenta personal en GitHub.
 1. Ser profesor o  empleado de una institución educativa.
-2. Tener una dirección de correo electrónico verificable que haya emitido una institución educativa.
+2. Tener una dirección de correo electrónico verificable que haya emitido una institución educativa. En nuestra universidad es el que tiene el sufijo `ull.edu.es`
 3. Cargar los documentos que comprueben tu afiliación a la institución educativa.
 
-Si eres estudiante puedes optar a los descuentos del Paquete de desarrollo para estudiantes de GitHub.
+Si eres estudiante no podrás obtener los descuentos de profesor pero puedes optar a los descuentos del *Paquete de desarrollo para estudiantes* de GitHub.
 Sigue las instrucciones en la sección [Aplicar un paquete de desarrollo para alumnos
 ](https://docs.github.com/es/education/explore-the-benefits-of-teaching-and-learning-with-github-education/use-github-for-your-schoolwork/apply-for-a-student-developer-pack).
 
@@ -29,10 +29,14 @@ Para optar debes cumplir con los siguientes requisitos:
 1. Tener una cuenta personal de GitHub
 2. Tener al menos 13 años
 1. Estar inscrito actualmente en un curso que otorgue un título o diploma que garantice un curso de estudio como colegio, escuela secundaria, facultad, universidad, escolarización en casa o institución educativa similar
-2. Tener una dirección de correo electrónico verificable suministrada por la escuela o cargar documentos que demuestren tu situación de estudiante actual
+2. Tener una dirección de correo electrónico verificable suministrada por la escuela o cargar documentos que demuestren tu situación de estudiante actual. En nuestra universidad es el que tiene el sufijo `ull.edu.es`
 
-* Sigue los pasos explicados en este vídeo en YouTube: <a href="https://youtu.be/ezxRcdJ8glM" target="_blank">How to Create a GitHub Account • A Quick Look</a>
-* Usa tu correo académico de la institución en la que enseñas (en nuestra universidad es el que tiene el sufijo `ull.edu.es`) como correo asociado a la cuenta
-* Rellena en GitHub los datos de tu perfil (Arriba a la derecha en el menu desplegable eliges Settings ➡︎ Profile)
-* Aquí tienes el <a href="https://github.com" target="_blank">Enlace a GitHub</a> para comenzar con tu registro
 
+En cualquier caso, seas profesor o estudiante, para completar esta tarea deberás completar estos  puntos:
+
+1. Registrarte en GitHub
+2. Obtener tus descuentos
+2. Crear una organización para un curso que vas a impartir. 
+  * Para el nombre de la organización y de la asignatura es aconsejable seguir un patrón. Por ejemplo, esta organización se llama `ULL-OCW-GITHUB-EDUCATION`. Otros ejemplos de nombres de organizaciones combinan los acrónimos de los ámbitos: la universidad, el centro, la asignatura y el curso. Por ejemplo `ULL-ESIT-PL-2122`. 
+  * Si eres profesor la organización será privada, si eres estudiante la organización creada deberá ser pública ya que este privilegio no se encuentra en el *student-developer-pack*
+3. Crear un aula GitHub Classroom asociada a la organización creada
