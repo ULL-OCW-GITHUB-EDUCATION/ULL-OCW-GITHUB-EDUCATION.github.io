@@ -32,7 +32,9 @@ Para aprender a usar esta herramienta es conveniente seguir el curso [Teach with
 Verás que con GHC permite crear [asignaciones individuales](https://docs.github.com/en/education/manage-coursework-with-github-classroom/teach-with-github-classroom/create-an-individual-assignment) y de grupo. 
 Esta tarea inicial ha sido configurada por el profesor como una [tarea de grupo o tarea de equipo](https://docs.github.com/en/education/manage-coursework-with-github-classroom/teach-with-github-classroom/create-a-group-assignment).
 
-Eso significa que cuando hagan click en la aceptación  de la tarea les saldrá un formulario para elegir el nombre del equipo. En este caso el equipo será individual. Escriba su nombre y apellidos seguido de su ID de la institución educativa en la que estudia/trabaja:
+Eso significa que - desde la perspectiva del alumno - cuando hagan click en la aceptación  de la tarea les saldrá un formulario para elegir el nombre del equipo. 
+
+En este caso el equipo será individual. Escriba su nombre y apellidos seguido de su ID de la institución educativa en la que estudia/trabaja:
 
 ![]({{site.baseurl}}/assets/images/github-classroom-team-assignment-1.png)
 
@@ -47,7 +49,7 @@ Si te animas, ahora puedes ir al [foro de la organización y saludar](https://gi
 
 Lee 
 
-1. [Escrinir en GitHub](https://docs.github.com/es/get-started/writing-on-github)
+1. [Escribir en GitHub](https://docs.github.com/es/get-started/writing-on-github)
 1. El tutorial <a href="https://guides.github.com/features/mastering-markdown/" target="_blank">Mastering Markdown</a> para saber mas sobre esta forma de elaborar documentos
 2. Para mas detalles consulta la guía de usuario
 <a href="https://docs.github.com/en/free-pro-team@latest/github/writing-on-github/getting-started-with-writing-and-formatting-on-github" target="_blank">Getting started with writing and formatting on GitHub</a>
