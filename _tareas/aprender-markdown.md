@@ -24,7 +24,7 @@ Otro objetivo de esta tarea es aprender Markdown. Para ello, en el repositorio q
 * Incluya al menos una lista enumerada y una lista no ordenada (*bullets*)
 * Una cita favorita (blockquote)
 * Un fragmento de código inline de un lenguaje de programación 
-* Incluye un trozo de código que ocupe varias líneas como este y asegúrate de que aprece coloreado:
+* Incluye un trozo de código que ocupe varias líneas como este y asegúrate de que aparece coloreado:
 
   ```javascript
   function fancyAlert(arg) {
@@ -33,13 +33,20 @@ Otro objetivo de esta tarea es aprender Markdown. Para ello, en el repositorio q
     }
   }
   ```
-* Incluye una tabla
+* Incluye una tabla. Puede hacerse así:
+
+  ```md
+    First Header | Second Header
+    ------------ | -------------
+    Content from cell 1 | Content from cell 2
+    Content in the first column | Content in the second column
+  ```
+  y se verá así:
 
   First Header | Second Header
   ------------ | -------------
   Content from cell 1 | Content from cell 2
   Content in the first column | Content in the second column
-
 * Incluye un emoji. Por ejemplo: :+1:
 * Añade un fichero `master.md`  (puedes crearlo usando el menu o bien visitando una ruta con la sintáxis `https://github.com/:owner:/:repo:/new/main`) en el que describas tu experiencia hasta ahora en este master y lo enlazas desde el fichero `README.md`.  
 1. Incluyas alguna imagen en el repo en una carpeta `img` y la muestres desde el texto
