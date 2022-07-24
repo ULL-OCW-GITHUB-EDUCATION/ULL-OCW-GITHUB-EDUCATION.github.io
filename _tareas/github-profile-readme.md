@@ -59,7 +59,12 @@ Crea una primera tarea asignación de grupo en GitHub Classroom para tus estudia
 
 ## Entrega
 
-En el repo de entrega de la tarea en la organización deja enlaces a tu página de profile y al correspondiente repo. Publica también en el [foro](https://github.com/orgs/ULL-OCW-GITHUB-EDUCATION/discussions) los enlaces.
+En el repo de entrega de esta tarea en esta organización dejas:
+
+1. Enlaces a tu página de profile y al correspondiente repo. 
+2. Enlace a la organización creada
+
+Publica también en el [foro](https://github.com/orgs/ULL-OCW-GITHUB-EDUCATION/discussions)  dentro de la categoría *Cuéntanos lo que haces* un mensaje con estos enlaces.
 
 ## [Referencias](references)
 
