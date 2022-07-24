@@ -2,7 +2,7 @@
 layout: default
 title: LaTeX y Markdown
 permalink: latex-markdown
-date: 0000/05/01
+date: 0000/06/01
 ---
 
 # {{ page.title }}

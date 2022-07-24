@@ -2,7 +2,7 @@
 layout: default
 title: Construyendo un Web Site con un Generador estático
 permalink: generador-estatico
-date: 0000/04/01
+date: 0000/05/01
 ---
 
 # {{ page.title}}

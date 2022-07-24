@@ -11,7 +11,7 @@ date: 0000/03/01
 ## Objetivos
 
 1. Aprender a crear un repo de Perfil en GitHub
-2. Aprender a crear 
+2. Aprender a crear y configurar
     1. una organización para una asignatura que vas a impartir, 
     2. su correspondiente aula GitHub Classroom,
     3. Si eres profesor a solicitar los descuentosdel programa "Global Campus" y a actualizar tus organizaciones 
@@ -34,8 +34,7 @@ Puedes encontrar ejemplos curiosos de *repos profile* en esta referencia:
 
 ## Crea una Organización para una Asignatura, su Classroom  y su repo Profile
 
-En este paso deberás crear una Organización para una asignatura, crear su GitHub classroom  
-y su repo de perfil/Profile. 
+En este paso, si no lo hiciste en la [tarea inicial]({{ site.baseurl }}/registrarse-en-github) deberás crear ahora una Organización para una asignatura, crear su GitHub classroom. Añáde a la organización su repo de perfil/Profile. 
 
 Los siguientes recursos te ayudarán a realizar estas tareas:
 
@@ -45,7 +44,7 @@ Los siguientes recursos te ayudarán a realizar estas tareas:
 
 ## Si eres profesor
 
-Deberás, si no lo has hecho ya, beneficiarte de los descuentos que ofrece GitHub para lo que **deberás verificar tu condición de empleo académico** y una vez seas aceptado en el [programa *"Global Campus"*](https://docs.github.com/en/education/explore-the-benefits-of-teaching-and-learning-with-github-education/use-github-at-your-educational-institution/about-github-campus-program), podrás solicitar hojas de atajos, guías, pegatinas, etc. para tus estudiantes. Busca la sección de descuentos en la página [https://education.github.com](https://education.github.com/discount_requests/teacher_application)
+Deberás, si no lo hiciste en la [tarea inicial]({{ site.baseurl }}/registrarse-en-github), beneficiarte de los descuentos que ofrece GitHub para lo que **deberás verificar tu condición de empleo académico** y una vez seas aceptado en el [programa *"Global Campus"*](https://docs.github.com/en/education/explore-the-benefits-of-teaching-and-learning-with-github-education/use-github-at-your-educational-institution/about-github-campus-program), podrás solicitar hojas de atajos, guías, pegatinas, etc. para tus estudiantes. Busca la sección de descuentos en la página [https://education.github.com](https://education.github.com/discount_requests/teacher_application)
 
 Una vez que estás en el [programa *"Global Campus"*](https://docs.github.com/en/education/explore-the-benefits-of-teaching-and-learning-with-github-education/use-github-at-your-educational-institution/about-github-campus-program) podrás acogerte a los beneficios que ofrece GitHub a los educadores. 
 
