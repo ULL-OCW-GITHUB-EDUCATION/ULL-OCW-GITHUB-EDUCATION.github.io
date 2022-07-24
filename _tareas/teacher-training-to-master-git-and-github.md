@@ -8,14 +8,19 @@ date: 0000/04/01
 
 # {{ page.title }}
 
-
 La gente de GitHub Education ha creado un curso para profesores siguiendo el mismo esquema que sigue este curso y que es el estndard en la comunidad GitHub Education.
 
 Han creado una organización [GitHub Education Campus Advisors](https://github.com/Campus-Advisors) para el curso y un aula en GitHub Classroom para crear las asignaciones para el curso.
 
 En esta tarea lo que te pedimos es que hagas este curso. Al igual que este, el curso
-te enseña a enseñar usando GitHub, como funciona Git y como familiarizar a tus estudiantes 
-con las herramientas que usan los desarrolladores en su día a día, pero usa un solo repo de entrega.
+te enseña a 
+
+1. enseñar usando GitHub, 
+2. como funciona Git y 
+3. como familiarizar a tus estudiantes con las herramientas que usan los desarrolladores en su día a día,
+
+En este curso GitHub Education Campus Advisors](https://github.com/Campus-Advisors), a diferencia del curso [INTEGRACIÓN DE LAS HERRAMIENTAS "GITHUB EDUCATION" EN EL AULA
+](https://github.com/ULL-OCW-GITHUB-EDUCATION) el alumno usa un solo repo para la entrega de todas las tareas.
 
 Acepta la asignación y haz el curso:
 
