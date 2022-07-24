@@ -19,8 +19,7 @@ te enseña a
 2. como funciona Git y 
 3. como familiarizar a tus estudiantes con las herramientas que usan los desarrolladores en su día a día,
 
-En este curso GitHub Education Campus Advisors](https://github.com/Campus-Advisors), a diferencia del curso [INTEGRACIÓN DE LAS HERRAMIENTAS "GITHUB EDUCATION" EN EL AULA
-](https://github.com/ULL-OCW-GITHUB-EDUCATION) el alumno usa un solo repo para la entrega de todas las tareas.
+En este curso GitHub Education Campus Advisors](https://github.com/Campus-Advisors), a diferencia del curso [INTEGRACIÓN DE LAS HERRAMIENTAS "GITHUB EDUCATION" EN EL AULA](https://github.com/ULL-OCW-GITHUB-EDUCATION) el alumno usa un solo repo para la entrega de todas las tareas.
 
 Acepta la asignación y haz el curso:
 
