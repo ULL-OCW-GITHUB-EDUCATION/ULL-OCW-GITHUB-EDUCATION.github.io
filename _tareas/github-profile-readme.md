@@ -53,7 +53,7 @@ Uno de estos es que tus organizaciones podrán tener privilegios especiales (rep
 Los pasos iniciales que debes dar para obtener los descuentos y crear un aula para los alumnos en un curso usando GitHub Classroom los encontrarás resumidos en la sección [Inicio rápido para GitHub Educators](https://docs.github.com/es/education/quickstart) (La versión en inglés está aquí: [Quickstart for GitHub Educators
 ](https://docs.github.com/en/education/quickstart)). 
 
-**Actualiza la organización que has creado en esta tarea y re-configura GitHub Classroom para que tus estudiantes puedan usar CodeSpaces**. 
+**Actualiza la organización que has creado en esta tarea y re-configura GitHub Classroom para que tus estudiantes puedan usar el editor CodeSpaces**. 
 
 Crea una primera tarea asignación de grupo en GitHub Classroom para tus estudiantes. Publica el enlace con en tu LMS para que tus  estudiantes tengan acceso a la asignación. Acompañala de las instrucciones necesarias para su realización.
 
