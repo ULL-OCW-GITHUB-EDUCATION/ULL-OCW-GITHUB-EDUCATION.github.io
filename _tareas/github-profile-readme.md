@@ -56,11 +56,16 @@ Los pasos iniciales que debes dar para obtener los descuentos y crear un aula pa
 
 **Actualiza la organización que has creado en esta tarea y re-configura GitHub Classroom para que tus estudiantes puedan usar el editor CodeSpaces**. 
 
-Crea una primera tarea asignación de grupo en GitHub Classroom para tus estudiantes. Publica el enlace con en tu LMS para que tus  estudiantes tengan acceso a la asignación. Acompañala de las instrucciones necesarias para su realización.
+Crea  y configura una primera tarea asignación de grupo en GitHub Classroom para tus estudiantes. Publica el enlace con en tu LMS para que tus  estudiantes tengan acceso a la asignación. Acompañala de las instrucciones necesarias para su realización.
 
 ## CodeSpaces
 
 * [Using GitHub Codespaces with GitHub Classroom](https://docs.github.com/en/education/manage-coursework-with-github-classroom/integrate-github-classroom-with-an-ide/using-github-codespaces-with-github-classroom)
+
+## Dudas 
+
+Si tienes dudas acude al  [foro](https://github.com/orgs/ULL-OCW-GITHUB-EDUCATION/discussions/categories/q-a-preguntas-y-respuestas) y publica tu pregunta dentro de la categoría *Preguntas y Respuestas*
+
 
 ## Entrega
 
