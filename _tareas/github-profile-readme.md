@@ -1,12 +1,20 @@
 ---
 layout: default
-title: Creando un Perfil
+title: Creando Perfiles
 permalink: creando-un-perfil
 name: Managing your profile README
 date: 0000/01/03
 ---
 
 # {{ page.title }}
+
+## Objetivos
+
+1. Crear un repo de Perfil en GitHub
+2. Crear una organización para una asignatura que vas a impartir y crear el repo de perfil para dicha organización
+3. Aprender a usar CodeSpaces
+
+## Recursos
 
 Siguiendo las instrucciones en la documentación de GitHub [Managing your profile README](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme) añade un README a tu perfil de GitHub para que otras personas sepan sobre ti.
 
