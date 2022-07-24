@@ -43,7 +43,7 @@ Los siguientes recursos te ayudarán a realizar estas tareas:
 * [Enseña con GitHub Classroom](https://docs.github.com/es/education/manage-coursework-with-github-classroom/teach-with-github-classroom). Aprende cómo configurar tu aula y tus tareas.
 * [Personalizar el perfil de tu organización](https://docs.github.com/es/organizations/collaborating-with-groups-in-organizations/customizing-your-organizations-profile). Puedes personalizar la página de resumen de tu organización
 
-## Si eres profesor
+## Si eres profesor actualiza la organización 
 
 Deberás, si no lo hiciste en la [tarea inicial]({{ site.baseurl }}/registrarse-en-github), beneficiarte de los descuentos que ofrece GitHub para lo que **deberás verificar tu condición de empleo académico** y una vez seas aceptado en el [programa *"Global Campus"*](https://docs.github.com/en/education/explore-the-benefits-of-teaching-and-learning-with-github-education/use-github-at-your-educational-institution/about-github-campus-program), podrás solicitar hojas de atajos, guías, pegatinas, etc. para tus estudiantes. Busca la sección de descuentos en la página [https://education.github.com](https://education.github.com/discount_requests/teacher_application)
 
@@ -58,7 +58,7 @@ Los pasos iniciales que debes dar para obtener los descuentos y crear un aula pa
 
 Crea  y configura una primera tarea asignación de grupo en GitHub Classroom para tus estudiantes. Publica el enlace con en tu LMS para que tus  estudiantes tengan acceso a la asignación. Acompañala de las instrucciones necesarias para su realización.
 
-## CodeSpaces
+## Usa CodeSpaces y Configura la IDE de tus Asignaciones
 
 Si estás familiarizado con VSCode no será difícil usar CodeSpaces. 
 
