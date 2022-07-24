@@ -3,7 +3,7 @@ layout: default
 title: Creando Perfiles, Organizaciones y Aulas
 permalink: creando-un-perfil
 name: Managing your profile README
-date: 0000/01/03
+date: 0000/03/01
 ---
 
 # {{ page.title }}
@@ -45,9 +45,9 @@ Los siguientes recursos te ayudarán a realizar estas tareas:
 
 ## Si eres profesor
 
-Deberás, si no lo has hecho ya, beneficiarte de los descuentos que ofrece GitHub para lo que **deberás verificar tu condición de empleo académico** y una vez seas aceptado en el programa *"Global Campus"*, podrás solicitar hojas de atajos, guías, pegatinas, etc. para tus estudiantes. Busca la sección de descuentos en la página [https://education.github.com](https://education.github.com/discount_requests/teacher_application)
+Deberás, si no lo has hecho ya, beneficiarte de los descuentos que ofrece GitHub para lo que **deberás verificar tu condición de empleo académico** y una vez seas aceptado en el [programa *"Global Campus"*](https://docs.github.com/en/education/explore-the-benefits-of-teaching-and-learning-with-github-education/use-github-at-your-educational-institution/about-github-campus-program), podrás solicitar hojas de atajos, guías, pegatinas, etc. para tus estudiantes. Busca la sección de descuentos en la página [https://education.github.com](https://education.github.com/discount_requests/teacher_application)
 
-Una vez que estás en el programa *"Global Campus"* podrás acogerte a los beneficios que ofrece GitHub a los educadores. 
+Una vez que estás en el [programa *"Global Campus"*](https://docs.github.com/en/education/explore-the-benefits-of-teaching-and-learning-with-github-education/use-github-at-your-educational-institution/about-github-campus-program) podrás acogerte a los beneficios que ofrece GitHub a los educadores. 
 
 Uno de estos es que tus organizaciones podrán tener privilegios especiales (repositorios y equipos privados, acceso al [editor en la nube CodeSpace](https://docs.github.com/es/codespaces/getting-started/quickstart), etc.).  Aquí (si estás autenticado y dado de alta) encontrarás el boton de *Upgrade to GitHub Team* para que tus organizaciones se acojan a los beneficios: [GitHub Education: teacher's page](https://education.github.com/globalcampus/teacher). 
 

@@ -3,7 +3,7 @@ layout: default
 title: Aprender GitHub Classroom y Markdown
 permalink: aprender-markdown
 name: aprender-markdown
-date: 0000/01/02
+date: 0000/02/01
 toc: true
 ---
 

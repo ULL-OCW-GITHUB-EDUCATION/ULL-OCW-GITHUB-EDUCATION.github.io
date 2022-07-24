@@ -2,7 +2,7 @@
 layout: default
 title: Trabajo Final de GitHub Education en el Aula
 permalink: trabajo-final
-date: 0000/01/06
+date: 0000/07/01
 ---
 
 # {{ page.title }}
