@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Creando Perfiles
+title: Creando Perfiles, Organizaciones y Aulas
 permalink: creando-un-perfil
 name: Managing your profile README
 date: 0000/01/03
@@ -59,6 +59,14 @@ Los pasos iniciales que debes dar para obtener los descuentos y crear un aula pa
 Crea  y configura una primera tarea asignación de grupo en GitHub Classroom para tus estudiantes. Publica el enlace con en tu LMS para que tus  estudiantes tengan acceso a la asignación. Acompañala de las instrucciones necesarias para su realización.
 
 ## CodeSpaces
+
+Si estás familiarizado con VSCode no será difícil usar CodeSpaces. 
+
+Los siguientes recursos te facilitarán la edición con CodeSpaces:
+
+* [GitHub Codespaces](https://docs.github.com/en/codespaces)
+
+Para el objetivo de crear la asignación classroom configurada con codeSpaces es conveniente que leas:
 
 * [Using GitHub Codespaces with GitHub Classroom](https://docs.github.com/en/education/manage-coursework-with-github-classroom/integrate-github-classroom-with-an-ide/using-github-codespaces-with-github-classroom)
 
