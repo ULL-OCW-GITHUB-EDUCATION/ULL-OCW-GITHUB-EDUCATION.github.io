@@ -32,9 +32,10 @@ Puedes encontrar ejemplos curiosos de *repos profile* en esta referencia:
 * La misma información pero en [la web](https://zzetao.github.io/awesome-github-profile/) asociada
 * [articles about how to write a profile readme](https://github.com/abhisheknaiidu/awesome-github-profile-readme#articles). 
 
-## Crea una Organización para una Asignatura, su Classroom  y su repo Profile
+## Crea repos Profile para cada Organización asociada a tus Asignaturas, 
 
-En este paso, si no lo hiciste en la [tarea inicial]({{ site.baseurl }}/registrarse-en-github) deberás crear ahora una Organización para una asignatura, crear su GitHub classroom. Añáde a la organización su repo de perfil/Profile. 
+En este paso, si no lo hiciste en la [tarea inicial]({{ site.baseurl }}/registrarse-en-github) deberás crear ahora una Organización para una asignatura y crear su GitHub classroom. 
+Añáde a la organización su repo de perfil/Profile. 
 
 Los siguientes recursos te ayudarán a realizar estas tareas:
 
