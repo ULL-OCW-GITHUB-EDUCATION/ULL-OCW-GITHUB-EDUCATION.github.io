@@ -21,7 +21,7 @@ Otro objetivo de esta tarea es aprender Markdown. Para ello, en el repositorio q
 
 * Incluye alguna imagen 
 * Incluye algunos enlaces (por ejemplo un enlace a tu usuario en el campus virtual o el LMS de tu institución educativa).
-* Incluya alguna lista 
+* Incluya al menos una lista enumerada y una lista no ordenada (*bullets*)
 * Una cita favorita (blockquote)
 * Un fragmento de código inline de un lenguaje de programación 
 * Incluye un trozo de código que ocupe varias líneas como este y asegúrate de que aprece coloreado:
