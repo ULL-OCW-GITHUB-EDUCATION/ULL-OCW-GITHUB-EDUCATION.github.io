@@ -47,7 +47,7 @@ Otro objetivo de esta tarea es aprender Markdown. Para ello, en el repositorio q
   ------------ | -------------
   Content from cell 1 | Content from cell 2
   Content in the first column | Content in the second column
-* Incluye un emoji. Por ejemplo: :+1:
+* Incluye un emoji. Por ejemplo  `:+1:` se ve: :+1:
 * Añade un fichero `master.md`  (puedes crearlo usando el menu o bien visitando una ruta con la sintáxis `https://github.com/:owner:/:repo:/new/main`) en el que describas tu experiencia hasta ahora en este master y lo enlazas desde el fichero `README.md`.  
 1. Incluyas alguna imagen en el repo en una carpeta `img` y la muestres desde el texto
 2. Añadas un segundo fichero en el repo con nombre  `objetivos.md`  contando cuáles son tus objetivos con respecto a este curso y lo referencies desde el fichero `README.md`. Añade una referencia/enlace  de vuelta en `objetivos.md` a  tu `README.md`
@@ -70,8 +70,8 @@ En este [enlace puedes visitar ejemplos de lo que han hecho algunos alumnos de l
 Hay múltiples formas de editar en la nube un repositorio GitHub.
 en estas [notas]({{site.baseurl}}/pages/gitpod) recogemos estas alternativas:
 
-1. Editar directamente usando el editor on-line de GitHub
-2. Usar el editor GitHub.dev: simplemente  tecleando el punto cuando se está visitando el repo
+1. Editar directamente usando el [editor on-line de GitHub](https://docs.github.com/es/repositories/working-with-files/managing-files/editing-files)
+2. [Usar el editor GitHub.dev]({{site.baseurl}}/pages/gitpod#editing-with-githubdev-editor): simplemente  tecleando el punto cuando se está visitando el repo
 3.  Usar [GitPod]({{ site.baseurl }}/pages/gitpod#gitpod)
 4. Usar Codespaces (si dispones de este servicio)
 
@@ -92,12 +92,16 @@ Para aprender a usar esta herramienta es conveniente
 
 Verás que con GHC permite crear [asignaciones individuales](https://docs.github.com/en/education/manage-coursework-with-github-classroom/teach-with-github-classroom/create-an-individual-assignment) y de grupo. 
 
+## Aceptación de la Tarea
+
 Esta tarea inicial ha sido configurada por el profesor como una [tarea de grupo o tarea de equipo](https://docs.github.com/en/education/manage-coursework-with-github-classroom/teach-with-github-classroom/create-a-group-assignment).
 
 Eso significa que - desde la perspectiva del alumno - cuando hagas click en la aceptación  de la tarea  saldrá un formulario para elegir el nombre del equipo. 
 
 En este caso los profesores han indicado que el equipo no puede tener mas de un miembro. 
-Escriba su nombre y apellidos seguido de su ID en la institución educativa en la que estudia/trabaja.
+
+**Escriba su nombre y apellidos seguido de su ID en la institución educativa en la que estudia/trabaja**.
+
 La siguiente figura muestra un ejemplo de como ve el formulario un alumno aceptando una asignación como esta para un classroom con nombre `ULL-MFP-AET-2122`:
 
 ![]({{site.baseurl}}/assets/images/github-classroom-team-assignment-1.png)
