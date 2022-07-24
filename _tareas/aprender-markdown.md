@@ -92,7 +92,7 @@ Para aprender a usar esta herramienta es conveniente
 
 Verás que con GHC permite crear [asignaciones individuales](https://docs.github.com/en/education/manage-coursework-with-github-classroom/teach-with-github-classroom/create-an-individual-assignment) y de grupo. 
 
-## Aceptación de la Tarea
+## Aceptación de esta Tarea
 
 Esta tarea inicial ha sido configurada por el profesor como una [tarea de grupo o tarea de equipo](https://docs.github.com/en/education/manage-coursework-with-github-classroom/teach-with-github-classroom/create-a-group-assignment).
 
