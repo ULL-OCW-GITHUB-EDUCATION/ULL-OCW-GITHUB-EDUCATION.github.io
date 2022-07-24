@@ -29,9 +29,14 @@ Puedes encontrar ejemplos curiosos de *repos profile* en esta referencia:
 
 * [abhisheknaiidu/awesome-github-profile-readme](https://github.com/abhisheknaiidu/awesome-github-profile-readme)
 * La misma información pero en [la web](https://zzetao.github.io/awesome-github-profile/) asociada
-* [articles about how to write a profile readme](https://github.com/abhisheknaiidu/awesome-github-profile-readme#articles)
+* [articles about how to write a profile readme](https://github.com/abhisheknaiidu/awesome-github-profile-readme#articles). 
 
 ## Crea una Organización para una asignatura, su Classroom  y su repo profile
+
+* [Crear una organización nueva desde cero](https://docs.github.com/es/organizations/collaborating-with-groups-in-organizations/creating-a-new-organization-from-scratch)
+* [Enseña con GitHub Classroom](https://docs.github.com/es/education/manage-coursework-with-github-classroom/teach-with-github-classroom). Aprende cómo configurar tu aula y tus tareas.
+* [Personalizar el perfil de tu organización](https://docs.github.com/es/organizations/collaborating-with-groups-in-organizations/customizing-your-organizations-profile). Puedes personalizar la página de resumen de tu organización
+
 
 ## Entrega
 
