@@ -9,6 +9,9 @@ toc: true
 
 # {{ page.title }}
 
+La siguiente sección establece los objetivos y competencias que debes lograr.
+Las subsiguientes secciones presentan los recursos para lograr estos objetivos.
+
 ## Objetivos
 
 ### Objetivo 1: Primeros Pasos con GitHub Classroom
@@ -126,7 +129,13 @@ Lee
 
 ## Introducción a la Edición en la Nube de Repositorios GitHub
 
-* Para manejar todo el proceso de edición pueden ayudarte estas [notas]({{site.baseurl}}/pages/gitpod)
+Para manejar todo el proceso de edición pueden ayudarte estas [notas sobre Edición en la Nube]({{site.baseurl}}/pages/gitpod).
+
+Si no tienes mucha experiencia y no estás familiarizado con VSCode lo mas sencillo es 
+que uses el [editor on-line de GitHub]({{ site.baseurl }}/pages/gitpod#editor-on-line-de-github).
+
+Si estás familiarizado con VSCode, basta con pulsar un punto en tu navegador cuando estás visitando tu repo de trabajo para que se active una version reducida de VSCode que es conocida como [GitHub.dev Editor]({{ site.baseurl }}/pages/gitpod#editing-with-githubdev-editor).
+
 
 ## [Referencias](references)
 

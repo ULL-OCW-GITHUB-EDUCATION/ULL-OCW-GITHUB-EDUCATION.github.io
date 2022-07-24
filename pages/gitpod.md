@@ -15,7 +15,11 @@ Recogemos aquí estos:
 
 ## Editor on-line de GitHub
 
-Véase la sección [Editar archivos](https://docs.github.com/es/repositories/working-with-files/managing-files/editing-files). El Editor usado es [Codemirror](https://codemirror.net/)
+Véase 
+
+* La sección [Editar archivos](https://docs.github.com/es/repositories/working-with-files/managing-files/editing-files)
+* El Editor on-line usado por GH es [Codemirror](https://codemirror.net/)
+* [Documentación GitHub sobre la Interfaz Web]({{site.baseurl}}/pages/documentacion-github-interfaz-web)
 
 ## Editing with GitHub.dev Editor
 
