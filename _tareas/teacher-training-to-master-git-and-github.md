@@ -40,21 +40,19 @@ El curso se hizo en 2019 y algunas cosas han cambiado desde entonces, pero la ma
      * Module 1.2: The Three State Model [:tv: Module 1.2 Video](https://youtu.be/yLLZdOIuCfg)
      * Module 1.3: Being Selective with Git [:tv: Module 1.3 Video](https://youtu.be/3zmolo8YRO8)
      * Module 1.4: Branches and Merging [:tv: Module 1.4 Video](https://youtu.be/2YDoQZ9nZ4g)
-5. El Módulo 2 cubre GitHub. Estudia las secciones que no conozcas.
+5. El Módulo 2 cubre GitHub. Estudia lo que no conozcas de GitHub.
      * Module 2.1: Pushing to a Remote [:tv: Module 2.1 Video](https://youtu.be/R2bLo-KiYlU)
      * Module 2.2: Fetching and Pulling from a Remote [:tv: Module 2.2 Video](https://youtu.be/gNaCC_8B1k0)
      * Module 2.3: GitHub Workflow [:tv: Module 2.3 Video](https://youtu.be/SoaAoATcUxU)
      * Module 2.4: Merge Conflicts [:tv: Module 2.4 Video](https://youtu.be/c1210JclnPw)
 6. El Módulo 3 introduce GitHub Classroom.
      * Module 3.0: Overview of GitHub Classroom 📺  [ Module 3.0 Video](https://youtu.be/CXacEwR9trw)  
-     *  Module 3.1: Get started with GitHub Classroom by creating your first organization and Classroom 📺  [ Module 3.1 Video](https://www.youtube.com/watch?v=KXWXg68KpTY)  
+     * Module 3.1: Get started with GitHub Classroom by creating your first organization and Classroom 📺  [ Module 3.1 Video](https://www.youtube.com/watch?v=KXWXg68KpTY)  
      * Module 3.2: Creating your first GitHub Classroom assignment 📺  [ Module 3.2 Video](https://youtu.be/KXWXg68KpTY?t=485)
      * Module 3.3: Creating assignments with online IDE integrations 📺  [ Module 3.3 Video](https://youtu.be/KXWXg68KpTY?t=944)  
      * Module 3.4: Creating an assignment with autograding 📺  [ Module 3.4 Video](https://www.youtube.com/watch?v=mwCZRVJhH60)
-
-
-
-
+7. El Módulo 4 cubre la comunidad GitHub Education y está obsoleto. Lo mejor es saltárselo.
+8. El Módulo 5 es *Utilizing AWS Cloud9 in the Classroom* y es mejor saltárselo por ahora.
 
 ## Entrega
 
