@@ -12,22 +12,49 @@ La gente de GitHub Education ha creado un curso para profesores siguiendo el mis
 
 Han creado una organización [GitHub Education Campus Advisors](https://github.com/Campus-Advisors) para el curso y un aula en GitHub Classroom para crear las asignaciones para el curso.
 
-En esta tarea lo que te pedimos es que hagas este curso. Al igual que este, el curso
+En esta tarea lo que te pedimos es que hagas este curso. El curso
 te enseña a 
 
-1. enseñar usando GitHub, 
-2. como funciona Git y 
+1. Enseñar usando GitHub con GitHub Classroom, 
+2. como funciona Git y GitHub (issues, pull requests, merge conflicts, network activity ...) 
 3. como familiarizar a tus estudiantes con las herramientas que usan los desarrolladores en su día a día,
 
 En este curso [GitHub Education Campus Advisors](https://github.com/Campus-Advisors), a diferencia del curso [INTEGRACIÓN DE LAS HERRAMIENTAS "GITHUB EDUCATION" EN EL AULA](https://github.com/ULL-OCW-GITHUB-EDUCATION) el alumno usa un solo repo para la entrega de todas las tareas.
 
-Acepta la asignación y haz el curso:
+Acepta la asignación y haz parte del curso:
 
 * [Teacher training to master Git and GitHub](https://classroom.github.com/a/Ri92rv-q)
 
 cuando la aceptes se creará el repo de entrega, con un aspecto parecido a este:
 
 ![](/assets/images/github-education-teacher-training-crguezl.png)
+
+El curso se hizo en 2019 y algunas cosas han cambiado desde entonces, pero la mayor parte de lo que se enseñña sigue siendo válido. 
+
+1. El desarrollo se hace en tu máquina por lo que deberás familiarizarte con la terminal, instalar `git` y un editor. 
+2. En el curso usan `atom`como editor   pero se puede hacer usando `VScode`.
+3. El módulo 0 es una [introducción al curso](https://youtu.be/Ub8IMMMTfB8) y puedes saltarlo.
+4. El módulo 1 es una introducción a Git y es conveniente que lo hagas si no conoces `git`. 
+   Tiene 4 secciones:
+     * Module 1.1: Meet Git. [:tv: Module 1.1 Video](https://youtu.be/uWsXEmaM3PA)
+     * Module 1.2: The Three State Model [:tv: Module 1.2 Video](https://youtu.be/yLLZdOIuCfg)
+     * Module 1.3: Being Selective with Git [:tv: Module 1.3 Video](https://youtu.be/3zmolo8YRO8)
+     * Module 1.4: Branches and Merging [:tv: Module 1.4 Video](https://youtu.be/2YDoQZ9nZ4g)
+5. El Módulo 2 cubre GitHub. Estudia las secciones que no conozcas.
+     * Module 2.1: Pushing to a Remote [:tv: Module 2.1 Video](https://youtu.be/R2bLo-KiYlU)
+     * Module 2.2: Fetching and Pulling from a Remote [:tv: Module 2.2 Video](https://youtu.be/gNaCC_8B1k0)
+     * Module 2.3: GitHub Workflow [:tv: Module 2.3 Video](https://youtu.be/SoaAoATcUxU)
+     * Module 2.4: Merge Conflicts [:tv: Module 2.4 Video](https://youtu.be/c1210JclnPw)
+6. El Módulo 3 introduce GitHub Classroom.
+     * Module 3.0: Overview of GitHub Classroom 📺  [ Module 3.0 Video](https://youtu.be/CXacEwR9trw)  
+     *  Module 3.1: Get started with GitHub Classroom by creating your first organization and Classroom 📺  [ Module 3.1 Video](https://www.youtube.com/watch?v=KXWXg68KpTY)  
+     * Module 3.2: Creating your first GitHub Classroom assignment 📺  [ Module 3.2 Video](https://youtu.be/KXWXg68KpTY?t=485)
+     * Module 3.3: Creating assignments with online IDE integrations 📺  [ Module 3.3 Video](https://youtu.be/KXWXg68KpTY?t=944)  
+     * Module 3.4: Creating an assignment with autograding 📺  [ Module 3.4 Video](https://www.youtube.com/watch?v=mwCZRVJhH60)
+
+
+
+
 
 ## Entrega
 
