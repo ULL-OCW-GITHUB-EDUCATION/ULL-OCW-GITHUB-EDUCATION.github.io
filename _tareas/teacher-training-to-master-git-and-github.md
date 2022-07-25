@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Teacher training to master Git and GitHub
+title: Curso de Capacitación para Profesores para Dominar Git y GitHub
 permalink: teacher-training
 name: Teacher training to master Git and GitHub
 date: 0000/04/01
@@ -8,7 +8,7 @@ date: 0000/04/01
 
 # {{ page.title }}
 
-La gente de GitHub Education ha creado un curso para profesores siguiendo el mismo esquema que sigue este curso y que es una práctica bastante extendida dentro de la comunidad GitHub Education.
+La gente de GitHub Education ha creado un curso para profesores ** Teacher training to master Git and GitHub** siguiendo el mismo esquema que sigue este curso y que es una práctica bastante extendida dentro de la comunidad GitHub Education.
 
 Han creado una organización [GitHub Education Campus Advisors](https://github.com/Campus-Advisors) para el curso y un aula en GitHub Classroom para crear las asignaciones para el curso.
 
