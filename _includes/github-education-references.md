@@ -1,18 +1,13 @@
 * [GitHub Official Docs on Education](https://docs.github.com/en/free-pro-team@latest/education)
-* [GitHub Education Community](https://education.github.community/)
-* [The GitHub Blog: All "Education" posts](https://github.blog/category/community/education/)
 * [Curso de Formación: Gestión de la tarea docente con Github](https://www.youtube.com/playlist?list=PLQg_Bl-6Gfo9k0KQg5vaaV9r6Hg--nMA7) por Pedro Prieto. Lista de Videos en YouTube
-* [Charla UAI 2018](https://github.com/PAL-ULL/uai-18-talks)
-  * [Versión de la charla en Google Slides](https://docs.google.com/presentation/d/1LAZUS4SX7axmzEUElh2Oz2DqC1cJA6PUvb1KixJ1KWw/edit?usp=sharing) Necesita ser actualizada
-* [Upgrade your organization](https://education.github.com/toolbox/offers/github-org-upgrades) link
-* [Enjoy the benefits of being faculty](https://education.github.com/benefits)
-* Curso OCW de la ULL [INTEGRACIÓN DE LAS HERRAMIENTAS "GITHUB EDUCATION" EN EL AULA](https://campusvirtual.ull.es/ocw/course/view.php?id=136)
-  - [Repo con material que se usó en la elaboración del curso](https://github.com/ULL-LSI/ocw-ull-github-education-en-el-aula) (privado)
-* [Curso Integración de las herramientas "Github Education" en el aula](https://ull-pfpdi-github-1718.github.io/_book/) Curso de Formación para el Profesorado de la ULL en el curso 17/18
 * [Artículo Integración de las herramientas "Github Education" en el aula](https://riull.ull.es/xmlui/handle/915/9660) RIULL
 * [About GitHub Education for educators and researchers](https://docs.github.com/en/free-pro-team@latest/github/teaching-and-learning-with-github-education/about-github-education-for-educators-and-researchers) en GitHub Docs
 * [Trasparencias de la charla en UAI18 "GitHub Education en el Aula"](https://github.com/PAL-ULL/uai-18-talks)
-* [Can-Do-Hub: The GitHub of Competencies by Michelle R. Weise November 10, 2016](http://www.nebhe.org/thejournal/can-do-hub-the-github-of-competencies/)
-* [GitHub for Academics: the open-source way to host, create and curate knowledge](http://blogs.lse.ac.uk/impactofsocialsciences/2013/06/04/github-for-academics/)
-* [The Limitations of GitHub for Writers](https://www.chronicle.com/blogs/profhacker/the-limitations-of-github-for-writers/48299)
-* [A guide to using GitHub for people who don't code and don't want to code.](https://github.com/tvanantwerp/github-for-non-programmers) tvanantwerp/github-for-non-programmers GitBook
+* Jacob Fiksel (Doctoral Student at Johns Hopkins Bloomberg School of Public Health) Guides on GitHub Classroom
+    1. <a href="https://github.com/jfiksel/github-classroom-for-teachers" target="_blank" rel="noopener noreferrer">GitHub Classroom Guide for Teachers</a>
+    2. <a href="https://github.com/jfiksel/github-classroom-for-students" target="_blank" rel="noopener noreferrer">GitHub Classroom Guide for Students</a>
+* <a href="https://campusvirtual.ull.es/ocw/pluginfile.php/15275/mod_folder/content/0/de-moodle-a-git/experiencias_git.pdf?forcedownload=1) (Artículo en PDF" target="_blank" rel="noopener noreferrer">De Moodle a Git: Experiencia con el uso de un sistema de control de versiones (SCV) para reemplazar a un sistema de administración de la enseñanza (LMS)</a>
+    - <a href="https://campusvirtual.ull.es/ocw/pluginfile.php/15275/mod_folder/content/0/de-moodle-a-git/experiencias_git.pres.pdf?forcedownload=1" target="_blank" rel="noopener noreferrer">Presentación</a>
+* <a href="https://campusvirtual.ull.es/ocw/pluginfile.php/15275/mod_folder/content/0/github-como-herramienta-docente-jenui/JENUI2015_76-83.pdf?forcedownload=1" target="_blank" rel="noopener noreferrer">GitHub como herramienta docente</a> JENUI 2015
+* <a href="https://campusvirtual.ull.es/ocw/pluginfile.php/15275/mod_folder/content/0/the-emergence-of-github-as-a-collaborative-platform-for-education-alexey-zagalsky-et-al-canada.pdf?forcedownload=1" target="_blank" rel="noopener noreferrer">The Emergence of GitHub as a Collaborative Platform for Education</a>. Alexey Zagalsky, Joseph Feliciano, Margaret-Anne Storey, Yiyun Zhao, Weiliang Wang. 2015
+* <a href="https://opensource.com/education/16/1/git-education-classroom" target="_blank" rel="noopener noreferrer">Why you should use GitHub: Lessons for the classroom and newsroom</a>. StoryBench. 2015
