@@ -2,6 +2,7 @@
 layout: default
 title: Curso de Capacitación para Profesores para Dominar Git y GitHub
 permalink: teacher-training
+classroom: https://classroom.github.com/a/2PUO39_h
 name: Teacher training to master Git and GitHub
 date: 0000/04/01
 ---

@@ -2,6 +2,7 @@
 layout: default
 title: Aprender GitHub Classroom y Markdown
 permalink: aprender-markdown
+classroom: https://classroom.github.com/a/PlGuI8vJ
 name: aprender-markdown
 date: 0000/02/01
 toc: true
