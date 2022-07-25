@@ -58,6 +58,4 @@ El curso se hizo en 2019 y algunas cosas han cambiado desde entonces, pero la ma
 
 Cuando termines el curso deja en el repo de la asignación el enlace a tu repo de entrega en la organización  [GitHub Education Campus Advisors](https://github.com/Campus-Advisors).
 
- Incluso si abandonas y no lo terminas o decides no hacerlo, acude al [foro](https://github.com/orgs/ULL-OCW-GITHUB-EDUCATION/discussions/categories/cu%C3%A9ntanos-lo-que-haces) y deja un comentario.
- 
- Si te animas cuéntanos en un mensaje con el enlace al repo de entrega en la organización [GitHub Education Campus Advisors](https://github.com/Campus-Advisors) tu impresión sobre este curso. 
+Acude al [foro](https://github.com/orgs/ULL-OCW-GITHUB-EDUCATION/discussions/categories/cu%C3%A9ntanos-lo-que-haces) y deja un mensaje con el enlace al repo de entrega en la organización [GitHub Education Campus Advisors](https://github.com/Campus-Advisors) y tu impresión sobre este curso. 
