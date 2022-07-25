@@ -24,3 +24,9 @@ toc: true
 
 * [GitLab for Education](https://about.gitlab.com/solutions/education/)
 * [Bitbucket for Education](https://bitbucket.org/product/en/education)
+
+## Plagio
+
+* <a href="https://theory.stanford.edu/~aiken/moss/" target="_blank" rel="noopener noreferrer">moss</a>
+* <a href="http://lightonphiri.org/blog/student-programming-plagiarism-dectection-using-moss" target="_blank" rel="noopener noreferrer">Student Programming Plagiarism Dectection Using Moss</a>
+* <a href="http://turnitin.com/es/" target="_blank" rel="noopener noreferrer">turnitin</a>
