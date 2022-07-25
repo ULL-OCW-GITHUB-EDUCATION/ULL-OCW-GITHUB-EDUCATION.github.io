@@ -19,9 +19,9 @@ te enseña a
 2. como funciona Git y GitHub (issues, pull requests, merge conflicts, network activity ...) 
 3. como familiarizar a tus estudiantes con las herramientas que usan los desarrolladores en su día a día,
 
-En este curso [GitHub Education Campus Advisors](https://github.com/Campus-Advisors), a diferencia del curso [INTEGRACIÓN DE LAS HERRAMIENTAS "GITHUB EDUCATION" EN EL AULA](https://github.com/ULL-OCW-GITHUB-EDUCATION) el alumno usa un solo repo para la entrega de todas las tareas.
+En este curso [GitHub Education Campus Advisors](https://github.com/Campus-Advisors), a diferencia del curso en el que estás [INTEGRACIÓN DE LAS HERRAMIENTAS "GITHUB EDUCATION" EN EL AULA](https://github.com/ULL-OCW-GITHUB-EDUCATION) el alumno usa un solo repo para la entrega de todas las tareas.
 
-Acepta la asignación y haz parte del curso:
+Acepta la asignación y haz las partes que se indican abajo del curso:
 
 * [Teacher training to master Git and GitHub](https://classroom.github.com/a/Ri92rv-q)
 
@@ -29,11 +29,11 @@ cuando la aceptes se creará el repo de entrega, con un aspecto parecido a este:
 
 ![](/assets/images/github-education-teacher-training-crguezl.png)
 
-El curso se hizo en 2019 y algunas cosas han cambiado desde entonces, pero la mayor parte de lo que se enseñña sigue siendo válido. 
+El curso se hizo en 2019 y algunas cosas han cambiado desde entonces, pero la mayor parte de lo que se enseña sigue siendo válido. 
 
 1. El desarrollo se hace en tu máquina por lo que deberás familiarizarte con la terminal, instalar `git` y un editor. 
-2. En el curso usan `atom`como editor   pero se puede hacer usando `VScode`.
-3. El módulo 0 es una [introducción al curso](https://youtu.be/Ub8IMMMTfB8) y puedes saltarlo.
+2. En el curso usan `atom` como editor  pero es mejor que hagas uso de [VScode](https://code.visualstudio.com/).
+3. El módulo 0 es una [:tv: Introducción al curso](https://youtu.be/Ub8IMMMTfB8) y puedes saltarlo.
 4. El módulo 1 es una introducción a Git y es conveniente que lo hagas si no conoces `git`. 
    Tiene 4 secciones:
      * Module 1.1: Meet Git. [:tv: Module 1.1 Video](https://youtu.be/uWsXEmaM3PA)
@@ -51,7 +51,7 @@ El curso se hizo en 2019 y algunas cosas han cambiado desde entonces, pero la ma
      * Module 3.2: Creating your first GitHub Classroom assignment 📺  [ Module 3.2 Video](https://youtu.be/KXWXg68KpTY?t=485)
      * Module 3.3: Creating assignments with online IDE integrations 📺  [ Module 3.3 Video](https://youtu.be/KXWXg68KpTY?t=944)  
      * Module 3.4: Creating an assignment with autograding 📺  [ Module 3.4 Video](https://www.youtube.com/watch?v=mwCZRVJhH60)
-7. El Módulo 4 cubre la comunidad GitHub Education y está obsoleto. Lo mejor es saltárselo.
+7. El Módulo 4 cubre la comunidad GitHub Education y está algo obsoleto. Lo mejor es saltárselo.
 8. El Módulo 5 es *Utilizing AWS Cloud9 in the Classroom* y es mejor saltárselo por ahora.
 
 ## Entrega
