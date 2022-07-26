@@ -57,3 +57,5 @@ Deja en el fichero README.md del repo de la asignación enlaces
 2. a tu página de usuario en GitHub.
 
 Publica también en el [foro](https://github.com/orgs/ULL-OCW-GITHUB-EDUCATION/discussions) los enlaces.
+
+Tanto si te han concedido los descuentos como si no, puedes proceder con la [siguiente tarea]({{ page.next.url }}).
