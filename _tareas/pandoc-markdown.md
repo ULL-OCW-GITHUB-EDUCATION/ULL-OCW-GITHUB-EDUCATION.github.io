@@ -1,7 +1,8 @@
 ---
 layout: default
-title: LaTeX y Markdown
+title: Generación de Documentos
 permalink: latex-markdown
+classroom: https://classroom.github.com/a/-S5dTbsz
 date: 0000/06/01
 ---
 
