@@ -38,7 +38,7 @@ class JekyllSearch {
         </li>`
     }).join('')
     if ((results.length == 0) || (this.searchField.value == '')) {
-      this.resultsList.innerHTML = `<p>Sorry, nothing was found</p>`
+      this.resultsList.innerHTML = `<p>No se encontró nada</p>`
     } else {
       this.resultsList.innerHTML = html
     }

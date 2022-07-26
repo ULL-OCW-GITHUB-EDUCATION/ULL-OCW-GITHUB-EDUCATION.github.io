@@ -9,9 +9,9 @@ title: Búsqueda
 <h1>{{page.title}}</h1>
 
 <form id="search-form" action="">
-  <label class="label" for="search">Frase a buscar (puede usar una expresión regular):</label>
+  <label class="label" for="search">Frase a buscar (puede usar una expresión regular en el texto de la búsqueda):</label>
   <br/>
-  <input class="input" id="search" type="text" name="search" autofocus placeholder="e.g. Promise" autocomplete="off">
+  <input class="input" id="search" type="text" name="search" autofocus placeholder="" autocomplete="off">
   
   <ul class="list  list--results" id="list">
   </ul>
@@ -42,6 +42,6 @@ title: Búsqueda
 
 * [Glossary]({{site.baseurl}}/glossary.html)
 
-# Tópicos Tratados en las Clases
+# Tópicos
 
-* [Topics by Class]({{site.baseurl}}/topics)
+* [Tópicos]({{site.baseurl}}/topics)
