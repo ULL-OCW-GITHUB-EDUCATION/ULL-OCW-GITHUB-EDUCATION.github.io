@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Construyendo un Web Site con un Generador estático
+title: Construyendo Web Sites con un Generador estático
 permalink: generador-estatico
 classroom: https://classroom.github.com/a/IOBTV2l4
 date: 0000/05/01
