@@ -38,10 +38,14 @@ title: Búsqueda
 
 {{ initSearch | lstrip }}
 
-# Glossary
+# Glosario
 
-* [Glossary]({{site.baseurl}}/glossary.html)
+* [Glosario]({{site.baseurl}}/glossary.html)
+
+<!--
 
 # Tópicos
 
 * [Tópicos]({{site.baseurl}}/topics)
+
+-->
