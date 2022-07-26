@@ -12,7 +12,8 @@ date: 0000/01/01
 
 En esta tarea deberás 
 
-1. registrarte en [GitHub.com](https://github.com), 
+1. Antes de aceptar esta tarea deberás registrarte en [GitHub.com](https://github.com), 
+2. Una vez registrado ya estás en condiciones de <a href="{{ page.classroom }}" target="_blank"><button class="assign">Aceptar la tarea</button></a>
 2. solicitar un descuento para docentes, 
 3. crear una organización para un curso y 
 4. crear un aula github classroom asociada a la organización.
@@ -47,3 +48,8 @@ En cualquier caso, seas profesor o estudiante, para completar esta tarea deberá
   * Otros ejemplos de nombres de organizaciones combinan los acrónimos de los ámbitos: la universidad, el centro, la asignatura y el curso. Por ejemplo `ULL-ESIT-PL-2122`. El nombre del aula GitHub Classroom puede ser igual. 
   * Si eres profesor puedes hacer que la organización y el aula creados sean privados, si eres estudiante la organización creada deberá ser pública ya que este privilegio no se encuentra en el *student-developer-pack* (pero el resto de esta tarea funciona igual).
 3. Crear un aula GitHub Classroom asociada a la organización creada
+
+## Entrega
+
+Deja en el fichero README.md del repo de la asignación los enlaces a la organización GitHub que has creado y a tu página de usuario en GitHub.
+Publica también en el foro los enlaces.
