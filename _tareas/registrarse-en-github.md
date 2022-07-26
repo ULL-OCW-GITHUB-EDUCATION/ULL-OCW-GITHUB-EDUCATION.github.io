@@ -4,6 +4,7 @@ title: Registrarse, Obtener Descuentos y Crear un Aula
 name: Registrarse en GitHub
 myurl: https://campusdoctoradoyposgrado.ull.es/mod/assign/view.php?id=282455&forceview=1
 permalink: registrarse-en-github
+classroom: https://classroom.github.com/a/q1VkdRLM
 date: 0000/01/01
 ---
 
