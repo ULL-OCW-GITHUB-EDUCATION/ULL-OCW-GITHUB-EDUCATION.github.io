@@ -13,7 +13,7 @@ date: 0000/01/01
 En esta tarea deberás 
 
 1. Antes de aceptar esta tarea deberás registrarte en [GitHub.com](https://github.com), 
-2. Una vez registrado ya estás en condiciones de <a href="{{ page.classroom }}" target="_blank"><button class="assign">Aceptar la tarea</button></a>
+2. Una vez registrado ya estás en condiciones de <a href="{{ page.classroom }}" target="_blank"><button class="assign">Aceptar esta tarea</button></a>
 2. solicitar un descuento para docentes, 
 3. crear una organización para un curso y 
 4. crear un aula github classroom asociada a la organización.
