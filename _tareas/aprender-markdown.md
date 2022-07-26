@@ -17,7 +17,11 @@ Las subsiguientes secciones presentan los recursos para lograr estos objetivos.
 
 ### Objetivo 1: Primeros Pasos con GitHub Classroom
 
-Deberás aceptar la tarea asociada a esta parte haciendo click en el [enlace de aceptación](https://classroom.github.com/a/PlGuI8vJ). Es una tarea que fue configurada por los profesores usando [GitHub Classroom](). Un primer objetivo de esta lección/tarea es conseguir cierta familiaridad con los conceptos que conlleva Github Classroom: asignación, asignación individual, asignación de grupo, identificación del alumnado, *rosters*, etc.
+Deberás comenzar aceptando la tarea asociada a esta parte haciendo click en el botón con el texto *"acepta la asignación de la tarea"* en la cabecera. En cada una de los temas que requieren de la creación de un repositorio de trabajo para la realización de las tareas asociadas al tema encontrarás un botón con el texto
+<a href="{{ page.classroom }}" target="_blank"><button class="assign">acepta la asignación de la tarea</button></a>
+en la cabecera de la página. 
+
+En este tema la tarea que fue configurada por los profesores usando [GitHub Classroom](). Un primer objetivo de esta lección/tarea es conseguir cierta familiaridad con los conceptos que conlleva Github Classroom: asignación, asignación individual, asignación de grupo, identificación del alumnado, *rosters*, etc.
 
 ### Objetivo 2: Aprender Markdown
 

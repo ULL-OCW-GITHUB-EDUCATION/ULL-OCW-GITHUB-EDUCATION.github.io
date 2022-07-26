@@ -5,6 +5,7 @@ permalink: creando-un-perfil
 classroom: https://classroom.github.com/a/mgV_maOt
 name: Managing your profile README
 date: 0000/03/01
+toc: true
 ---
 
 # {{ page.title }}

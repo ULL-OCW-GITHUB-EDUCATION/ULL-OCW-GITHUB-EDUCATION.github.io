@@ -10,10 +10,20 @@
 
     <li><a href="{{site.baseurl}}/index.html" title="Contents">Contenidos</a></li>
     <li><a href="{{site.campus_virtual}}" title="ULL">Campus</a></li>
-    <li><a href="{{ site.organization.url}}" title="ULL">Organización</a></li>
+    <li><a href="{{ site.organization.url}}" title="ULL">Org</a></li>
 
     <li><a href="https://github.com/orgs/ULL-OCW-GITHUB-EDUCATION/discussions" title="ULL">Foro</a></li>
-    <li><a href="{{site.baseurl}}/references.html" title="ULL">Referencias</a></li>
+    <li><a href="{{site.baseurl}}/references.html" title="ULL">Refs</a></li>
+    <li><a href="{{site.classroom.url}}" target="_blank">Class</a></li>
+
+    {% if page.classroom %} 
+      <!--
+        <li>
+            <a href="{{ page.classroom }}" target="_blank">Acepta &#x2705; ✔️</a>
+        </li>
+      -->
+    {% endif %}
+
 
     <!--
     <li><a href="{{site.baseurl}}/resources.html" title="recursos">&#x2699</a></li>

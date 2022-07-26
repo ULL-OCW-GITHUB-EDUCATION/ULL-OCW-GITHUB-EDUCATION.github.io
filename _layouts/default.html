@@ -64,11 +64,18 @@
               {% include toc.html html=content id="pltoc" %}
             {% endif %}
             {% if page.classroom %}
+              <nav >
                 <ul>
                     <li>
-                        <a href="{{ page.classroom }}" target="_blank">Acepta la asignación de la tarea ✔️</a>
+                        <a href="{{ page.classroom }}" target="_blank">
+                            <button class="assign">
+                                Acepta la asignación de la tarea
+                            </button>
+                        </a>
                     </li>
                 </ul>
+
+              </nav>
             {% endif %}
 
             {% include navigation-links.html %}
