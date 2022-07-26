@@ -18,8 +18,7 @@ Para ello usaremos
 2. el generador de web sites estáticos Jekyll.
 3. La plantilla [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/) para Jekyll
 
-Al aceptar se le creará un repo con los archivos y carpetas necesarios para la generación de un web site usando Jekyll. 
-
+Al aceptar esta asignación se creará un repo con los archivos y carpetas necesarios para la generación de un web site usando Jekyll. 
 
 ## Puesta a punto en CodeSpaces
 
@@ -85,6 +84,28 @@ Haga click en *http://127.0.0.1:4000 Follow link using forwarded port*
 
 A continuación lea los tutorials de [Jekyll](https://jekyllrb.com/docs/) y [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/)
 
+## Desplegando nuestro Web Site como nuestra página Web personal en GitHub
+
+
+```
+@casiano ➜ /workspaces/construyendo-un-website-casiano-rodriguez-leon-alumnoudv4 (master) $ git remote -v
+origin  https://github.com/ULL-OCW-GITHUB-EDUCATION/construyendo-un-website-casiano-rodriguez-leon-alumnoudv4 (fetch)
+origin  https://github.com/ULL-OCW-GITHUB-EDUCATION/construyendo-un-website-casiano-rodriguez-leon-alumnoudv4 (push)
+```
+
+```
+@casiano ➜ /workspaces/construyendo-un-website-casiano-rodriguez-leon-alumnoudv4 (master) $ gh --version
+gh version 2.13.0 (2022-06-22)
+```
+
+## Ejercicio Adicional
+
+Cree un segundo web site dentro de la organización de su asignatura y despliéguelo en GitHub.
+
+## Entrega
+
+Deje en el README.md los enlaces a su página web en GitHub y a la web de su asignatura.
+Publique en el foro los enlaces.
 
 ## References
 
