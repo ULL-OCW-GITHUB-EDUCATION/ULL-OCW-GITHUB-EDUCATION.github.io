@@ -51,5 +51,9 @@ En cualquier caso, seas profesor o estudiante, para completar esta tarea deberá
 
 ## Entrega
 
-Deja en el fichero README.md del repo de la asignación los enlaces a la organización GitHub que has creado y a tu página de usuario en GitHub.
-Publica también en el foro los enlaces.
+Deja en el fichero README.md del repo de la asignación enlaces 
+
+1. a la organización GitHub que has creado y 
+2. a tu página de usuario en GitHub.
+
+Publica también en el [foro](https://github.com/orgs/ULL-OCW-GITHUB-EDUCATION/discussions) los enlaces.
