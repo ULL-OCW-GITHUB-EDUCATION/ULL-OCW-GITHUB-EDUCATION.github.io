@@ -198,15 +198,19 @@ Entrando aprender-markdown-nestor-gonzalez-lopez-alu0100108859 61 142 1419 READM
 
 ## Abriendo pestañas en cada uno de los proyectos de los alumnos.
 
-Abrimos primero una nueva ventana en el navegador por defecto y ...
+Estando en el super-repo, abrimos primero una nueva ventana en el navegador por defecto y ...
 
 ```
 git submodule foreach 'gh browse'
 ```
 
-## Generando incidencias con los fallos la práctica 
+esto nos abrirá tantas pestañas como repos de alumnos haya en el super-repo. 
+¡Tenga cuidado si tiene 200 alumnos!
 
-Usamos un programa que haga un diagnóstico de la calidad del trabajo:
+## Generando retroalimentación
+
+Usamos un programa que haga un diagnóstico de la calidad del trabajo. 
+En este  ejemplo se trata de mirar la calidad del markdown que ha escrito el alumno.
 
 Instalamos una herramienta adecuada:
 
@@ -220,43 +224,91 @@ Generamos los informes:
 $ git submodule foreach 'markdownlint README.md -o issues.txt || :'
 ```
 
-y creamos las incidencias:
+y creamos  incidencias para cada uno de los alumnos enviando el informe generado:
 
 ```
 $ git submodule foreach 'gh issue create -F issues.txt'
 ```
 
-## Visitando todas las páginas de profile de los alumnos en 10 minutos
+## gh org-members
 
 ```
-➜  github-profile-readme gh org-members ULL-MFP-AET-2122
-AdelaGM
-Alex100260076
-alu0100108859
+➜  markdown git:(master) ✗ gh org-members -h
+Usage: gh org-members [options] [organization]
+
+Options:
+  -V, --version             output the version number
+  -f, --fullname            show name of the user (if available)
+  -j, --json                returns the full json object
+  -r, --regexp <regexp>     filter <query> results using <regexp>
+  -u, --url                 show github user url
+  -l, --login               show github user login
+  -w, --orgurl              show github user url as a member of the org
+  -s, --site                show url of the members github pages web sites
+  -c, --csv [field...]      shows the values of the fields of the organization csv
+  -p, --pathcsv <csv file>  path to the csv file
+  -o --org <org>            default organization
+     --default              Set selected "org" as default organization for future uses
+  -h, --help                display help for command
+
+  - If the organization is not explicitly specified or there is a default org,
+    the selection will be done interactively among the list of your organizations using 'fzf'
+  - You can set the default organization through the "--default" option for future uses of this program
+  - When in 'fzf', use CTRL-A to select all, tab to select/deselect
+  - You can merge the results of the GitHub API info with info from info in a '.csv' file using the "-c" and "-p" options. For instance: "gh org-members -jr sara -c -p ./ULL-MFP-AET-2122.csv"
+  - If the option '-c' is used but the '.csv' file is not specified via the '-p' option, it will use the most recent '*.csv' file in your 'Downloads' folder mathching the regular expression pattern '/<org>.*.csv/' where 'org' refers to the specified or default organization
+  - When using '-c' it can be followed by any list of field names in the '.csv' file.
+  - The '.csv' file has to have a column named 'login' having the Github login of the members
+```
+
+Por ejemplo, para obtener  las urls de los alumnos en github podemos hacer:
+
+```
+✗ gh org-members -u | egrep -v 'crguezl|casiano'
+"https://github.com/amarrerod"
 ... etc.
-NoeliaRguezHdez
-Ramallin
+"https://github.com/alu0100879902"
 ```
 
-```
-➜  github-profile-readme gh org-members ULL-MFP-AET-2122 | sed -ne 's#^#https://github.com/#p'
-https://github.com/AdelaGM
-https://github.com/Alex100260076
-... etc.
-https://github.com/magodelnorte
-https://github.com/ManCurTru
-https://github.com/NoeliaRguezHdez
-https://github.com/Ramallin
+Puede fusionar los resultados de la información de la API de GitHub con la información de la información en un archivo `.csv` usando las opciones `-c` y `-p`. Por ejemplo: 
+
+
+```json
+✗ gh org-members -jr Pere -c -p ./ULL-MFP-AET-2122.csv
+[
+  {
+    "login": "Cami100260076",
+    "name": "Camilo Glez. Peresola",
+    "url": "https://github.com/Cami100260076",
+    "role": "member",
+    "site": "https://Cami100260076.github.io",
+    "orgurl": "https://github.com/orgs/ULL-MFP-AET-2122/people/Cami100260076",
+    "fullname": "Camilo Glez. Peresola",
+    "id": "alu0100260076",
+    "orden": "8",
+    "Marca temporal": "26/10/2021 18:16:30",
+    "Nombre 1": "Camilo",
+    "Apellidos": "González Peresola",
+    "Nombre": "Camilo",
+    "Primer Apellido": "González",
+    "Segundo Apellido": "Peresola",
+    "Grado desde el que accede": "Ingeniería industrial",
+    "Experiencia previa en la Enseñanza": "2",
+    "markdown": "APTO",
+    "profile": "APTO",
+    "web site": "APTO",
+    "pandoc": "APTO+",
+    "TFP DCP": "APTO",
+    "Calculada": "8,8",
+    "Calificador Propuesta": "9",
+    "Calificador propuesta": ""
+  }
+]
 ```
 
-```
-➜  github-profile-readme gh org-members ULL-MFP-AET-2122 --jq '.[].login' | sed -ne 's#^#https://github.com/#p' > profiles-urls
-```
-
-```
-➜  github-profile-readme # abro nueva ventana en el navegador ...
-➜  github-profile-readme xargs open < profiles-urls
-```
+- Si se usa la opción `-c` pero el archivo `.csv` no se especifica a través de la opción `-p`, se usará el archivo `*.csv` más reciente en la carpeta `Downloads` de su O.S. que coincida con la expresión regular patrón `/<org>.*.csv/` donde `org` se refiere a la organización especificada o predeterminada
+- Cuando se usa `-c`, puede ir seguido de cualquier lista de nombres de campo que ocurra en el archivo `.csv`.
+- El archivo `.csv` debe tener una columna llamada `login` con el nombre de inicio de sesión en Github de los miembros de la organización
 
 ## gh-activity Nº de commits etc.
 
