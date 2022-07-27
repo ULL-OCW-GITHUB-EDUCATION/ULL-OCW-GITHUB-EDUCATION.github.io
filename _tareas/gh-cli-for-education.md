@@ -14,6 +14,10 @@ date: 0000/07/01
 * Aprender a usar algunas extensiones para educación
 * Mejorar nuestra eficiencia en procesos de evaluación, retroalimentación al alumnado, detección de plagio, etc. usando `gh` *extensions* 
 
+## Introducción a gh
+
+Véase las notas en [GitHub Command Line Interface]({{ site.baseurl }}/pages/gh)
+
 ## Ejemplos de Evaluación Asistida desde la línea de comandos
 
 Reproduzca los ejemplos en la sección [evaluación asistida desde la línea de comandos]({{site.baseurl}}/pages/evaluacion-asistida) y elabore un informe con lo aprendido.
