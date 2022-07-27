@@ -1,5 +1,6 @@
 ---
 title: GitHub Command Line Interface
+toc: true
 ---
 
 ## Introduction
@@ -11,48 +12,56 @@ title: GitHub Command Line Interface
 ### Version 
 
 ```
-➜  apuntes git:(main) gh --version
-gh version 2.0.0 (2021-08-23)
-https://github.com/cli/cli/releases/tag/v2.0.0
+➜  markdown git:(master) ✗ gh --version
+gh version 2.14.3 (2022-07-26)
+https://github.com/cli/cli/releases/tag/v2.14.3
 ```
 
 ### Help
 
 ```
-➜  apuntes git:(main) ✗ gh help
+➜  markdown git:(master) ✗ gh help
 Work seamlessly with GitHub from the command line.
 
 USAGE
   gh <command> <subcommand> [flags]
 
 CORE COMMANDS
-  browse:     Open the repository in the browser
-  gist:       Manage gists
-  issue:      Manage issues
-  pr:         Manage pull requests
-  release:    Manage GitHub releases
-  repo:       Create, clone, fork, and view repositories
+  auth:        Authenticate gh and git with GitHub
+  browse:      Open the repository in the browser
+  codespace:   Connect to and manage codespaces
+  gist:        Manage gists
+  issue:       Manage issues
+  pr:          Manage pull requests
+  release:     Manage releases
+  repo:        Manage repositories
 
 ACTIONS COMMANDS
-  actions:    Learn about working with GitHub actions
-  run:        View details about workflow runs
-  workflow:   View details about GitHub Actions workflows
+  run:         View details about workflow runs
+  workflow:    View details about GitHub Actions workflows
 
 ADDITIONAL COMMANDS
-  alias:      Create command shortcuts
-  api:        Make an authenticated GitHub API request
-  auth:       Login, logout, and refresh your authentication
-  completion: Generate shell completion scripts
-  config:     Manage configuration for gh
-  extension:  Manage gh extensions
-  help:       Help about any command
-  secret:     Manage GitHub secrets
-  ssh-key:    Manage SSH keys
+  alias:       Create command shortcuts
+  api:         Make an authenticated GitHub API request
+  completion:  Generate shell completion scripts
+  config:      Manage configuration for gh
+  extension:   Manage gh extensions
+  gpg-key:     Manage GPG keys
+  help:        Help about any command
+  label:       Manage labels
+  search:      Search for repositories, issues, and pull requests
+  secret:      Manage GitHub secrets
+  ssh-key:     Manage SSH keys
+  status:      Print information about relevant issues, pull requests, and notifications across repositories
+
+HELP TOPICS
+  actions:     Learn about working with GitHub Actions
+  environment: Environment variables that can be used with gh
+  formatting:  Formatting options for JSON data exported from gh
+  mintty:      Information about using gh with MinTTY
+  reference:   A comprehensive reference of all gh commands
 
 EXTENSION COMMANDS
-  clone-org
-  gp
-  project
 
 FLAGS
   --help      Show help for command
@@ -62,9 +71,6 @@ EXAMPLES
   $ gh issue create
   $ gh repo clone cli/cli
   $ gh pr checkout 321
-
-ENVIRONMENT VARIABLES
-  See 'gh help environment' for the list of supported environment variables.
 
 LEARN MORE
   Use 'gh <command> <subcommand> --help' for more information about a command.
