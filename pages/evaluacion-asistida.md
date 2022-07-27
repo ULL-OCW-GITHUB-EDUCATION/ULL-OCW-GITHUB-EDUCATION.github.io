@@ -137,7 +137,7 @@ aprender-markdown-alejandro-gonzalez-gonzalez-alu0100879902 aprender-markdown-ne
 aprender-markdown-alejandro-gonzalez-sarasola-alu0100260076
 ```
 
-### Determinando quien va mas avanzado en la tarea
+### Determinando que alumno tiene el informe con mayor número de líneas
 
 Ahora podemos usar el comando `foreach` de `git submodule` usand `wc` (word count) 
 para averiguar que alumno tiene  el fichero `README.md` mas grande:
