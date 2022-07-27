@@ -165,7 +165,7 @@ Cuando es usada con la opción `-n número` se establece el número máximo de a
 ```
 ✗ git submodule foreach 'wc README.md ' | xargs -n 6
 ```
-produce:
+produce líneas cada una conteniendo 6 campos:
 ```
 Entrando aprender-markdown-adela-gonzalez-maury-alu0101116204 57 130 1587 README.md
 Entrando aprender-markdown-alejandro-gonzalez-gonzalez-alu0100879902 45 112 1157 README.md
@@ -174,7 +174,8 @@ Entrando aprender-markdown-ivan-gonzalez-aguiar-alu0100551266 27 82 918 README.m
 Entrando aprender-markdown-nestor-gonzalez-lopez-alu0100108859 61 142 1419 README.md
 ```
 
-Que si lo alimentamos a un pipe/canal  con `sort` ordenando por el tercer campo nos produce una lista ordenada por líneas:
+Que si lo alimentamos a un pipe/canal  con [sort](https://man7.org/linux/man-pages/man1/sort.1.html) ordenando por el tercer campo `-k 3`,
+nos produce una lista ordenada por líneas:
 
 ```
 ➜  markdown git:(master) ✗ git submodule foreach 'wc README.md ' | xargs -n 6 | sort -gk 3
