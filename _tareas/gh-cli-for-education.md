@@ -16,7 +16,7 @@ date: 0000/07/01
 
 ## Ejemplos de Evaluación Asistida desde la línea de comandos
 
-Reproduzca los [ejemplos de evaluación asistida desde la línea de comandos]({{site.baseurl}}/pages/evaluacion-asistida) y elabore un informe con lo aprendido.
+Reproduzca los ejemplos en la sección [evaluación asistida desde la línea de comandos]({{site.baseurl}}/pages/evaluacion-asistida) y elabore un informe con lo aprendido.
 
 ## Referencias
 

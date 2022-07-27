@@ -72,6 +72,8 @@ Para abrir pestañas de 25 en 25 en el navegador en las ventanas que nos informa
 1. Abrimos  una nueva ventana en el navegador
 2. `gh org-browse-repo -CS static -P 25`
 
+La imagen muestra una ventana con tantas pestañas como prácticas entregadas. Cada una abierta en el diagrama de actividad del alumno:
+
 ![]({{ site.baseurl }}/assets/images/gh-org-browse-students-activity.png)
 
 ## `gh submodule-add`: Creando un super-repo con todos los repos de la práctica:
