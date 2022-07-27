@@ -177,8 +177,8 @@ Entrando aprender-markdown-nestor-gonzalez-lopez-alu0100108859 61 142 1419 READM
 Que si lo alimentamos a un pipe/canal  con [sort](https://man7.org/linux/man-pages/man1/sort.1.html) ordenando por el tercer campo `-k 3`,
 nos produce una lista ordenada por líneas:
 
-```
-➜  markdown git:(master) ✗ git submodule foreach 'wc README.md ' | xargs -n 6 | sort -gk 3
+```sh
+✗ git submodule foreach 'wc README.md ' | xargs -n 6 | sort -gk 3
 
 Entrando aprender-markdown-ivan-gonzalez-aguiar-alu0100551266 27 82 918 README.md
 Entrando aprender-markdown-alejandro-gonzalez-gonzalez-alu0100879902 45 112 1157 README.md
