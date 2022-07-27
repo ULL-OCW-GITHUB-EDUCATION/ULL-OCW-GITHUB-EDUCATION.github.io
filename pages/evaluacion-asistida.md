@@ -355,3 +355,57 @@ it produces the following output. Commas are missed among repos reports:
 ... etc.
 ```
 
+## Repository sizes in a GH Classroom organization 
+
+See the Global Campus Teachers Discussion [97](https://github.com/community/Global-Campus-Teachers/discussions/97): 
+
+> I have a GitHub Classroom organization that has exceeded the LFS quota. Is there any way to see which repository has caused this or an overview of how large each repository in the organization is? I know I can see repo sizes under https://github.com/settings/repositories, but this is just for the ones I have created. The GH classroom repos do not show up. Also, the organization's settings do not seem to have an overview of the sizes.
+> 
+> Anything that helps me to avoid cloning all the repos to determine their sizes is appreciated.
+
+**Solution**:
+
+The command `gh repo list`has the options:
+
+```
+      --json fields         Output JSON with the specified fields
+  -L, --limit int           Maximum number of repositories to list (default 30)
+```
+
+Así un comando como:
+
+```
+✗ gh repo list ULL-MFP-AET-2122 --limit 999 --json name,diskUsage
+```
+
+Muestra el nombre del repo y su tamaño:
+
+```
+[
+  {
+    "diskUsage": 3,
+    "name": ".github"
+  },
+  {
+    "diskUsage": 6485,
+    "name": "latex-markdown-chloe-boistel-perez-alu0100788020"
+  },
+  ... etc.
+]
+```
+
+Si uno es un experto en [jq](https://stedolan.github.io/jq/) puede obtener el mayor elemento:
+
+```
+✗ gh repo list ULL-MFP-AET-2122 --limit 999 --json name,diskUsage  --jq 'max_by(.diskUsage)'
+{"diskUsage":45756,"name":"static-generator-juan-alberto-cabrera-garcia-alu0100360912-"}
+```
+
+o bien ordenarlos:
+
+```
+➜  markdown git:(master) ✗ gh repo list ULL-MFP-AET-2122 --limit 999 --json name,diskUsage  --jq 'sort_by(.diskUsage) | reverse[0:2]'
+[{"diskUsage":45756,"name":"static-generator-juan-alberto-cabrera-garcia-alu0100360912-"},{"diskUsage":45240,"name":"static-generator-noelia-rodriguez-hernandez-alu0100595420"}]
+```
+
+

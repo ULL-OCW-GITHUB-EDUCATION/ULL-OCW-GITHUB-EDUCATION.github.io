@@ -20,4 +20,5 @@ Reproduzca los ejemplos en la sección [evaluación asistida desde la línea de 
 
 ## Referencias
 
-[Awesome Github CLI Extensions [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)](https://github.com/kodepandai/awesome-gh-cli-extensions)
+* [Awesome Github CLI Extensions [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)](https://github.com/kodepandai/awesome-gh-cli-extensions)
+* [claro](https://github.com/emersonmello/claro)
