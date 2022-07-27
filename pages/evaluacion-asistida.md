@@ -72,7 +72,7 @@ Para abrir pestañas de 25 en 25 en el navegador en las ventanas que nos informa
 1. Abrimos  una nueva ventana en el navegador
 2. `gh org-browse-repo -CS static -P 25`
 
-La imagen muestra una ventana con tantas pestañas como prácticas entregadas. Cada una abierta en el diagrama de actividad del alumno:
+La siguiente imagen muestra una ventana con tantas pestañas como prácticas entregadas. Cada pestaña está  abierta en el diagrama de actividad del alumno:
 
 ![]({{ site.baseurl }}/assets/images/gh-org-browse-students-activity.png)
 
@@ -113,7 +113,7 @@ Options:
 ULL-MFP-AET-2122
 ```
 
-Si hacemos un dry-run con una búsqueda por repos cuyos nombres e casen con la palabra `markdown` 
+Si hacemos un dry-run con `-n` con una búsqueda por repos (`-s`) cuyos nombres casen con la palabra `markdown` 
 simplemente nos muestra las urls de dichos repos:
 
 ```
@@ -125,7 +125,7 @@ ULL-MFP-AET-2122/latex-markdown-chloe-boistel-perez-alu0100788020
 
 Pero si omitimos la `-n` nos descargaremos los repos creando un repo cuyos submódulos son los repos de los alumnos para esa asignación. 
 
-Primero creamos una carpeta e iniciamos el repo:
+La extensión `gh submodule-add` requiere que cuando se ejecute se esté en la raíz de un repositorio. Por ello, primero creamos una carpeta e iniciamos un repo:
 
 ```
 ➜  practicas-alumnos mkdir markdown
