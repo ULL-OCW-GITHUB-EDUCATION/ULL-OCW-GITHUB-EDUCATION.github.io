@@ -158,7 +158,7 @@ Entrando 'aprender-markdown-nestor-gonzalez-lopez-alu0100108859'
 
 Vemos que la salida tiene 6 campos separados por blancos. El tercero de los cuales es el número de líneas en el fichero. 
 
-La utilidad `xargs` lee cadenas delimitadas por espacio, tabulación, nueva línea y final de archivo de la entrada estándar. 
+La utilidad [xargs](https://man7.org/linux/man-pages/man1/xargs.1.html) lee cadenas delimitadas por espacio, tabulación, nueva línea y final de archivo de la entrada estándar. 
 
 Cuando es usada con la opción `-n número` se establece el número máximo de argumentos tomados de la entrada estándar y llama a `echo` con ese `número` de argumentos. Por ejemplo:
 
