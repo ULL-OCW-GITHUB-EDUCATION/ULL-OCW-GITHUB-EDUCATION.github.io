@@ -13,3 +13,7 @@ date: 0000/07/01
 * Conocer que es [gh-cli]()
 * Aprender a usar algunas extensiones para educación
 * Mejorar nuestra eficiencia en procesos de evaluación, retroalimentación al alumnado, detección de plagio, etc. usando `gh` *extensions* 
+
+## Referencias
+
+[Awesome Github CLI Extensions [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)](https://github.com/kodepandai/awesome-gh-cli-extensions)
