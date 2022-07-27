@@ -1,6 +1,13 @@
 ---
 toc: true
+title: Automatizando las labores de Evaluación con **gh**
 ---
+
+# {{ page.title }}
+
+Las siguientes secciones muestran *scripts* que facilitan las labores de retroalimentación y
+evaluación  usando `gh`. Se asume un lector familiarizado con el uso de la terminal.
+
 
 ### Alias `cd`
 
@@ -162,7 +169,7 @@ La utilidad [xargs](https://man7.org/linux/man-pages/man1/xargs.1.html) lee cade
 
 Cuando es usada con la opción `-n número` se establece el número máximo de argumentos tomados de la entrada estándar y llama a `echo` con ese `número` de argumentos. Por ejemplo:
 
-```
+```sh
 ✗ git submodule foreach 'wc README.md ' | xargs -n 6
 ```
 produce líneas cada una conteniendo 6 campos:
