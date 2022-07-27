@@ -9,14 +9,14 @@ Las siguientes secciones muestran *scripts* que facilitan las labores de retroal
 evaluación  usando `gh`. Se asume un lector familiarizado con el uso de la terminal.
 
 
-### Alias `cd`
+## Alias cd
 
 ```
 ➜  ocw git:(main) ✗ gh alias list | grep cd
 cd:	!gh config set current-org "$1" 2>/dev/null
 ```
 
-### Alias `pwd` 
+## Alias pwd 
 
 ```
 ➜  ocw git:(main) ✗ gh alias list | grep pwd
@@ -30,7 +30,7 @@ Ejemplo:
 ULL-MFP-AET-2122
 ```
 
-### `gh org-browse`: Comprobando la asistencia y participación de los alumnos via los commits
+## `gh org-browse`: Comprobando la asistencia y participación de los alumnos via los commits
 
 ```
 gh org-browse-repo -h             
@@ -74,7 +74,7 @@ Para abrir pestañas de 25 en 25 en el navegador en las ventanas que nos informa
 
 ![]({{ site.baseurl }}/assets/images/gh-org-browse-students-activity.png)
 
-### `gh submodule-add`: Creando un super-repo con todos los repos de la práctica:
+## `gh submodule-add`: Creando un super-repo con todos los repos de la práctica:
  
 
 ```
@@ -144,7 +144,7 @@ aprender-markdown-alejandro-gonzalez-gonzalez-alu0100879902 aprender-markdown-ne
 aprender-markdown-alejandro-gonzalez-sarasola-alu0100260076
 ```
 
-### Determinando que alumno tiene el informe con mayor número de líneas
+## Determinando que alumno tiene el informe con mayor número de líneas
 
 Ahora podemos usar el comando `foreach` de `git submodule` usand `wc` (word count) 
 para averiguar que alumno tiene  el fichero `README.md` mas grande:
@@ -194,7 +194,7 @@ Entrando aprender-markdown-adela-gonzalez-maury-alu0101116204 57 130 1587 README
 Entrando aprender-markdown-nestor-gonzalez-lopez-alu0100108859 61 142 1419 README.md
 ```
 
-### Abriendo pestañas en cada uno de los proyectos de los alumnos.
+## Abriendo pestañas en cada uno de los proyectos de los alumnos.
 
 Abrimos primero una nueva ventana en el navegador por defecto y ...
 
@@ -202,7 +202,7 @@ Abrimos primero una nueva ventana en el navegador por defecto y ...
 git submodule foreach 'gh browse'
 ```
 
-### Generando incidencias con los fallos la práctica 
+## Generando incidencias con los fallos la práctica 
 
 Usamos un programa que haga un diagnóstico de la calidad del trabajo:
 
@@ -224,7 +224,7 @@ y creamos las incidencias:
 $ git submodule foreach 'gh issue create -F issues.txt'
 ```
 
-### Visitando todas las páginas de profile de los alumnos en 10 minutos
+## Visitando todas las páginas de profile de los alumnos en 10 minutos
 
 ```
 ➜  github-profile-readme gh org-members ULL-MFP-AET-2122

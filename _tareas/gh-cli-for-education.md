@@ -16,9 +16,7 @@ date: 0000/07/01
 
 ## Ejemplos de Evaluación Asistida desde la línea de comandos
 
-Véase [Ejemplos de Evaluación Asistida desde la línea de comandos]({{site.baseurl}}/pages/evaluacion-asistida)
-
-Véase también [gh-cli-for-education/git-developer-contribution-analysis](https://github.com/gh-cli-for-education/git-developer-contribution-analysis)
+Reproduzca los [ejemplos de evaluación asistida desde la línea de comandos]({{site.baseurl}}/pages/evaluacion-asistida) y elabore un informe con lo aprendido.
 
 ## Referencias
 
