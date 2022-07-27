@@ -10,7 +10,7 @@ date: 0000/05/01
 
 ## Objetivos
 
-En esta tarea vamos a aprender a construir un web site usando un [generador estático de contenidos]({{ site.baseurl }}/glossary.html#static-site-generators). 
+En esta tarea vamos a aprender a construir dos web sites usando un [generador estático de contenidos]({{ site.baseurl }}/glossary.html#static-site-generators). 
 
 Para ello usaremos 
 
@@ -18,7 +18,9 @@ Para ello usaremos
 2. el generador de web sites estáticos Jekyll.
 3. La plantilla [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/) para Jekyll
 
-Al aceptar esta asignación se creará un repo con los archivos y carpetas necesarios para la generación de un web site usando Jekyll. 
+Al aceptar esta asignación se creará un repo con los archivos y carpetas necesarios para la generación de un web site usando Jekyll. En este primer web site deberás construir tu página personal en GitHub.
+
+Deberás también crear un segundo web site `<organization>/<organization>.github.io` para la organización que creaste en la tarea [Registrarse en GitHub]({{ site.baseurl }}/registrarse-en-github)  con una estructura similar a este web site conteniendo temas, tareas, comentarios, enlaces, etc. 
 
 ## Puesta a punto en CodeSpaces
 
@@ -104,8 +106,7 @@ Cree un segundo web site dentro de la organización de su asignatura y despliég
 
 ## Entrega
 
-Deje en el README.md los enlaces a su página web en GitHub y a la web de su asignatura.
-Publique en el foro los enlaces.
+Deja en el fichero `README.md` de este repositorio los enlaces a tu página web en GitHub y a la web de tu asignatura. Publica en el foro los enlaces.
 
 ## References
 
