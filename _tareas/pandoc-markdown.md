@@ -27,7 +27,7 @@ un trabajo de divulgación etc.
 
 ## Entrega
 
-Publica el documento desarrollado en la organización de una de tus asignaturas o en tu blog o donde quiera que creas es ams adecuado. Comparte la publicación en el foro.
+Publica el documento desarrollado en la organización de una de tus asignaturas o en tu blog o donde quiera que creas es más adecuado. Comparte la publicación en el foro.
 
 
 <!--
