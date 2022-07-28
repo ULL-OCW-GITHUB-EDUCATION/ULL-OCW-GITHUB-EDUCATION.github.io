@@ -44,6 +44,7 @@ Despliegue el repo en GitPod usando el botón GitPod. El contenedor/Docker/Máqu
 * [TexLive Docs](https://www.tug.org/texlive/doc/texlive-en/texlive-en.html)
 * [Awesome Scientific Writing](https://github.com/writing-resources/awesome-scientific-writing) also <https://writing-resources.github.io/awesome-scientific-writing/>
 * [Bibliography in LaTeX with Bibtex/Biblatex](https://latex-tutorial.com/tutorials/bibtex/)
+* [PhD Tools and software](https://cullaloe.com/phd-workflow-22) por Nick Hood
 
 {% include gitpod-references.md %}
 
