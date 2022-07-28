@@ -20,7 +20,7 @@ Véase las notas en [GitHub Command Line Interface]({{ site.baseurl }}/pages/gh)
 
 ## gh-cli en la Enseñanza
 
-La idea del proyecto *gh-cli en la Enseñanza* viene reflejada en el texto en esta publicación:
+La idea del proyecto *gh-cli en la Enseñanza* viene reflejada en el texto en esta publicación en las discussions de Global Campus Teachers:
 
 * [A call for software contributions to extend gh cli with extensions targeted to teachers using github #32](https://github.com/community/Global-Campus-Teachers/discussions/32)
 
