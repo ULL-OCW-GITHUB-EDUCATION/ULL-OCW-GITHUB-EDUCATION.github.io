@@ -12,8 +12,23 @@ En esta tarea vamos a aprender a convertir entre formatos y a generar distintos 
 
 Para el desarrollo usaremos codespaces 
 
+Al aceptar se creará un repo con los archivos y carpetas necesarios para usar pandoc y $$\LaTeX$$. 
 
-Al aceptar se le creará un repo con los archivos y carpetas necesarios para usar pandoc y $$\LaTeX$$. 
+Estos son los objetivos:
+
+Elabora un documento usando pandoc y $$\LaTeX$$ y genera el correspondiente pdf.  
+
+En cuanto a la temática, puede ser un trabajo para la asignatura, 
+un borrador para la memoria de prácticas en centros educativos, 
+un borrador para la memoria de TFM, 
+un trabajo científico, 
+un trabajo de divulgación etc.
+
+
+## Entrega
+
+Publica el documento desarrollado en la organización de una de tus asignaturas o en tu blog o donde quiera que creas es ams adecuado. Comparte la publicación en el foro.
+
 
 <!--
 [GitPod](https://www.gitpod.io/docs/getting-started).
