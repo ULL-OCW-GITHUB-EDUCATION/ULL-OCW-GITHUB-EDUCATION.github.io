@@ -11,7 +11,7 @@ date: 0000/06/01
 En esta tarea vamos a aprender a convertir entre formatos y a generar distintos formatos, sobre todo PDFs. Para ello usaremos [pandoc](https://pandoc.org/). Estudiaremos también como escribir una memoria de fin de título, un artículo científico, unos apuntes etc. así como manejar bibliografía usando MarkDown y  $$\LaTeX$$ con [pandoc](https://pandoc.org/).
 
 Al aceptar la tarea se creará un repo con los archivos y carpetas necesarios. 
-Al editar con codespaces encontrarás  $\LaTeX{}$ y pandoc instalados.
+Al editar con codespaces encontrarás  $\LaTeX$ y pandoc instalados.
 
 ## Objetivos
 
