@@ -41,6 +41,7 @@ Despliegue el repo en GitPod usando el botón GitPod. El contenedor/Docker/Máqu
 * [hegerdes/VSCode-LaTeX-Container](https://github.com/hegerdes/VSCode-LaTeX-Container)
 * [pandoc](https://pandoc.org/)
 * [GitHub Pages](https://pages.github.com/)
+* [TexLive Docs](https://www.tug.org/texlive/doc/texlive-en/texlive-en.html)
 * [Awesome Scientific Writing](https://github.com/writing-resources/awesome-scientific-writing) also <https://writing-resources.github.io/awesome-scientific-writing/>
 * [Bibliography in LaTeX with Bibtex/Biblatex](https://latex-tutorial.com/tutorials/bibtex/)
 
