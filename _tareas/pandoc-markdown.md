@@ -45,5 +45,3 @@ Despliegue el repo en GitPod usando el botón GitPod. El contenedor/Docker/Máqu
 * [Bibliography in LaTeX with Bibtex/Biblatex](https://latex-tutorial.com/tutorials/bibtex/)
 * [PhD Tools and software](https://cullaloe.com/phd-workflow-22) por Nick Hood
 
-{% include gitpod-references.md %}
-
