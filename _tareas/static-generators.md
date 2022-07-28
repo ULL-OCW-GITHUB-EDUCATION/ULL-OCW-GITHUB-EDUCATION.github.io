@@ -69,6 +69,20 @@ Veremos algo similar a esto:
 
 ¡Nuestra página web esta funcionando!
 
+Si no hubieramos tenido ya instalado `bundler` podríamos haber hecho:
+
+```
+gem install bundler jekyll
+bundle update
+bundle exec jekyll serve
+```
+
+### Template para CodeSpaces
+
+Ver el vídeo [GitHub Codespaces with GitHub Pages](https://youtu.be/8KwoKgYz85k) por 
+Jon Gallant
+
+
 ### Puesta a punto con GitPod 
 
 Para el desarrollo usaremos [GitPod](https://www.gitpod.io/docs/getting-started).
