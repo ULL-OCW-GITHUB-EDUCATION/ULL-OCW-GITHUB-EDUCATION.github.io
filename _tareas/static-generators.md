@@ -4,6 +4,8 @@ title: Construyendo Web Sites con un Generador estático
 permalink: generador-estatico
 classroom: https://classroom.github.com/a/IOBTV2l4
 date: 0000/05/01
+video: "8KwoKgYz85k"
+toc: true
 ---
 
 # {{ page.title}}
@@ -18,9 +20,9 @@ Para ello usaremos
 2. el generador de web sites estáticos Jekyll.
 3. La plantilla [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/) para Jekyll
 
-Al aceptar esta asignación se creará un repo con los archivos y carpetas necesarios para la generación de un web site usando Jekyll. En este primer web site deberás construir tu página personal en GitHub.
+Al aceptar esta asignación se creará un repo con los archivos y carpetas necesarios para la generación de un web site usando Jekyll. En este primer web site deberás construir tu página personal en GitHub y la publicarás en un repo con nombre `<usuario>/<usuario>.github.io`.
 
-Deberás también crear un segundo web site `<organization>/<organization>.github.io` para la organización que creaste en la tarea [Registrarse en GitHub]({{ site.baseurl }}/registrarse-en-github)  con una estructura similar a este web site conteniendo temas, tareas, comentarios, enlaces, etc. 
+Deberás también crear un segundo web site en un repo con nombre `<organization>/<organization>.github.io` para la organización que creaste en la tarea [Registrarse en GitHub]({{ site.baseurl }}/registrarse-en-github)  con una estructura similar a este web site conteniendo temas, tareas, comentarios, enlaces, etc. 
 
 ## Puesta a punto en CodeSpaces
 
@@ -77,10 +79,12 @@ bundle update
 bundle exec jekyll serve
 ```
 
-### Template para CodeSpaces
+### Como Configurar un Repo para usar Jekyll en CodeSpaces
 
 Ver el vídeo [GitHub Codespaces with GitHub Pages](https://youtu.be/8KwoKgYz85k) por 
 Jon Gallant
+
+{% include video-youtube.html %}
 
 
 ### Puesta a punto con GitPod 
