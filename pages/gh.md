@@ -839,16 +839,18 @@ This is a extension written in Node.js
 
 En las ocasiones en las que queremos cambiar los `scopes` de `GITHUB_TOKEN`
 
+You have to unset the GITHUB_TOKEN, otherwise gh cli will use it and skip auth
+
 ```sh
-# You have to unset the GITHUB_TOKEN, otherwise gh cli will use it and skip auth
 unset GITHUB_TOKEN
 
-# List of scopes: https://docs.github.com/en/developers/apps/building-oauth-apps/scopes-for-oauth-apps#available-scopes
 gh auth login --hostname 'github.com' --scopes 'read:org,repo,read:packages'
 token="$(gh config get -h github.com oauth_token)"
 
 export GITHUB_TOKEN="$token"
 ```
+
+List of scopes: <https://docs.github.com/en/developers/apps/building-oauth-apps/scopes-for-oauth-apps#available-scopes>
 
 ## References
 
