@@ -15,7 +15,7 @@ Primero instalamos las extensiones Docker y Remote Containers. Después pulsamos
 
 ![]({{ site.baseurl}}/assets/images/remote-containers/remote-containers-vscode-package.png)
 
-le indicamos la url del repositorio que aloja el contenedor:
+le indicamos la url del repositorio que aloja el contenedor, que en este ejemplo es <https://github.com/hegerdes/VSCode-LaTeX-Container>:
 
 ![]({{ site.baseurl}}/assets/images/remote-containers/clone-repository-from-github-in-a-container-volume.png)
 
@@ -27,7 +27,8 @@ Si todo va bien, después de un ratito tendremos el contenedor montado y estarem
 
 ![]({{ site.baseurl}}/assets/images/remote-containers/container-is-open.png)
 
-Este contenedor tiene una errata que se arregla arrancando una bash.
+Cuando abres una terminal observarás que este contenedor tiene una errata, pero que se arregla arrancando una bash.
+
 Una vez arrancada, podemos compilar con `pdflatex`:
 
 ![]({{ site.baseurl}}/assets/images/remote-containers/pdflatex-compiling.png)
