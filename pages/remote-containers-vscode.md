@@ -4,7 +4,7 @@ title: Usando Contenedores Remotos desde VSCode
 
 # {{ page.title }}
 
-En VSCode es posible clonar un contenedor remoto y emepzar a trabajar en el mismo.
+En VSCode es posible clonar un contenedor remoto y empezar a trabajar en el mismo.
 
 En este ejemplo usaremos el contenedor para $$\LaTeX$$ descrito en:
 
