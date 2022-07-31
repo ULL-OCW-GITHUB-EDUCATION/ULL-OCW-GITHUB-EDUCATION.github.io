@@ -23,6 +23,9 @@ un borrador para la memoria de TFM,
 un trabajo científico, 
 un trabajo de divulgación etc.
 
+## Usando Contenedores Remotos desde VSCode
+
+* [Usando Contenedores Remotos desde VSCode]({{ site.baseurl }}/pages/remote-containers-vscode)
 
 ## Entrega
 
@@ -38,6 +41,7 @@ Despliegue el repo en GitPod usando el botón GitPod. El contenedor/Docker/Máqu
 ## References
 
 * [hegerdes/VSCode-LaTeX-Container](https://github.com/hegerdes/VSCode-LaTeX-Container)
+  * Lee el post asociado [Getting started with LaTex as a Dev](https://henrikgerdes.me/articles/2022-01-vscode-latex)
 * [pandoc](https://pandoc.org/)
 * [GitHub Pages](https://pages.github.com/)
 * [TexLive Docs](https://www.tug.org/texlive/doc/texlive-en/texlive-en.html)

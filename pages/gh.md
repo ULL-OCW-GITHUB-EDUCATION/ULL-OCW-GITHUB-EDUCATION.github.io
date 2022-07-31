@@ -837,20 +837,64 @@ This is a extension written in Node.js
 
 ## Cambiando los permisos de GITHUB_TOKEN
 
-En las ocasiones en las que queremos cambiar los `scopes` de `GITHUB_TOKEN`
+En el contenedor de CodeSpaces tenemos `gh` instalada. 
+Tanto `gh`como CodeSpaces usan 
+la variable de entorno `GITHUB_TOKEN` para hacer uso de la API. 
+De hecho `GITHUB_TOKEN`  es una de las muchas [variables de entorno](https://cli.github.com/manual/gh_help_environment) que `gh` usa. Otras variables interesantes son `GH_REPO` y `GH_CONFIG_DIR`.
 
-You have to unset the GITHUB_TOKEN, otherwise gh cli will use it and skip auth
+Pero, por defecto, el token en `GITHUB_TOKEN` no tiene permisos suficientes 
+para acceder a otros repos distintos del de trabajo.
+
+Se plantea así el problema de cambiarle los permisos al token.
+
+En las ocasiones en las que queremos cambiar los `scopes` de `GITHUB_TOKEN` podemos proceder así:
+
+En primer lugar, tienes que desactivar `GITHUB_TOKEN`, de lo contrario `gh` cli lo usará y omitirá la autenticación
 
 ```sh
 unset GITHUB_TOKEN
+```
 
-gh auth login --hostname 'github.com' --scopes 'read:org,repo,read:packages'
+Después usaremos `gh auth login` para cambiar los scopes del per-host token `oauth_token` de `gh`.
+
+Las opciones que son interesantes de `gh auth login` son:
+
+1.  `-h`, `--hostname string` The hostname of the GitHub instance to authenticate with
+2.  `-s`, `--scopes strings`  Additional authentication scopes to request
+3.  `-w, --web`               Open a browser to authenticate
+
+Siempre podemos obtener el per-host oauth token así:
+
+```sh
+✗ gh config get -h github.com oauth_token
+gho_w-blah-blah-blah
+```
+
+o  bien accediendo directamente al fichero de configuración per-host de `gh`:
+
+```sh
+✗ ls -a ~/.config/gh/
+.          ..         config.yml hosts.yml
+✗ grep -i oauth ~/.config/gh/hosts.yml
+    oauth_token: gho_w-blah-blah-blah
+```
+
+Si queremos modificar los permisos del `oauth_token` deberemos hacer algo así:
+
+```sh
+gh auth login --hostname 'github.com' --scopes 'repo,admin:org,delete_repo,codespace,read:packages'
+```
+
+Podemos obtener el valor de este token y almacenarlo en una variable con:
+
+```sh
 token="$(gh config get -h github.com oauth_token)"
 
 export GITHUB_TOKEN="$token"
 ```
 
 List of scopes: <https://docs.github.com/en/developers/apps/building-oauth-apps/scopes-for-oauth-apps#available-scopes>
+
 
 ## References
 
