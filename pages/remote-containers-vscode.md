@@ -33,7 +33,7 @@ Una vez arrancada, podemos compilar con `pdflatex`:
 
 ![]({{ site.baseurl}}/assets/images/remote-containers/pdflatex-compiling.png)
 
-Es conveniente tener instaladas las extensiones [LateX WorkShop]() y [LaTeX Utilities]()
+Para trabajar con $$\LaTeX$$ es conveniente tener instaladas las extensiones [LateX WorkShop]() y [LaTeX Utilities]()
 
 ![]({{ site.baseurl}}/assets/images/remote-containers/latex-extensions-installed.png)
 
