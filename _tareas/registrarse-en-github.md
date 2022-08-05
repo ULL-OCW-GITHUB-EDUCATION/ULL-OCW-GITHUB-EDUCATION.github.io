@@ -58,4 +58,4 @@ Deja en el fichero README.md del repo de la asignación enlaces
 
 Publica también en el [foro](https://github.com/orgs/ULL-OCW-GITHUB-EDUCATION/discussions) los enlaces.
 
-Tanto si te han concedido los descuentos como si no, puedes proceder con la tarea [{{ page.next.title}}]({{ site.baseurl}}/{{ page.next.url }}). Obtener los descuentos no es necesario para poder hacer el resto de tareas.
+Tanto si te han concedido los descuentos como si no, puedes proceder con la tarea [{{ page.next.title}}]({{ site.baseurl}}/{{ page.next.url }}.html). Obtener los descuentos no es necesario para poder hacer el resto de tareas.
