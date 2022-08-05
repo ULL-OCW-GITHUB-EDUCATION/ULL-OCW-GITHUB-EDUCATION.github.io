@@ -118,6 +118,10 @@ origin  https://github.com/ULL-OCW-GITHUB-EDUCATION/construyendo-un-website-casi
 gh version 2.13.0 (2022-06-22)
 ```
 
+## Desplegando nuestro Web Site en Moodle
+
+Siga las instrucciones en el artículo [Importing a Website into Moodle](https://help.lafayette.edu/importing-a-website-into-moodle/)
+
 ## Ejercicio Adicional
 
 Cree un segundo web site dentro de la organización de su asignatura y despliéguelo en GitHub.
