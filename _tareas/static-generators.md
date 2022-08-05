@@ -120,7 +120,8 @@ gh version 2.13.0 (2022-06-22)
 
 ## Desplegando nuestro Web Site en Moodle
 
-Siga las instrucciones en el artículo [Importing a Website into Moodle](https://help.lafayette.edu/importing-a-website-into-moodle/)
+Siga las instrucciones en el artículo [Importing a Website into Moodle]({{site.baseurl}/pages/moodle.md)
+
 
 ## Ejercicio Adicional
 
