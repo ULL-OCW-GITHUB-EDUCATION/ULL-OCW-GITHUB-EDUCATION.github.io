@@ -23,4 +23,4 @@ It is possible to host a website within Moodle with the following instructions:
 
 ## References
 
-*   [Importing a Website into Moodl…](https://help.lafayette.edu/importing-a-website-into-moodle/)
+*   Here is the orginal article [Importing a Website into Moodle](https://help.lafayette.edu/importing-a-website-into-moodle/)
