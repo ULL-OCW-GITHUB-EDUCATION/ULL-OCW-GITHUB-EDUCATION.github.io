@@ -18,6 +18,11 @@ task :bw do
   sh "bundle exec jekyll build --future --drafts --watch"
 end
 
+desc "build for the ocw course"
+task :ocw do
+  sh "bundle exec jekyll build -b '/ocw/pluginfile.php/19489/mod_resource/content/3/_site'"
+end
+
 task :updatebundler do
   sh "bundle update --bundler"
 end
