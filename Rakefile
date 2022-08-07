@@ -8,7 +8,7 @@ task :serve do
   sh "bundle exec jekyll serve --future --watch --drafts --host 0.0.0.0 --port 8084"
 end
 
-desc "stop the server"
+desc "Stop jekyll running server"
 task :stop do
   sh "ps aux |grep jekyll |awk '{print $2}' | xargs kill -9"
 end
@@ -18,7 +18,7 @@ task :bw do
   sh "bundle exec jekyll build --future --drafts --watch"
 end
 
-desc "build for the ocw course"
+desc "build for the ocw course. Run 'rake stop' first"
 task :ocw do
   sh "rm _site.zip"
   sh "bundle exec jekyll build -b '/ocw/pluginfile.php/19489/mod_resource/content/3/_site'"
