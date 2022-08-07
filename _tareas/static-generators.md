@@ -20,9 +20,11 @@ Para ello usaremos
 2. el generador de web sites estáticos Jekyll.
 3. La plantilla [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/) para Jekyll
 
-Al aceptar esta asignación se creará un repo con los archivos y carpetas necesarios para la generación de un web site usando Jekyll. En este primer web site deberás construir tu página personal en GitHub y la publicarás en un repo con nombre `<usuario>/<usuario>.github.io`.
+Al aceptar esta asignación se creará un repo con los archivos y carpetas necesarios para la generación de un web site usando Jekyll. 
 
-Deberás también crear un segundo web site en un repo con nombre `<organization>/<organization>.github.io` para la organización que creaste en la tarea [Registrarse en GitHub]({{ site.baseurl }}/registrarse-en-github)  con una estructura similar a este web site conteniendo temas, tareas, comentarios, enlaces, etc. 
+1. En este primer web site deberás construir tu página personal en GitHub y la publicarás en un repo con nombre `<usuario>/<usuario>.github.io`.
+2. Deberás también crear un segundo web site en un repo con nombre `<organization>/<organization>.github.io` para la organización que creaste en la tarea [Registrarse en GitHub]({{ site.baseurl }}/registrarse-en-github)  con una estructura similar al  web site de este curso conteniendo temas, tareas, comentarios, enlaces, etc. 
+3. Deberás alojar todo el HTML generado en el paso anterior en el Moodle de tu asignatura siguiendo las instrucciones en la sección [Desplegando el Web Site de la Asignatura en Moodle]()
 
 ## Puesta a punto en CodeSpaces
 
@@ -118,14 +120,14 @@ origin  https://github.com/ULL-OCW-GITHUB-EDUCATION/construyendo-un-website-casi
 gh version 2.13.0 (2022-06-22)
 ```
 
-## Desplegando nuestro Web Site en Moodle
+## Web Site de tu Asignatura
+
+Crea un segundo web site dentro de la organización de la asignatura y despliégalo en GitHub.
+
+## Desplegando el Web Site de la Asignatura en Moodle
 
 Siga las instrucciones en el artículo [Importing a Website into Moodle]({{site.baseurl}}/pages/moodle.html)
 
-
-## Ejercicio Adicional
-
-Cree un segundo web site dentro de la organización de su asignatura y despliéguelo en GitHub.
 
 ## Entrega
 
