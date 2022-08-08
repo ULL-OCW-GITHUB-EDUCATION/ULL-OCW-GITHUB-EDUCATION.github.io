@@ -12,17 +12,15 @@ toc: true
 
 This is a common problem between different Jekyll environments.
 
-### Some explanations
-
 We need to understand `site.url` and `site.baseurl` and in which situation we need them. Those variables don't serve the same purpose.
 
-#### `site.url`
+## `site.url`
 
 By default, this variable is only used in page head for the `canonical` header and the `RSS link`. It's also used in the xml feed to point to site resources as the software that will manage this feed doesn't know resource's urls.
 
 This variable is only necessary for external systems.
 
-#### `site.baseurl`
+## `site.baseurl`
 
 This variable indicates the root folder of your Jekyll site. By default it is set to `""` (empty string). That means that your Jekyll site is at the root of `http://example.com`.
 
@@ -38,19 +36,19 @@ that can also be :
     <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
     
 
-### Working in different environments
+## Working in different environments
 
 Now you have to test your site locally and to deploy it in production. Sometimes, the `baseurl` is different and the `jekyll build` may not work out of the box in one of those environment.
 
 Here we have two solutions :
 
-#### Use `jekyll serve`
+## Use `jekyll serve`
 
 Let's imagine that your site lives in a github repository and is served at `https://username.github.io/myProject`.
 
 You can setup the `baseurl` to `/myProject`. and test your site locally with `jekyll serve`, your site will be served at `http://127.0.0.1:4000/myProject/`
 
-#### Use multiple configuration files
+## Use multiple configuration files
 
 If, for one reason or another, you cannot use `jekyll serve`, you can set a configuration file for both environment and `jekyll build` depending on where you are deploying.
 
