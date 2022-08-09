@@ -4,6 +4,7 @@ title: GitHub Command Line Extensions for Education
 permalink:  gh-cli-for-education
 classroom: https://classroom.github.com/a/Plohp5Ra
 date: 0000/07/01
+toc: true
 ---
 
 # {{ page.title}}
@@ -40,5 +41,6 @@ Reproduzca los ejemplos en la sección [evaluación asistida desde la línea de 
 
 ## Referencias
 
+* TFG de Cristo Garcia González [Github cli extensions for the github education community. Herramientas para la automatización de los flujos de trabajo del docente que usa github](http://riull.ull.es/xmlui/handle/915/29410)
 * [Awesome Github CLI Extensions ![Awesome](https://awesome.re/badge.svg)](https://github.com/kodepandai/awesome-gh-cli-extensions)
 * [claro](https://github.com/emersonmello/claro)
