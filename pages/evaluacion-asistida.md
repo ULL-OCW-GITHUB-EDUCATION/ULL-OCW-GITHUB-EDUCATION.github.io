@@ -416,6 +416,11 @@ o bien ordenarlos:
 [{"diskUsage":45756,"name":"static-generator-juan-alberto-cabrera-garcia-alu0100360912-"},{"diskUsage":45240,"name":"static-generator-noelia-rodriguez-hernandez-alu0100595420"}]
 ```
 
+## Extensión `gh-edu-plagiarism`
+
+Véase [gh-edu-plagiarism](https://github.com/gh-cli-for-education/gh-edu-plagiarism)
+realizada en el [TFG de Cristo García González](http://riull.ull.es/xmlui/handle/915/29410)
+
 ## Referencias
 
 {% include references-gh.md %}
