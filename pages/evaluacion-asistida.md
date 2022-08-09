@@ -11,7 +11,7 @@ evaluación  usando `gh`. Se asume un lector familiarizado con el uso de la term
 
 ## Alias cd
 
-The `gh` environment variable `GH_REPO` specifies the GitHub repository in the `[HOST/]OWNER/REPO` format for commands that otherwise operate on a local repository. It can be used also to get the default `OWNER`and consequently the default organization. However this solution is not persistent enough and it is better to have it stored permanently. 
+The `gh` environment variable `GH_REPO` specifies the GitHub repository in the `[HOST/]OWNER/REPO` format for commands that otherwise operate on a local repository. It can be used also to get the default `OWNER`and consequently the default organization. However this solution is not persistent enough for the daily work of a github education teacher and it is better to have it stored permanently. 
 
 Currently I use this alias to save the default organization:
 
@@ -35,6 +35,8 @@ Ejemplo:
 ➜  ocw git:(main) ✗ gh pwd
 ULL-MFP-AET-2122
 ```
+
+all the gh extensions I have wrote are consistent with these alias. 
 
 ## `gh org-browse`: Comprobando la asistencia y participación de los alumnos via los commits
 
