@@ -38,7 +38,7 @@ ULL-MFP-AET-2122
 
 all the gh extensions I have wrote are consistent with these alias. 
 
-## `gh org-browse`: Comprobando la asistencia y participación de los alumnos via los commits
+## Extension `gh org-browse`: Comprobando la asistencia y participación de los alumnos via los commits
 
 ```
 gh org-browse-repo -h             
@@ -84,7 +84,7 @@ La siguiente imagen muestra una ventana con tantas pestañas como prácticas ent
 
 ![]({{ site.baseurl }}/assets/images/gh-org-browse-students-activity.png)
 
-## `gh submodule-add`: Creando un super-repo con todos los repos de la práctica:
+## Extension `gh submodule-add`: Creando un super-repo con todos los repos de la práctica:
  
 
 ```
