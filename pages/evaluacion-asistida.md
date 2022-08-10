@@ -9,7 +9,7 @@ Las siguientes secciones muestran *scripts* que facilitan las labores de retroal
 evaluación  usando `gh`. Se asume un lector familiarizado con el uso de la terminal.
 
 
-## Alias cd
+## Alias cd y pwd
 
 The `gh` environment variable `GH_REPO` specifies the GitHub repository in the `[HOST/]OWNER/REPO` format for commands that otherwise operate on a local repository. It can be used also to get the default `OWNER`and consequently the default organization. However this solution is not persistent enough for the daily work of a github education teacher and it is better to have it stored permanently. 
 
@@ -19,8 +19,6 @@ Currently I use this alias to save the default organization:
 ➜  ocw git:(main) ✗ gh alias list | grep cd
 cd:	!gh config set current-org "$1" 2>/dev/null
 ```
-
-## Alias pwd 
 
 Currently I use this alias to recover the default organization:
 
@@ -37,6 +35,8 @@ ULL-MFP-AET-2122
 ```
 
 all the gh extensions I have wrote are consistent with these alias. 
+
+In the future `gh cd` may accept a GitHub file in the form `[HOST/]OWNER/REPO/path/file` format to be used  for other gh-extensions to get the default host, default, organization, defaul repo, default path and default file. The call `gh pwd owner`  returns the default organization. `gh pwd repo` the default repo, etc.
 
 ## Extension `gh org-browse`: Comprobando la asistencia y participación de los alumnos via los commits
 
