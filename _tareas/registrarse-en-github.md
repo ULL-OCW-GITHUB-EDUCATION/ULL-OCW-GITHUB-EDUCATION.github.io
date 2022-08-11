@@ -11,11 +11,28 @@ video: mtsyHWUFXjQ
 
 # {{ page.title }}
 
-## Fundamentos
+## Introducción
+
+Bienvenido a la Organización GitHub del curso OCW de la Universidad de La Laguna **[INTEGRACIÓN DE LAS HERRAMIENTAS "GITHUB EDUCATION" EN EL AULA](https://campusvirtual.ull.es/ocw/course/view.php?id=136)** 
+
+Este curso va dirigido a cualquier educador de habla hispana interesado en desarrollar su labor haciendo usando de los recursos, herramientas, servicios y metodologías que están asociados al  programa **Github Education**.
+
+Para seguir el curso trabaja los [Contenidos](https://ull-ocw-github-education.github.io/index.html) en los [Apuntes](https://ull-ocw-github-education.github.io/) y acepta cada una de las asignaciones de las tareas ✍️ asociadas,  dejando tu informe con los resultados en el repositorio, que será creado cuando aceptes, dentro dentro de esta misma organización. Si te animas, utilizando las incidencias puedes solicitar comentarios a los profesores y restantes miembros de la organización.
+
+Haz tus preguntas en el [foro de discusiones de la organización](https://github.com/orgs/ULL-OCW-GITHUB-EDUCATION/discussions). Para más instrucciones sobre los debates puedes leer la documentación en [GitHub Debates](https://docs.github.com/es/discussions)
+
+En este enlace encontrarás la [guía docente](https://ull-ocw-github-education.github.io/assets/pdfs/anexo_2_guia_docente_rellena_v3.pdf) del curso.
+
+
+## Fundamentos: Que es el Control de los Fuentes
 
 Este video comparte una descripción general de alto nivel de qué es el control de código fuente, por qué es útil, qué opciones existen y recorre el flujo básico de los sistemas comunes de control de código fuente
 
 {% include video-youtube.html %}
+
+Si eres totalmente nuevo en esto de Git y GitHub, GitHub tiene montado un curso para enseñar a usar Git y GitHub que, como hace este mismo curso, usa GitHub Classroom para las asignaciones. 
+Si te animas a hacerlo, este es el enlace a la asignación classroom que creará tu repo de trabajo: [Teacher training to master Git and GitHub](https://classroom.github.com/assignment-invitations/5fcbfd62a2c37aca3fe728a635964eaf).
+
 
 ## Objetivos
 
