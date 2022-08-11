@@ -1,0 +1,12 @@
+Ahora abre el navegador en la tarea 
+  "Bienvenido al curso OCW de la de la Universidad de La Laguna INTEGRACIÓN DE LAS HERRAMIENTAS “GITHUB EDUCATION” EN EL AULA"
+
+   https://campusvirtual.ull.es/ocw/course/modedit.php?update=10766&return=0&sr=0
+
+y ve a la configuración de la tarea.
+
+Sigue las instrucciones en: 
+
+  https://ull-ocw-github-education.github.io/pages/moodle.html
+
+para actualizar el site.

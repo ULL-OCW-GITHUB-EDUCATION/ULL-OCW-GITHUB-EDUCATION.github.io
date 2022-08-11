@@ -1,15 +1,36 @@
 ---
 toc: true
-title: Automatizando las labores de Evaluación con **gh**
+title: Automatizando las labores de Evaluación
 ---
 
 # {{ page.title }}
+
+## Automatizando las labores de Evaluación con GitHub Classroom
+
+GitHub Classroom (GHC) ofrece la opción, llamada "autograding", para aplicar pruebas automatizadas a las entregas de los estudiantes. Se basa en  las *GitHub Actions*.
+
+There are limits on GH actions usage with GH Free. The most
+important is that each execution of workflow consumes processor
+time. 
+
+Students get their own “clone” of the template repository specified
+in the GHC assignment, however it is not a clone in the usual sense.
+If the instructor changes the template, students who have already
+accepted the invite cannot just issue a pull and expect to see the
+changes. There is not direct connection between their repo and
+the original template. The only recourse seems to be to distribute
+the changes separately and have the students incorporate them
+manually. Students who accept the invite after the changes are
+made do see the changes however.
+
+
+## Automatizando las labores de Evaluación con gh
 
 Las siguientes secciones muestran *scripts* que facilitan las labores de retroalimentación y
 evaluación  usando `gh`. Se asume un lector familiarizado con el uso de la terminal.
 
 
-## Alias cd y pwd
+### Alias cd y pwd
 
 The `gh` environment variable `GH_REPO` specifies the GitHub repository in the `[HOST/]OWNER/REPO` format for commands that otherwise operate on a local repository. It can be used also to get the default `OWNER`and consequently the default organization. However this solution is not persistent enough for the daily work of a github education teacher and it is better to have it stored permanently. 
 
@@ -38,7 +59,7 @@ all the gh extensions I have wrote are consistent with these alias.
 
 In the future `gh cd` may accept a GitHub file in the form `[HOST/]OWNER/REPO/path/file` format to be used  for other gh-extensions to get the default host, default, organization, defaul repo, default path and default file. The call `gh pwd owner`  returns the default organization. `gh pwd repo` the default repo, etc.
 
-## Extension `gh org-browse`: Comprobando la asistencia y participación de los alumnos via los commits
+### Extension `gh org-browse`: Comprobando la asistencia y participación de los alumnos via los commits
 
 ```
 gh org-browse-repo -h             
@@ -84,7 +105,7 @@ La siguiente imagen muestra una ventana con tantas pestañas como prácticas ent
 
 ![]({{ site.baseurl }}/assets/images/gh-org-browse-students-activity.png)
 
-## Extension `gh submodule-add`: Creando un super-repo con todos los repos de la práctica:
+### Extension `gh submodule-add`: Creando un super-repo con todos los repos de la práctica:
  
 
 ```
@@ -154,7 +175,7 @@ aprender-markdown-alejandro-gonzalez-gonzalez-alu0100879902 aprender-markdown-ne
 aprender-markdown-alejandro-gonzalez-sarasola-alu0100260076
 ```
 
-## Determinando que alumno tiene el informe con mayor número de líneas
+### Determinando que alumno tiene el informe con mayor número de líneas
 
 Ahora podemos usar el comando `foreach` de `git submodule` usand `wc` (word count) 
 para averiguar que alumno tiene  el fichero `README.md` mas grande:
@@ -204,7 +225,7 @@ Entrando aprender-markdown-adela-gonzalez-maury-alu0101116204 57 130 1587 README
 Entrando aprender-markdown-nestor-gonzalez-lopez-alu0100108859 61 142 1419 README.md
 ```
 
-## Abriendo pestañas en cada uno de los proyectos de los alumnos.
+### Abriendo pestañas en cada uno de los proyectos de los alumnos.
 
 Estando en el super-repo, abrimos primero una nueva ventana en el navegador por defecto y ...
 
@@ -215,7 +236,7 @@ git submodule foreach 'gh browse'
 esto nos abrirá tantas pestañas como repos de alumnos haya en el super-repo. 
 ¡Tenga cuidado si tiene 200 alumnos!
 
-## Generando retroalimentación
+### Generando retroalimentación
 
 Usamos un programa que haga un diagnóstico de la calidad del trabajo. 
 En este  ejemplo se trata de mirar la calidad del markdown que ha escrito el alumno.
@@ -238,7 +259,7 @@ y creamos  incidencias para cada uno de los alumnos enviando el informe generado
 $ git submodule foreach 'gh issue create -F issues.txt'
 ```
 
-## gh org-members
+### gh org-members
 
 ```
 ➜  markdown git:(master) ✗ gh org-members -h
@@ -318,7 +339,7 @@ Puede fusionar los resultados de la información de la API de GitHub con la info
 - Cuando se usa `-c`, puede ir seguido de cualquier lista de nombres de campo que ocurra en el archivo `.csv`.
 - El archivo `.csv` debe tener una columna llamada `login` con el nombre de inicio de sesión en Github de los miembros de la organización
 
-## gh-activity Nº de commits etc.
+### gh-activity Nº de commits etc.
 
 Véase  [gh-cli-for-education/git-developer-contribution-analysis](https://github.com/gh-cli-for-education/git-developer-contribution-analysis) que es un fork del repo de @bloombar @jayamundra. 
 
@@ -363,7 +384,7 @@ it produces the following output. Commas are missed among repos reports:
 ... etc.
 ```
 
-## Repository sizes in a GH Classroom organization 
+### Repository sizes in a GH Classroom organization 
 
 See the Global Campus Teachers Discussion [97](https://github.com/community/Global-Campus-Teachers/discussions/97): 
 
@@ -416,7 +437,7 @@ o bien ordenarlos:
 [{"diskUsage":45756,"name":"static-generator-juan-alberto-cabrera-garcia-alu0100360912-"},{"diskUsage":45240,"name":"static-generator-noelia-rodriguez-hernandez-alu0100595420"}]
 ```
 
-## Extensión `gh-edu-plagiarism`
+### Extensión `gh-edu-plagiarism`
 
 Véase [gh-edu-plagiarism](https://github.com/gh-cli-for-education/gh-edu-plagiarism)
 realizada en el [TFG de Cristo García González](http://riull.ull.es/xmlui/handle/915/29410)
