@@ -18,13 +18,13 @@ toc: true
 
 ## Instrucciones
 
-Lea el artículo
+* Crea una asignación Individual GHC 
+* Crea una asignación de grupo GHC
+
+Te será útil leer el artículo
 
 * [GitHub in the Classroom: Lessons Learnt]({{ site.baseurl}}/assets/pdfs/github-in-the-classroom-lessons-learnt.pdf) por Yu-Cheng Tu, Valerio Terragni, Ewan Tempero, Asma Shakil,
 Andrew Meads, Nasser Giacaman, Allan Fowler, Kelly Blincoe. University of Auckland, [The Australasian Computing Education Conference](https://aceconference.wordpress.com/previous-conferences/), February 14–18, 2022, Virtual Event, Australia
-
-* Crea una asignación Individual GHC 
-* Crea una asignación de grupo GHC
 
 
 ## Referencias
