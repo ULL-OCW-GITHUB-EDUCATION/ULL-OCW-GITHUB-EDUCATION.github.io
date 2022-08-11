@@ -1,10 +1,10 @@
 <nav>
   <ul>
     {% if page.previous %}  
-    <li><a href="{{ site.baseurl }}/{{page.previous.url}}.html" title="Previous">&#x2190;</a></li>
+    <li><a href="{{ site.baseurl }}{{page.previous.url}}.html" title="Previous">&#x2190;</a></li>
     {% endif %}
     {% if page.next %}
-    <li><a href="{{ site.baseurl }}/{{page.next.url}}.html" title="Next">&#x2192;</a></li>
+    <li><a href="{{ site.baseurl }}{{page.next.url}}.html" title="Next">&#x2192;</a></li>
     {% endif %}
     <li><a href="{{site.baseurl}}/search" title="buscar">&#x1F50D;</a></li>
 
