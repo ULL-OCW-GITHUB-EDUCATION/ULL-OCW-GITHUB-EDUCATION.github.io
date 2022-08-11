@@ -12,7 +12,7 @@
     -->
    
     {%- for practica in site.tareas -%}
-      <span class="credits left"> &nbsp; <a href="{{ site.baseurl}}{{ practica.url }}.html"><button class="assign">{{ practica.title | truncate: 14 }}</button></a></span>
+      <span class="credits left"> &nbsp; <a href="{{ site.baseurl}}{{ practica.url }}.html" title="{{ practica.title }}"><button class="assign">{{ practica.title | truncate: 12 }}</button></a></span>
     {%- endfor -%}
 
 </div>

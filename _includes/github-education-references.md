@@ -1,5 +1,6 @@
 * [GitHub in the Classroom: Lessons Learnt]({{ site.baseurl}}/assets/pdfs/github-in-the-classroom-lessons-learnt.pdf) por Yu-Cheng Tu, Valerio Terragni, Ewan Tempero, Asma Shakil,
 Andrew Meads, Nasser Giacaman, Allan Fowler, Kelly Blincoe. University of Auckland, [The Australasian Computing Education Conference](https://aceconference.wordpress.com/previous-conferences/), February 14–18, 2022, Virtual Event, Australia
+* [How I Teach GitHub with GitHub: Spotlight](https://youtu.be/6cN1RZR53qQ). 26 May 2022  In this lightning talk Sathish, an educator from India  shares his experience of teaching with GitHub.
 * [GitHub Official Docs on Education](https://docs.github.com/en/free-pro-team@latest/education)
 * [Curso de Formación: Gestión de la tarea docente con Github](https://www.youtube.com/playlist?list=PLQg_Bl-6Gfo9k0KQg5vaaV9r6Hg--nMA7) por Pedro Prieto. Lista de Videos en YouTube
 * [Artículo Integración de las herramientas "Github Education" en el aula](https://riull.ull.es/xmlui/handle/915/9660) RIULL

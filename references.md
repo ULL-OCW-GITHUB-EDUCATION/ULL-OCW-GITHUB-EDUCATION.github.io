@@ -34,3 +34,5 @@ toc: true
 * <a href="https://theory.stanford.edu/~aiken/moss/" target="_blank" rel="noopener noreferrer">moss</a>
 * <a href="http://lightonphiri.org/blog/student-programming-plagiarism-dectection-using-moss" target="_blank" rel="noopener noreferrer">Student Programming Plagiarism Dectection Using Moss</a>
 * <a href="http://turnitin.com/es/" target="_blank" rel="noopener noreferrer">turnitin</a>
+* [gh-edu-plagiarism](https://github.com/gh-cli-for-education/gh-edu-plagiarism)
+realizada en el [TFG de Cristo García González](http://riull.ull.es/xmlui/handle/915/29410)
