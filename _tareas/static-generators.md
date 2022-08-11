@@ -131,7 +131,9 @@ Siga las instrucciones en el artículo [Importing a Website into Moodle]({{site.
 
 ## Entrega
 
-Deja en el fichero `README.md` de este repositorio los enlaces a tu página web en GitHub y a la web de tu asignatura. Publica en el foro los enlaces.
+Deja en el fichero `README.md` de este repositorio los enlaces a tu página web en GitHub y a la web de tu asignatura. Si tienes acceso a un curso Moodle despliega tu web site de la asignatura en el curso Moodle.
+
+Publica en el foro los enlaces.
 
 ## References
 

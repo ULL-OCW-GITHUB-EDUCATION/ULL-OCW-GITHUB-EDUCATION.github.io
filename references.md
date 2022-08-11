@@ -16,6 +16,10 @@ toc: true
 
 {% include jekyll-references.md %}
 
+## GitHub Cli: gh
+
+{% include references-gh.md  %}
+
 ## $$\LaTeX$$
 
 {% include latex-references.md %}

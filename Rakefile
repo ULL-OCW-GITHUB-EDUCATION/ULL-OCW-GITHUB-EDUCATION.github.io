@@ -24,6 +24,7 @@ task :ocw do
   sh "rm _site.zip"
   sh "bundle exec jekyll build -b '/ocw/pluginfile.php/19489/mod_resource/content/3/_site'"
   sh "zip -r _site.zip _site"
+  sh "cat instructions.txt"
 end
 
 task :updatebundler do
