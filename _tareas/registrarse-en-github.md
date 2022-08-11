@@ -6,9 +6,18 @@ myurl: https://campusdoctoradoyposgrado.ull.es/mod/assign/view.php?id=282455&for
 permalink: registrarse-en-github
 classroom: https://classroom.github.com/a/q1VkdRLM
 date: 0000/01/01
+video: mtsyHWUFXjQ
 ---
 
 # {{ page.title }}
+
+## Fundamentos
+
+Este video comparte una descripción general de alto nivel de qué es el control de código fuente, por qué es útil, qué opciones existen y recorre el flujo básico de los sistemas comunes de control de código fuente
+
+{% include video-youtube.html %}
+
+## Objetivos
 
 En esta tarea deberás 
 
@@ -59,3 +68,4 @@ Deja en el fichero README.md del repo de la asignación enlaces
 Publica también en el [foro](https://github.com/orgs/ULL-OCW-GITHUB-EDUCATION/discussions) los enlaces.
 
 Tanto si te han concedido los descuentos como si no, puedes proceder con la tarea [{{ page.next.title}}]({{ site.baseurl}}/{{ page.next.url }}.html). Obtener los descuentos no es necesario para poder hacer el resto de tareas.
+
