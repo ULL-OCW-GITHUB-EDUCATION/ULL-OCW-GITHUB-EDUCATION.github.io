@@ -30,9 +30,9 @@ Este video comparte una descripción general de alto nivel de qué es el control
 
 {% include video-youtube.html %}
 
-Si eres totalmente nuevo en esto de Git y GitHub, GitHub tiene montado un curso para enseñar a usar Git y GitHub que, como hace este mismo curso, usa GitHub Classroom para las asignaciones. 
-Si te animas a hacerlo, este es el enlace a la asignación classroom que creará tu repo de trabajo: [Teacher training to master Git and GitHub](https://classroom.github.com/assignment-invitations/5fcbfd62a2c37aca3fe728a635964eaf).
-
+Si eres totalmente nuevo en esto de Git y GitHub,es conveniente que no te saltes el capítulo 
+[Curso de Capacitación para Profesores para Dominar Git y GitHub]({{ site.baseurl }}/teacher-training.html). 
+En el mismo tendrás la oportunidad de profundizar en el manejo del control de fuentes.
 
 ## Objetivos
 
