@@ -15,6 +15,28 @@ video: mtsyHWUFXjQ
 
 Bienvenido a la Organización GitHub del curso OCW de la Universidad de La Laguna **[INTEGRACIÓN DE LAS HERRAMIENTAS "GITHUB EDUCATION" EN EL AULA](https://campusvirtual.ull.es/ocw/course/view.php?id=136)** 
 
+Git es el Sistema de Control de Versiones (VCS) más popular.
+En la encuesta Stack Overflow de 2021, se comenta que más del 93% de los desarrolladores profesionales
+usa Git. El uso creciente de Git es cada vez más frecuente en cursos universitarios y en la formación profesional. En este contexto, el servicio de hosting GitHub (GH) y su producto para la educación GitHub Classroom (GHC) son cada vez mas populares en el ámbito de la enseñanza.
+
+El uso de VCS ofrece una serie de beneficios para apoyar la enseñanza,
+como 
+
+1. la distribución de material didáctico, 
+2. apoyo a la evaluación, 
+3. desarrollo colaborativo
+
+
+El aprendizaje de Sistemas de Control de Versiones se ha simplificado en parte por el  
+soporte colaborativo basado en la nube proveído por servicios como GH, GitLab y Bitbucket.
+
+Estos servicios basados ​​en la nube ofrecen productos y soporte gratuitos
+para profesores y estudiantes para fomentar la adopción de Git. 
+
+* GitLab tiene GitLab para la Educación
+* Bitbucket/Atlassian ofrece Bitbucket Education para estudiantes desarrolladores
+* GH, a través de GH Education, ofrece GHC y el paquete de desarrollo para estudiantes de GH. 
+
 Este curso va dirigido a cualquier educador de habla hispana interesado en desarrollar su labor haciendo usando de los recursos, herramientas, servicios y metodologías que están asociados al  programa **Github Education**.
 
 Para seguir el curso trabaja los [Contenidos](https://ull-ocw-github-education.github.io/index.html) en los [Apuntes](https://ull-ocw-github-education.github.io/) y acepta cada una de las asignaciones de las tareas ✍️ asociadas,  dejando tu informe con los resultados en el repositorio, que será creado cuando aceptes, dentro dentro de esta misma organización. Si te animas, utilizando las incidencias puedes solicitar comentarios a los profesores y restantes miembros de la organización.
@@ -24,7 +46,7 @@ Haz tus preguntas en el [foro de discusiones de la organización](https://github
 En este enlace encontrarás la [guía docente](https://ull-ocw-github-education.github.io/assets/pdfs/anexo_2_guia_docente_rellena_v3.pdf) del curso.
 
 
-## Fundamentos: Que es el Control de los Fuentes
+## Fundamentos: Que es el Control de los Fuentes (VCS)
 
 Este video comparte una descripción general de alto nivel de qué es el control de código fuente, por qué es útil, qué opciones existen y recorre el flujo básico de los sistemas comunes de control de código fuente
 
