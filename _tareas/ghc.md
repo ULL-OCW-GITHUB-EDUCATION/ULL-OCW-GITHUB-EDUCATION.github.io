@@ -104,9 +104,6 @@ Una solución equivalente a la anterior es hacer que todas las asignaciones indi
 
 <img src="assets/images/github-classroom-group-assignment-naming-scheme.png" width="70%"/>
 
-## El Problema de Identificar Rápidamente a los alumnos
-
-
 ## Branch Protection
 
 En cursos donde los estudiantes trabajan en equipos y todos los miembros del equipo
