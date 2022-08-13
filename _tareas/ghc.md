@@ -100,7 +100,7 @@ Sin embargo, hay varios problemas:
 ### Segunda Solución: Asignaciones de Grupos 
 
 Una solución equivalente a la anterior es hacer que todas las asignaciones individuales sean asignaciones de un grupo de tamaño uno e instruir al alumno para que cuando cree el grupo individual siga el esquema 
-`nombre-apellidos-identificador`. Una vez creado ese conjunto de equipos será utilizado para el resto de tareas individuales del curso. La siguiente imagen muestra cuan sencillo es así obtener las tareas de un a.umno si se recuerda el nombre o los apellidos del alumno o se dispone de su identificador:
+`nombre-apellidos-identificador`. Una vez creado ese conjunto de equipos será utilizado para el resto de tareas individuales del curso. La siguiente imagen muestra cuan sencillo es así obtener las tareas de un alumno si se recuerda el nombre o los apellidos del alumno o se dispone de su identificador:
 
 <img src="assets/images/github-classroom-group-assignment-naming-scheme.png" width="70%"/>
 
