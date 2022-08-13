@@ -48,7 +48,9 @@ hacer `git push` a menudo.
 Hay una serie de opciones para que los profesores evalúen los repositorios.
 
 Siempre que los instructores tengan acceso, es posible
-clonar el repositorio de cada estudiante con alguna herramienta como [`gh org-clone -s iaas -n ULL-ESIT-DMSI-1920`](https://github.com/gh-cli-for-education/gh-org-clone) o mejor [`gh submodule-add -C -o ULL-MFP-AET-2122 -s latex-markdown -r 'marrero|maury|coell'`](https://github.com/crguezl/gh-submodule-add).
+clonar el repositorio de cada estudiante con alguna herramienta como 
+[`gh org-clone -s iaas -n ULL-ESIT-DMSI-1920`](https://github.com/gh-cli-for-education/gh-org-clone)
+o mejor [`gh submodule-add -C -o ULL-MFP-AET-2122 -s latex-markdown -r 'marrero|maury|coell'`](https://github.com/crguezl/gh-submodule-add).
 
 La ventaja de `gh submodule-add` es que permite facilmente realizar con un sólo comando acciones sobre todos los repos de los alumnos usando `gh submodule foreach` (por ejemplo actualizarlos)
 
