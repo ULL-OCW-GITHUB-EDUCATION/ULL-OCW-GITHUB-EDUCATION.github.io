@@ -54,6 +54,19 @@ o mejor [`gh submodule-add -C -o ULL-MFP-AET-2122 -s latex-markdown -r 'marrero|
 
 La ventaja de `gh submodule-add` es que permite facilmente realizar con un sólo comando acciones sobre todos los repos de los alumnos usando `gh submodule foreach` (por ejemplo actualizarlos)
 
+### Calificación Automática con GHC: autograding
+
+GHC ofrece la opción, llamada *autograding*, que permite aplicar pruebas automatizadas a los envíos de los estudiantes. Esto lo hace añadiendo al repo del estudiante GitHub Actions de manera que cada vez que el estudiante ejecuta un `push` se ejecutan las pruebas. 
+
+En estos casos, lo habitual es que el profesor recicle las pruebas que tenga y las añada al template proporcionado y especifique en la asignación el lenguaje de las pruebas y como estas se ejecutarán. La figura muestra un caso para una asignación en la que el alumno desarrolla con node:
+
+![]({{ site.baseurl }}assets/images/github-classroom-specify-autograding.png)
+
+Esto no solo permite una guía mas cerrada y desacoplada 
+con una evaluación “formativa”,
+aumentando las posibilidades de que los estudiantes se ajusten a lo solicitado.
+
+Además, los profesores también pueden añadir mediante un script en la fase de evaluación pruebas privadas no publicadas en sus clones/submódulos de los repositorios de estudiantes que darán lugar a la calificación final.
 
 ## Instrucciones para la Tarea
 
