@@ -38,6 +38,20 @@ enlace de invitación (URL)
 6. Los estudiantes completan el trabajo en el repo creado
 7. Los profesores  tienen acceso completo a todos los repositorios y pueden dar retroalimentación al alumno y evaluarle
 
+## Evaluación con GHC
+
+El uso de Git, GitHub y GHC abre posibilidades de cómo el proceso de evaluación
+puede llevarse a cabo. Es importante que el estudiante mantenga
+su repositorio remoto actualizado. Es necesario recordarles a los estudiantes la conveniencia de 
+hacer `git push` a menudo.
+
+Hay una serie de opciones para que los profesores evalúen los repositorios.
+
+Siempre que los instructores tengan acceso, es posible
+clonar el repositorio de cada estudiante con alguna herramienta como [`gh org-clone -s iaas -n ULL-ESIT-DMSI-1920`](https://github.com/gh-cli-for-education/gh-org-clone) o mejor [`gh submodule-add -C -o ULL-MFP-AET-2122 -s latex-markdown -r 'marrero|maury|coell'`](https://github.com/crguezl/gh-submodule-add).
+
+La ventaja de `gh submodule-add` es que permite facilmente realizar con un sólo comando acciones sobre todos los repos de los alumnos usando `gh submodule foreach` (por ejemplo actualizarlos)
+
 
 ## Instrucciones para la Tarea
 
