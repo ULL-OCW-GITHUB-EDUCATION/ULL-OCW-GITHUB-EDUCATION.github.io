@@ -22,7 +22,7 @@ En este capítulo aprenderemos:
 
 ## Introducción a GitHub Classroom
 
-Lea el capítulo [GitHub Classroom para Profesores]({{ site.baseurl}}/pages/github-classroom.html) 
+Para poder llevar a cabo la tarea de crear un classroom y hacer las asignaciones deberás leer con detenimiento el capítulo [GitHub Classroom para Profesores]({{ site.baseurl}}/pages/github-classroom.html) 
 de estos apuntes 
 
 
