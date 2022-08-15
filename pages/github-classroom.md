@@ -233,3 +233,6 @@ aumentando las posibilidades de que los estudiantes se ajusten a lo solicitado.
 
 Además, los profesores también pueden añadir mediante un script en la fase de evaluación pruebas privadas no publicadas en sus clones/submódulos de los repositorios de estudiantes que darán lugar a la calificación final.
 
+## Referencias
+
+{% include github-education-references.md %}
