@@ -21,7 +21,7 @@ end
 
 desc "build for the ocw course. Run 'rake stop' first"
 task :ocw do
-  sh "rm _site.zip"
+  sh "rm -fR _site.zip"
   sh "bundle exec jekyll build -b '/ocw/pluginfile.php/19489/mod_resource/content/3/_site'"
   sh "zip -r _site.zip _site"
   sh "cat instructions.txt"
