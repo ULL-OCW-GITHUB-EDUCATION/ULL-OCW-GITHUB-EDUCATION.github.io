@@ -36,14 +36,31 @@ Puedes encontrar ejemplos curiosos de *repos profile* en esta referencia:
 
 ## Crea repos Profile para las Organizaciones asociadas con tus Asignaturas, 
 
-En este paso, si no lo hiciste en la [tarea inicial]({{ site.baseurl }}/registrarse-en-github) deberás crear ahora una Organización para una asignatura y crear su GitHub classroom. 
+En este paso, si no lo hiciste en la [tarea inicial]({{ site.baseurl }}/registrarse-en-github) deberás crear ahora 
+
+1. una Organización para una asignatura y 
+
 Añáde a la organización su repo de perfil/Profile. 
 
 Los siguientes recursos te ayudarán a realizar estas tareas:
 
 * [Crear una organización nueva desde cero](https://docs.github.com/es/organizations/collaborating-with-groups-in-organizations/creating-a-new-organization-from-scratch)
-* [Enseña con GitHub Classroom](https://docs.github.com/es/education/manage-coursework-with-github-classroom/teach-with-github-classroom). Aprende cómo configurar tu aula y tus tareas.
 * [Personalizar el perfil de tu organización](https://docs.github.com/es/organizations/collaborating-with-groups-in-organizations/customizing-your-organizations-profile). Puedes personalizar la página de resumen de tu organización
+
+## Crea un Classroom para la Organización
+
+Crea un GitHub Classroom asociado a la organización del curso.
+
+La configuración del GitHub Classroom por el profesor lleva múltiples detalles que son discutidos en el capítulo 
+
+* [GitHub Classroom para Profesores]({{ site.baseurl }}/ghc.html)
+
+de estos apuntes.
+
+También te será de utilidad los apuntes GH en:
+
+* [Enseña con GitHub Classroom](https://docs.github.com/es/education/manage-coursework-with-github-classroom/teach-with-github-classroom). Aprende cómo configurar tu aula y tus tareas.
+
 
 ## Si eres profesor actualiza la organización 
 
