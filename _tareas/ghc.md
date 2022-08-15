@@ -214,7 +214,7 @@ Lo habitual en estos casos es que la configuren a
 en la rama `main`. 
 
 
-## Evaluación con GHC
+## Descarga de las Asignaciones GHC
 
 El uso de Git, GitHub y GHC abre posibilidades de cómo el proceso de evaluación
 puede llevarse a cabo. Es importante que el estudiante mantenga
@@ -225,12 +225,13 @@ Hay una serie de opciones para que los profesores evalúen los repositorios.
 
 Siempre que los instructores tengan acceso, es posible
 clonar el repositorio de cada estudiante con alguna herramienta como 
-[`gh org-clone -s iaas -n ULL-ESIT-DMSI-1920`](https://github.com/gh-cli-for-education/gh-org-clone)
-o mejor [`gh submodule-add -C -o ULL-MFP-AET-2122 -s latex-markdown -r 'marrero|maury|coell'`](https://github.com/crguezl/gh-submodule-add).
+
+1. [`gh org-clone -s iaas -n ULL-ESIT-DMSI-1920`](https://github.com/gh-cli-for-education/gh-org-clone) o bien
+2. [`gh submodule-add -C -o ULL-MFP-AET-2122 -s latex-markdown -r 'marrero|maury|coell'`](https://github.com/crguezl/gh-submodule-add)
 
 La ventaja de `gh submodule-add` es que permite facilmente realizar con un sólo comando acciones sobre todos los repos de los alumnos usando `gh submodule foreach` (por ejemplo actualizarlos)
 
-### Calificación Automática con GHC: autograding
+## Calificación Automática con GHC: autograding
 
 GHC ofrece la opción, llamada *autograding*, que permite aplicar pruebas automatizadas a los envíos de los estudiantes. Esto lo hace añadiendo al repo del estudiante [GitHub Actions]({{ site.baseurl}}pages/github-actions) de manera que cada vez que el estudiante ejecuta un `push` se ejecutan las pruebas. 
 
@@ -245,14 +246,11 @@ aumentando las posibilidades de que los estudiantes se ajusten a lo solicitado.
 Además, los profesores también pueden añadir mediante un script en la fase de evaluación pruebas privadas no publicadas en sus clones/submódulos de los repositorios de estudiantes que darán lugar a la calificación final.
 
 
-## Instrucciones para la Tarea
+## Objetivos para esta Tarea
 
 * Crea una asignación Individual GHC para tu clase
 * Crea una asignación de grupo GHC para tu clase
-
-Te será útil leer el artículo
-
-* [GitHub in the Classroom: Lessons Learnt]({{ site.baseurl}}/assets/pdfs/github-in-the-classroom-lessons-learnt.pdf) por Yu-Cheng Tu, Valerio Terragni, Ewan Tempero, Asma Shakil,
+* Deberás leer el artículo [GitHub in the Classroom: Lessons Learnt]({{ site.baseurl}}/assets/pdfs/github-in-the-classroom-lessons-learnt.pdf) por Yu-Cheng Tu, Valerio Terragni, Ewan Tempero, Asma Shakil,
 Andrew Meads, Nasser Giacaman, Allan Fowler, Kelly Blincoe. University of Auckland, [The Australasian Computing Education Conference](https://aceconference.wordpress.com/previous-conferences/), February 14–18, 2022, Virtual Event, Australia
 
 
