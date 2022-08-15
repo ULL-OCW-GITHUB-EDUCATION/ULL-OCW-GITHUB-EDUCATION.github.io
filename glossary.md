@@ -13,6 +13,8 @@ toc: false
 
 {{ kv[1] | markdownify }} 
 
+* * *
+
 {% endfor %}
 
 ## GitHub Classroom Glossary
