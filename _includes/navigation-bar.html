@@ -1,21 +1,21 @@
 <nav>
   <ul>
     {% if page.previous %}  
-    <li><a href="{{ site.baseurl }}{{page.previous.url}}.html" title="Previous">&#x2190;</a></li>
+    <li><a href="{{ site.baseurl }}{{page.previous.url}}.html" title="Anterior">&#x2190;</a></li>
     {% endif %}
     {% if page.next %}
-    <li><a href="{{ site.baseurl }}{{page.next.url}}.html" title="Next">&#x2192;</a></li>
+    <li><a href="{{ site.baseurl }}{{page.next.url}}.html" title="Siguiente">&#x2192;</a></li>
     {% endif %}
     <li><a href="{{site.baseurl}}/search" title="buscar">&#x1F50D;</a></li>
-    <li><a href="{{site.baseurl}}/glossary.html" title="buscar">Glos</a></li>
+    <li><a href="{{site.baseurl}}/glossary.html" title="Glosario">Glos</a></li>
 
-    <li><a href="{{site.baseurl}}/index.html" title="Contents">Contenidos</a></li>
-    <li><a href="{{site.campus_virtual}}" title="ULL">Campus</a></li>
-    <li><a href="{{ site.organization.url}}" title="ULL">Org</a></li>
+    <li><a href="{{site.baseurl}}/index.html" title="Contenidos">Contenidos</a></li>
+    <li><a href="{{site.campus_virtual}}" title="Campus Virtual ULL ULL-OCW-GITHUB-EDUCATION">Campus</a></li>
+    <li><a href="{{ site.organization.url}}" title="Organización GH">Org</a></li>
 
-    <li><a href="https://github.com/orgs/ULL-OCW-GITHUB-EDUCATION/discussions" title="ULL">Foro</a></li>
-    <li><a href="{{site.baseurl}}/references.html" title="ULL">Refs</a></li>
-    <li><a href="{{site.classroom.url}}" target="_blank">Class</a></li>
+    <li><a href="https://github.com/orgs/ULL-OCW-GITHUB-EDUCATION/discussions" title="Foro">Foro</a></li>
+    <li><a href="{{site.baseurl}}/references.html" title="Bibliografia">Refs</a></li>
+    <li><a href="{{site.classroom.url}}" target="_blank" title="GH Classroom">Class</a></li>
 
     {% if page.classroom %} 
       <!--
