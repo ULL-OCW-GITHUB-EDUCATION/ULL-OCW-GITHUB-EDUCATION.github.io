@@ -35,7 +35,7 @@ Si bien los repositorios creados al aceptar una invitación de asignación de GH
 un esquema de nombres consistente, **parte del nombre es la cuenta de GH
 nombre elegido por el estudiante**. La siguiente figura muestra un ejemplo para una tarea denominada `p5-t3-websockets`: 
 
-<img src ="{{site.baseurl}}assets/images/github-classroom-naming-scheme.png" width="70%"/>
+<img src ="{{site.baseurl}}/assets/images/github-classroom-naming-scheme.png" width="70%"/>
 
 
 Mientras que el problema de encontrar el repositorio de un estudiante en particular se hace más fácil debido a la consistencia del esquema, en una clase grande aún puede requerir bastante tiempo. Por ejemplo, en la imagen anterior:
@@ -225,7 +225,7 @@ GHC ofrece la opción, llamada *autograding*, que permite aplicar pruebas automa
 
 En estos casos, lo habitual es que el profesor recicle las pruebas que tenga y las añada al template proporcionado y especifique en la asignación el lenguaje de las pruebas y como estas se ejecutarán. La figura muestra un caso para una asignación en la que el alumno desarrolla con node:
 
-![]({{ site.baseurl }}assets/images/github-classroom-specify-autograding.png)
+![]({{ site.baseurl }}/assets/images/github-classroom-specify-autograding.png)
 
 Esto no solo permite una guía mas cerrada y desacoplada 
 con una evaluación “formativa”,
