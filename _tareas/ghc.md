@@ -196,13 +196,13 @@ El flujo de trabajo en este caso es el siguiente:
     ```
 
    Estas son algunas de las consideraciones a tener en cuenta cuando se usa esta extensión:
-   
+
     - Si se usa la opción `-c` pero el archivo `.csv` no se especifica a través de la opción `-p`, se usará el archivo `*.csv` más reciente en la carpeta `Downloads` de su O.S. que coincida con la expresión regular patrón `/<org>.*.csv/` donde `org` se refiere a la organización especificada o predeterminada
     - Cuando se usa `-c`, puede ir seguido de cualquier lista de nombres de campo que ocurra en el archivo `.csv`.
     - El archivo `.csv` debe tener una columna llamada `login` con el nombre de inicio de sesión en Github de los miembros de la organización
 
 
-## Branch Protection
+## Tareas de Equipo y Branch Protection
 
 En cursos donde los estudiantes trabajan en equipos y todos los miembros del equipo
 tiene derechos de administrador en sus repositorios,
