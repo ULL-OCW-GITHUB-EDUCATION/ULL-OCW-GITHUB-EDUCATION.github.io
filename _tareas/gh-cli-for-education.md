@@ -1,6 +1,6 @@
 ---
 layout: default
-title: GitHub Command Line Extensions for Education
+title: Extensiones de GitHub Command Line para la Educación
 permalink:  gh-cli-for-education
 classroom: https://classroom.github.com/a/Plohp5Ra
 date: 0000/07/01

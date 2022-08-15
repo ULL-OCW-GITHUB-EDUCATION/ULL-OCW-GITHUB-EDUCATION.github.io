@@ -2,7 +2,7 @@
 layout: default
 title: GHC para Profesores
 permalink:  ghc
-classroom: 
+classroom: https://classroom.github.com/a/mgV_maOt 
 date: 0000/03/02
 toc: true
 ---
@@ -11,7 +11,7 @@ toc: true
 
 ## Objetivos
 
-Este capítulo es una extensión del capítulo [Creando Perfiles, Organizaciones y Aulas]({{ site.baseurl}}/creando-un-perfil.html) y los resultados las entregas las debes hacer en el repositorio creado cuando aceptaste las tareas establecidas en [dicho capítulo]({{ site.baseurl}}/creando-un-perfil.html).
+Este capítulo es una extensión del capítulo [Creando Perfiles, Organizaciones y Aulas]({{ site.baseurl}}/creando-un-perfil.html) y los resultados las entregas las debes hacer en el repositorio creado cuando aceptaste las tareas establecidas en [dicho capítulo]({{ site.baseurl}}/creando-un-perfil.html). 
 
 En este capítulo aprenderemos:
 

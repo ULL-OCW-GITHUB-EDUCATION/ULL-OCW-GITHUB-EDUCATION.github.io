@@ -13,15 +13,7 @@ There are limits on GH actions usage with GH Free. The most
 important is that each execution of workflow consumes processor
 time. 
 
-Students get their own “clone” of the template repository specified
-in the GHC assignment, however it is not a clone in the usual sense.
-If the instructor changes the template, students who have already
-accepted the invite cannot just issue a pull and expect to see the
-changes. There is not direct connection between their repo and
-the original template. The only recourse seems to be to distribute
-the changes separately and have the students incorporate them
-manually. Students who accept the invite after the changes are
-made do see the changes however.
+
 
 
 ## Automatizando las labores de Evaluación con gh
