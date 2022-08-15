@@ -105,7 +105,7 @@ Una solución equivalente a la anterior es hacer que todas las asignaciones indi
 <img src="assets/images/github-classroom-group-assignment-naming-scheme.png" width="70%"/>
 
 
-### Tercera solución: Spreadsheet y gh org-members
+### Tercera solución: Spreadsheet y la extensión gh org-members
 
 Muchos profesores mantenemos una hoja de cálculo paralela a la del LMS en la que llevamos las cuentas 
 de como van los alumnos. La experiencia nos muestra que manejar una hoja Excel/Google Spreadshet/Otras propporciona una forma más rápida y fácil de administrar las calificaciones que ingresarlos en el Libro de calificaciones del LMS, especialmente con clases grandes. Muchos LMS como Moodle permiten importar y exportar
