@@ -108,87 +108,98 @@ Una solución equivalente a la anterior es hacer que todas las asignaciones indi
 ### Tercera solución: Spreadsheet y la extensión gh org-members
 
 Muchos profesores mantenemos una hoja de cálculo paralela a la del LMS en la que llevamos las cuentas 
-de como van los alumnos. La experiencia nos muestra que manejar una hoja Excel/Google Spreadshet/Otras propporciona una forma más rápida y fácil de administrar las calificaciones que ingresarlos en el Libro de calificaciones del LMS, especialmente con clases grandes. Muchos LMS como Moodle permiten importar y exportar
-las calificaciones usando el formato CSV. 
+de como van los alumnos. La experiencia nos muestra que manejar una hoja Excel/Google Spreadshet/Otras propporciona una forma más rápida y fácil de administrar las calificaciones que ingresarlos en el Libro de calificaciones del LMS, especialmente con clases grandes. Muchos LMS como Moodle [permiten importar y exportar
+las calificaciones](https://youtu.be/a3scoY_CD4k) usando el formato CSV. 
+
+El flujo de trabajo en este caso es el siguiente:
+
+1. Tenemos una hoja de cálculo con las calificaciones cuyo nombre comienza con el nombre de la organización github `/<org>.*/`. La hoja debe tener una columna llamada `login` con el nombre de inicio de sesión en Github de los miembros de la organización.
+
+2. Instalamos la extensión gh [gh-cli-for-education/gh-org-members](https://github.com/gh-cli-for-education/gh-org-members)
+ 
+    ```
+    gh extension install crguezl/gh-org-members
+    ```
+
+    Estas son las opciones disponibles:
+    
+    ```
+    ➜  markdown git:(master) ✗ gh org-members -h
+    Usage: gh org-members [options] [organization]
+
+    Options:
+      -V, --version             output the version number
+      -f, --fullname            show name of the user (if available)
+      -j, --json                returns the full json object
+      -r, --regexp <regexp>     filter <query> results using <regexp>
+      -u, --url                 show github user url
+      -l, --login               show github user login
+      -w, --orgurl              show github user url as a member of the org
+      -s, --site                show url of the members github pages web sites
+      -c, --csv [field...]      shows the values of the fields of the organization csv
+      -p, --pathcsv <csv file>  path to the csv file
+      -o --org <org>            default organization
+        --default              Set selected "org" as default organization for future uses
+      -h, --help                display help for command
+
+      - If the organization is not explicitly specified or there is a default org,
+        the selection will be done interactively among the list of your organizations using 'fzf'
+      - You can set the default organization through the "--default" option for future uses of this program
+      - When in 'fzf', use CTRL-A to select all, tab to select/deselect
+      - You can merge the results of the GitHub API info with info from info in a '.csv' file using the "-c" and "-p" options. For instance: "gh org-members -jr sara -c -p ./ULL-MFP-AET-2122.csv"
+      - If the option '-c' is used but the '.csv' file is not specified via the '-p' option, it will use the most recent '*.csv' file in your 'Downloads' folder mathching the regular expression pattern '/<org>.*.csv/' where 'org' refers to the specified or default organization
+      - When using '-c' it can be followed by any list of field names in the '.csv' file.
+      - The '.csv' file has to have a column named 'login' having the Github login of the members
+    ```
 
 
-```
-➜  markdown git:(master) ✗ gh org-members -h
-Usage: gh org-members [options] [organization]
-
-Options:
-  -V, --version             output the version number
-  -f, --fullname            show name of the user (if available)
-  -j, --json                returns the full json object
-  -r, --regexp <regexp>     filter <query> results using <regexp>
-  -u, --url                 show github user url
-  -l, --login               show github user login
-  -w, --orgurl              show github user url as a member of the org
-  -s, --site                show url of the members github pages web sites
-  -c, --csv [field...]      shows the values of the fields of the organization csv
-  -p, --pathcsv <csv file>  path to the csv file
-  -o --org <org>            default organization
-     --default              Set selected "org" as default organization for future uses
-  -h, --help                display help for command
-
-  - If the organization is not explicitly specified or there is a default org,
-    the selection will be done interactively among the list of your organizations using 'fzf'
-  - You can set the default organization through the "--default" option for future uses of this program
-  - When in 'fzf', use CTRL-A to select all, tab to select/deselect
-  - You can merge the results of the GitHub API info with info from info in a '.csv' file using the "-c" and "-p" options. For instance: "gh org-members -jr sara -c -p ./ULL-MFP-AET-2122.csv"
-  - If the option '-c' is used but the '.csv' file is not specified via the '-p' option, it will use the most recent '*.csv' file in your 'Downloads' folder mathching the regular expression pattern '/<org>.*.csv/' where 'org' refers to the specified or default organization
-  - When using '-c' it can be followed by any list of field names in the '.csv' file.
-  - The '.csv' file has to have a column named 'login' having the Github login of the members
-```
-
-Por ejemplo, para obtener  las urls de los alumnos en github podemos hacer:
-
-```
-✗ gh org-members -u | egrep -v 'crguezl|casiano'
-"https://github.com/amarrerod"
-... etc.
-"https://github.com/alu0100879902"
-```
-
-Puede fusionar los resultados de la información de la API de GitHub con la información de la información en un archivo `.csv` usando las opciones `-c` y `-p`. Por ejemplo: 
+3. Exportamos nuestra hoja a formato `.csv``
 
 
-```json
-✗ gh org-members -jr Pere -c -p ./ULL-MFP-AET-2122.csv
-[
-  {
-    "login": "Cami100260076",
-    "name": "Camilo Glez. Peresola",
-    "url": "https://github.com/Cami100260076",
-    "role": "member",
-    "site": "https://Cami100260076.github.io",
-    "orgurl": "https://github.com/orgs/ULL-MFP-AET-2122/people/Cami100260076",
-    "fullname": "Camilo Glez. Peresola",
-    "id": "alu0100260076",
-    "orden": "8",
-    "Marca temporal": "26/10/2021 18:16:30",
-    "Nombre 1": "Camilo",
-    "Apellidos": "González Peresola",
-    "Nombre": "Camilo",
-    "Primer Apellido": "González",
-    "Segundo Apellido": "Peresola",
-    "Grado desde el que accede": "Ingeniería industrial",
-    "Experiencia previa en la Enseñanza": "2",
-    "markdown": "APTO",
-    "profile": "APTO",
-    "web site": "APTO",
-    "pandoc": "APTO+",
-    "TFP DCP": "APTO",
-    "Calculada": "8,8",
-    "Calificador Propuesta": "9",
-    "Calificador propuesta": ""
-  }
-]
-```
+4. La extensión [gh-cli-for-education/gh-org-members](https://github.com/gh-cli-for-education/gh-org-members) permite fusionar los resultados de la información de la API de GitHub con la información de la información en un archivo `.csv` usando las opciones `-c` y `-p`. Por ejemplo: 
 
-- Si se usa la opción `-c` pero el archivo `.csv` no se especifica a través de la opción `-p`, se usará el archivo `*.csv` más reciente en la carpeta `Downloads` de su O.S. que coincida con la expresión regular patrón `/<org>.*.csv/` donde `org` se refiere a la organización especificada o predeterminada
-- Cuando se usa `-c`, puede ir seguido de cualquier lista de nombres de campo que ocurra en el archivo `.csv`.
-- El archivo `.csv` debe tener una columna llamada `login` con el nombre de inicio de sesión en Github de los miembros de la organización
+    ```
+    ✗ gh org-members -jr Pere -c -p ./ULL-MFP-AET-2122.CSV
+    ```
+    Nos permite obtener un JSON (opción `-j`) sobre los miembros de la oranización `ULL-MFP-AET-2122` para los que alguna de las columnas casa con `Pere` (opción `-r`). La opción `-c` hace que la extensión busque por el archivo mas reciente en la carpeta `Downloads` de su O.S. cuyo nombre case con el patrón `ULL-MFP-AET-2122*.csv` y mezcle los resultados de la API de GH con los del archivo CSV usando la columna `login` como clave primaria de mezcla. La salida contendrá la mezcla de las dos fuentes. Sigue un ejemplo:
+
+    ```json
+    [
+      {
+        "login": "Cami100260076",
+        "name": "Camilo Glez. Peresola",
+        "url": "https://github.com/Cami100260076",
+        "role": "member",
+        "site": "https://Cami100260076.github.io",
+        "orgurl": "https://github.com/orgs/ULL-MFP-AET-2122/people/Cami100260076",
+        "fullname": "Camilo Glez. Peresola",
+        "id": "alu0100260076",
+        "orden": "8",
+        "Marca temporal": "26/10/2021 18:16:30",
+        "Nombre 1": "Camilo",
+        "Apellidos": "González Peresola",
+        "Nombre": "Camilo",
+        "Primer Apellido": "González",
+        "Segundo Apellido": "Peresola",
+        "Grado desde el que accede": "Ingeniería industrial",
+        "Experiencia previa en la Enseñanza": "2",
+        "markdown": "APTO",
+        "profile": "APTO",
+        "web site": "APTO",
+        "pandoc": "APTO+",
+        "TFP DCP": "APTO",
+        "Calculada": "8,8",
+        "Calificador Propuesta": "9",
+        "Calificador propuesta": ""
+      }
+    ]
+    ```
+
+   Estas son algunas de las consideraciones a tener en cuenta cuando se usa esta extensión:
+   
+    - Si se usa la opción `-c` pero el archivo `.csv` no se especifica a través de la opción `-p`, se usará el archivo `*.csv` más reciente en la carpeta `Downloads` de su O.S. que coincida con la expresión regular patrón `/<org>.*.csv/` donde `org` se refiere a la organización especificada o predeterminada
+    - Cuando se usa `-c`, puede ir seguido de cualquier lista de nombres de campo que ocurra en el archivo `.csv`.
+    - El archivo `.csv` debe tener una columna llamada `login` con el nombre de inicio de sesión en Github de los miembros de la organización
 
 
 ## Branch Protection
