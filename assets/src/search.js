@@ -28,7 +28,7 @@ class JekyllSearch {
     const html = results.map(item => {
       //console.log(item)
       let url = item.url;
-      if (!/[.]html$/.test(url)) {
+      if (!/[.]html$/.test(url)) { //warning! assumes all files end in .html not .htm
         url = url.replace(/$/, '.html');
       }
       return `

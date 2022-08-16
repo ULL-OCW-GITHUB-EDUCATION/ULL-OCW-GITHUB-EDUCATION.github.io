@@ -28,16 +28,22 @@ como
 
 
 El aprendizaje de Sistemas de Control de Versiones se ha simplificado en parte por el  
-soporte colaborativo basado en la nube proveído por servicios como GH, GitLab y Bitbucket.
+soporte colaborativo basado en la nube proveído por servicios como GH, [GitLab][GitLab] y [Bitbucket][Bitbucket].
+
+[GitLab]: https://about.gitlab.com/solutions/education/
+[Bitbucket]: https://bitbucket.org/product/education
+[GH]: https://education.github.com/
+[GHC]: https://docs.github.com/es/education/manage-coursework-with-github-classroom/teach-with-github-classroom
+[GHSP]: https://docs.github.com/es/education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-global-campus-for-students/apply-to-github-global-campus-as-a-student
 
 Estos servicios basados ​​en la nube ofrecen productos y soporte gratuitos
 para profesores y estudiantes para fomentar la adopción de Git. 
 
-* GitLab tiene GitLab para la Educación
-* Bitbucket/Atlassian ofrece Bitbucket Education para estudiantes desarrolladores
-* GH, a través de GH Education, ofrece GHC y el paquete de desarrollo para estudiantes de GH. 
+* GitLab tiene [GitLab para la Educación][GitLab]
+* Bitbucket/Atlassian ofrece [Bitbucket Education][Bitbucket] para estudiantes desarrolladores
+* GH, a través de [GH Education][GH], ofrece [GitHub Classroom][GHC] (GHC) y el [paquete de desarrollo para estudiantes de GH][GHSP]. 
 
-Este curso va dirigido a cualquier educador de habla hispana interesado en desarrollar su labor haciendo usando de los recursos, herramientas, servicios y metodologías que están asociados al  programa **Github Education**.
+Este curso va dirigido a cualquier educador de habla hispana interesado en desarrollar su labor haciendo usando de los recursos, herramientas, servicios y metodologías que están asociados al  programa **[Github Education][GH]**.
 
 Para seguir el curso trabaja los [Contenidos](https://ull-ocw-github-education.github.io/index.html) en los [Apuntes](https://ull-ocw-github-education.github.io/) y acepta cada una de las asignaciones de las tareas ✍️ asociadas,  dejando tu informe con los resultados en el repositorio, que será creado cuando aceptes, dentro dentro de esta misma organización. Si te animas, utilizando las incidencias puedes solicitar comentarios a los profesores y restantes miembros de la organización.
 
@@ -58,13 +64,13 @@ En el mismo tendrás la oportunidad de profundizar en el manejo del control de f
 
 ## Objetivos
 
-En esta tarea deberás 
+Las tareas para este capítulo son: 
 
 1. Antes de aceptar esta tarea deberás registrarte en [GitHub.com](https://github.com), 
-2. Una vez registrado ya estás en condiciones de <a href="{{ page.classroom }}" target="_blank"><button class="assign">Aceptar esta tarea</button></a>
-2. solicitar un descuento para docentes, 
-3. crear una organización para un curso y 
-4. crear un aula github classroom asociada a la organización.
+2. Una vez registrado ya estás en condiciones de <a href="{{ page.classroom }}" target="_blank"><button class="assign">Aceptar esta tarea</button></a> haciendo click en este botón
+2. Deberás solicitar un descuento para docentes, 
+3. Deberás crear una organización para un curso. Puedes leer más sobre como hacerlo en el capítulo [Creando Perfiles, Organizaciones y Aulas]({{ site.baseurl }}/creando-un-perfil.html) 
+4. Deberás crear un aula github classroom  asociada a la organización. Puedes leer más sobre como hacerlo y profundizar en GHC en el capítulo [GitHub Classroom para Profesores]({{ site.baseurl }}/ghc.html)
 
 * Si eres profesor, sigue los pasos explicados en la sección [Inicio rápido para GitHub Educators](https://docs.github.com/es/education/quickstart). Si te encuentras cómodo con el lenguaje Inglés es mejor usar la [versión inglesa de la guía](https://docs.github.com/en/education/quickstart).
 
@@ -72,12 +78,11 @@ Para obtener descuentos de docente o investigador, debes cumplir con los siguien
 
 1. Tener una cuenta personal en GitHub.
 1. Ser profesor o  empleado de una institución educativa.
-2. Tener una dirección de correo electrónico verificable que haya emitido una institución educativa. En nuestra universidad es el que tiene el sufijo `ull.edu.es`
+2. Es conveniente tener una dirección de correo electrónico verificable que haya emitido una institución educativa. En nuestra universidad es el que tiene el sufijo `ull.edu.es`
 3. Cargar los documentos que comprueben tu afiliación a la institución educativa.
 
 Si eres estudiante puedes optar a los descuentos del *Paquete de desarrollo para estudiantes* de GitHub.
-Sigue las instrucciones en la sección [Aplicar un paquete de desarrollo para alumnos
-](https://docs.github.com/es/education/explore-the-benefits-of-teaching-and-learning-with-github-education/use-github-for-your-schoolwork/apply-for-a-student-developer-pack).
+Sigue las instrucciones en la sección [Aplicar un paquete de desarrollo para alumnos](https://docs.github.com/es/education/explore-the-benefits-of-teaching-and-learning-with-github-education/use-github-for-your-schoolwork/apply-for-a-student-developer-pack).
 
 Para optar debes cumplir con los siguientes requisitos:
 

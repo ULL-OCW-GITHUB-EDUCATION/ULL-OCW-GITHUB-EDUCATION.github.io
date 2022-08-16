@@ -12,12 +12,12 @@ toc: true
 
 ## Objetivos
 
-1. Aprender a crear un repo de Perfil en GitHub
-2. Aprender a crear y configurar
-    1. una organización para una asignatura que vas a impartir, 
-    2. su correspondiente aula GitHub Classroom,
-    3. Si eres profesor a solicitar los descuentosdel programa "Global Campus" y a actualizar tus organizaciones 
-    3. el repo de perfil para dicha organización
+1. Aprender a crear un repo de perfil de un usuario en GitHub
+2. Conocer con mas profundidad como aprender a crear y configurar
+    1. Una organización para una asignatura que vas a impartir, 
+    2. Su correspondiente aula GitHub Classroom,
+    3. Si eres profesor a solicitar los descuentos del programa "Global Campus" y a actualizar tus organizaciones 
+    3. Aprender a crear un repo de perfil de una organización en GitHub
 3. Aprender a usar CodeSpaces
 
 ## Crea tu repo profile
