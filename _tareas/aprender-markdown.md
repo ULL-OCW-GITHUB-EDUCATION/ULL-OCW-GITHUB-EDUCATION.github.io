@@ -19,7 +19,7 @@ Las subsiguientes secciones presentan los recursos para lograr estos objetivos.
 
 Deberás comenzar aceptando la tarea asociada a esta parte haciendo click en el botón con el texto *"acepta la asignación de la tarea"* en la cabecera. En cada una de los temas que requieren de la creación de un repositorio de trabajo para la realización de las tareas asociadas al tema encontrarás un botón con el texto
 <a href="{{ page.classroom }}" target="_blank"><button class="assign">acepta la asignación de la tarea</button></a>
-en la cabecera de la página. 
+en la cabecera de la página. Para aprender a aceptar una tarea sigue los pasos en [Como aceptar una tarea de grupo]({{ site.baseurl}}/pages/aceptar-tarea.html)
 
 Un primer objetivo de esta lección/tarea es conseguir cierta familiaridad con los conceptos que conlleva Github Classroom: [asignación][assignment], asignación individual, asignación de grupo, [identificación del alumnado][identificacion], *[rosters][rosters]*, etc.
 
