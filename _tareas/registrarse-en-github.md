@@ -67,7 +67,7 @@ En el mismo tendrás la oportunidad de profundizar en el manejo del control de f
 Las tareas para este capítulo son: 
 
 1. Antes de aceptar esta tarea deberás registrarte en [GitHub.com](https://github.com), 
-2. Una vez registrado ya estás en condiciones de <a href="{{ page.classroom }}" target="_blank"><button class="assign">Aceptar esta tarea</button></a> haciendo click en este botón
+2. Una vez registrado ya estás en condiciones de <a href="{{ page.classroom }}" target="_blank"><button class="assign">Aceptar esta tarea</button></a> haciendo click en este botón. Para aprender a aceptar una tarea sigue los pasos en [Como aceptar una tarea de grupo]({{ site.baseurl}}/pages/aceptar-tarea.html)
 2. Deberás solicitar un descuento para docentes, 
 3. Deberás crear una organización para un curso. Puedes leer más sobre como hacerlo en el capítulo [Creando Perfiles, Organizaciones y Aulas]({{ site.baseurl }}/creando-un-perfil.html) 
 4. Deberás crear un aula github classroom  asociada a la organización. Puedes leer más sobre como hacerlo y profundizar en GHC en el capítulo [GitHub Classroom para Profesores]({{ site.baseurl }}/ghc.html)

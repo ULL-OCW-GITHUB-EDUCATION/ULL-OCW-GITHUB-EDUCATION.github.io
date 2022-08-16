@@ -21,7 +21,11 @@ Deberás comenzar aceptando la tarea asociada a esta parte haciendo click en el 
 <a href="{{ page.classroom }}" target="_blank"><button class="assign">acepta la asignación de la tarea</button></a>
 en la cabecera de la página. 
 
-En este tema la tarea que fue configurada por los profesores usando [GitHub Classroom](). Un primer objetivo de esta lección/tarea es conseguir cierta familiaridad con los conceptos que conlleva Github Classroom: asignación, asignación individual, asignación de grupo, identificación del alumnado, *rosters*, etc.
+Un primer objetivo de esta lección/tarea es conseguir cierta familiaridad con los conceptos que conlleva Github Classroom: [asignación][assignment], asignación individual, asignación de grupo, [identificación del alumnado][identificacion], *[rosters][rosters]*, etc.
+
+[rosters]: https://docs.github.com/en/education/manage-coursework-with-github-classroom/get-started-with-github-classroom/glossary#roster
+[assignment]: https://docs.github.com/en/education/manage-coursework-with-github-classroom/get-started-with-github-classroom/glossary#assignment
+[identificacion]: {{ site.baseurl }}/pages/github-classroom.html#el-problema-de-enlazar-las-cuentas-gh-con-las-cuentas-del-lms
 
 ### Objetivo 2: Aprender Markdown
 
@@ -79,51 +83,34 @@ Hay múltiples formas de editar en la nube un repositorio GitHub.
 en estas [notas]({{site.baseurl}}/pages/gitpod) recogemos estas alternativas:
 
 1. Editar directamente usando el [editor on-line de GitHub](https://docs.github.com/es/repositories/working-with-files/managing-files/editing-files)
-2. [Usar el editor GitHub.dev]({{site.baseurl}}/pages/gitpod#editing-with-githubdev-editor): simplemente  tecleando el punto cuando se está visitando el repo
-3.  Usar [GitPod]({{ site.baseurl }}/pages/gitpod#gitpod)
-4. Usar Codespaces (si dispones de este servicio)
+2. [Usar el editor GitHub.dev][githubdev]. Véase también las [notas en estos apuntes sobre GitHub.dev][githubdev]. Véase también las [notas en estos apuntes sobre GitHub.dev]({{site.baseurl}}/pages/gitpod#editing-with-githubdev-editor): se activa simplemente  tecleando el punto cuando se está visitando el repo
+4. Usar [Codespaces][codespaces] (Probablemente la opción mas recomendable si dispones de este servicio)
+3. Usar [GitPod]({{ site.baseurl }}/pages/gitpod#gitpod), una alternativa a [Codespaces][codespaces]
 
-
+[githubdev]: https://docs.github.com/en/codespaces/the-githubdev-web-based-editor
+[codespaces]: https://docs.github.com/es/codespaces
 
 ### Objetivo 4: Aprender a Usar GitHub Discussions
 
-Cuando termines esta tarea puedes ir al [foro de la organización y saludar](https://github.com/orgs/ULL-OCW-GITHUB-EDUCATION/discussions). Así practicas un poco mas de markdown. Publica tu entrada en la categoría **Cuéntanos lo que haces** (tienes un ejemplo de entrada en <https://github.com/orgs/ULL-OCW-GITHUB-EDUCATION/discussions/2>). Si quieres saber mas sobre como añadir un foro de debate a tus repos y como administrar los foros puedes consultar la documentación en [GitHub Discussions](https://docs.github.com/en/discussions)
+Cuando termines esta tarea puedes ir al [foro de la organización y saludar](https://github.com/orgs/ULL-OCW-GITHUB-EDUCATION/discussions). Así practicas un poco mas de markdown.
+
+Publica tu entrada en la categoría **Cuéntanos lo que haces** (tienes un ejemplo de entrada en <https://github.com/orgs/ULL-OCW-GITHUB-EDUCATION/discussions/2>). 
+
+Si quieres saber mas sobre como añadir un foro de debate a tus repos y como administrar los foros puedes consultar la documentación en [GitHub Discussions](https://docs.github.com/en/discussions)
 
 
 ## Introducción a GitHub Classroom (como estudiante)
 
 Los profesores de este curso han configurado la tarea asociada usando [GitHub Classroom  (que abreviaremos a veces como GHC)](https://docs.github.com/es/education/manage-coursework-with-github-classroom/teach-with-github-classroom). GitHub Classroom es una aplicación web para los docentes que proporciona herramientas para la administración de cursos integradas con GitHub. 
 
-Ahroa sólo vas a tener contacto con GHC como alumno.
+En este capítulo tu contacto con GHC es como alumno.
 Para aprender a usar esta herramienta como profesor es conveniente que 
 
 1. Hagas posteriormente la tarea [GHC para Profesores]({{ site.baseurl}}/ghc.html)
-2. seguir el curso [Teach with GitHub Classroom](https://docs.github.com/en/education/manage-coursework-with-github-classroom/teach-with-github-classroom). 
+2. Sigas el curso [Teach with GitHub Classroom](https://docs.github.com/en/education/manage-coursework-with-github-classroom/teach-with-github-classroom). 
 3. Puedes encontrar un buen número de vídeos que complementan el curso en la sección [Videos about GitHub Classroom](https://docs.github.com/en/education/manage-coursework-with-github-classroom/get-started-with-github-classroom/basics-of-setting-up-github-classroom#videos-about-github-classroom)
 
 Verás que con GHC permite crear [asignaciones individuales](https://docs.github.com/en/education/manage-coursework-with-github-classroom/teach-with-github-classroom/create-an-individual-assignment) y de grupo. 
-
-## Aceptación de esta Tarea
-
-Esta tarea inicial ha sido configurada por el profesor como una [tarea de grupo o tarea de equipo](https://docs.github.com/en/education/manage-coursework-with-github-classroom/teach-with-github-classroom/create-a-group-assignment).
-
-Eso significa que - desde la perspectiva del alumno - cuando hagas click en la aceptación  de la tarea  saldrá un formulario para elegir el nombre del equipo. 
-
-En este caso los profesores han indicado que el equipo no puede tener mas de un miembro. 
-
-**Escriba su nombre y apellidos seguido de su ID en la institución educativa en la que estudia/trabaja**.
-
-La siguiente figura muestra un ejemplo de como ve el formulario un alumno aceptando una asignación como esta para un classroom con nombre `ULL-MFP-AET-2122`:
-
-![]({{site.baseurl}}/assets/images/github-classroom-team-assignment-1.png)
-
-La siguiente figura muestra un  ejemplo de como quedan los equipos/teams creados por GHC una vez que los alumnos han aceptado una asignación similar a esta:
-
-![ejemplos de individual team assignment for identification]({{site.baseurl}}/assets/images/github-individual-teams-examples.png)
-
-En general, este es lo que ocurre cuando el alumno acepta una asignación de grupo: 
-
-{% include instrucciones-tareas-de-equipo.md %}
 
 
 ## Introduccion al Lenguaje de Marcas MarkDown
