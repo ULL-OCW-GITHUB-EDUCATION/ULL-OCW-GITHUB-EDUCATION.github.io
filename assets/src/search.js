@@ -27,11 +27,15 @@ class JekyllSearch {
 
     const html = results.map(item => {
       //console.log(item)
+      let url = item.url;
+      if (!/[.]html$/.test(url)) {
+        url = url.replace(/$/, '.html');
+      }
       return `
         <li class="result">
             <article class="result__article  article">
                 <h4>
-                  <a href="${item.url}.html">${item.title}</a>
+                  <a href="${url}">${item.title}</a>
                 </h4>
                 <p>${item.excerpt}</p>
             </article>
