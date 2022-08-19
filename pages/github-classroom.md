@@ -6,7 +6,11 @@ toc: true
 
 # {{ page.title }}
 
+### Que es Github Classroom (GHC)
+
 Github Classroom (GHC) es "una herramienta para profesores que utiliza la API de GitHub para habilitar el flujo de trabajo de GitHub para la educación". GHC permite la creación de "aulas" y "asignaciones" dentro del aula. Las "aulas" o "classrooms" proporcionan los medios para organizar tareas para un curso, repositorios para las tareas y estudiantes para los repositorios.
+
+### El proceso de gestión de asignaciones
 
 El proceso de gestión de asignaciones es el siguiente:
 
@@ -90,7 +94,7 @@ Sin embargo, hay varios problemas:
 Una solución equivalente a la anterior es hacer que todas las asignaciones individuales sean asignaciones de un grupo de tamaño uno e instruir al alumno para que cuando cree el grupo individual siga el esquema 
 `nombre-apellidos-identificador`. Una vez creado ese conjunto de equipos será utilizado para el resto de tareas individuales del curso. La siguiente imagen muestra cuan sencillo es así obtener las tareas de un alumno si se recuerda el nombre o los apellidos del alumno o se dispone de su identificador:
 
-<img src="assets/images/github-classroom-group-assignment-naming-scheme.png" width="70%"/>
+<img src="{{site.baseurl}}/assets/images/github-classroom-group-assignment-naming-scheme.png" width="70%"/>
 
 
 ## Tercera solución: Spreadsheet y la extensión gh org-members
