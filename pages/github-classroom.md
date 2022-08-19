@@ -24,14 +24,29 @@ repo
   Para cursos pequeños y en los que los alumnos no tengan conocimientos puede que sea preferible no darles derechos de admin, sin embargo, en general es una buena idea darles permisos de admin.
   Aunque los estudiantes tengan derechos de admin sobre sus repos, [es posible aplicar restricciones sobre los miembros a nivel de organización](https://docs.github.com/en/organizations/managing-organization-settings/setting-permissions-for-deleting-or-transferring-repositories). Por ejemplo evitar que  los estudiantes pueden eliminar un repositorio, transferirlo a otra cuenta o cambiar su visibilidad.
   * Si los repos serán públicos o privados. Los repositorios deben ser privados cuando se quiera evitar el plagio. 
-  * Si se usará la versión de VSCode en la nube de GitHub denominada CodeSpaces
-  * etc.
+  * Si se usará la versión de VSCode en la nube de GitHub denominada CodeSpaces (en los settings del classroom tendrá que tener la opción `codespaces` a `enabled`. Vea la sección *GitHub Codespaces* en la <a href="#settings">figura con los settings</a>) y la documentación [*Using GitHub Codespaces with GitHub Classroom*](https://docs.github.com/en/education/manage-coursework-with-github-classroom/integrate-github-classroom-with-an-ide/using-github-codespaces-with-github-classroom)
+  * etc. 
 3. Una vez que el profesor rellena los detalles de la tarea, GHC genera una
 enlace de invitación (URL)
 4. Este enlace se pone a disposición de los estudiantes via el LMS (Moodle u otro) u otro mecanismo
 5. Cuando los estudiantes hacen click en el enlace y aceptan la invitación, obtienen su propio clon del repositorio plantilla. Los repositorios tienen nombres consistentes formados por el nombre de la tarea y el nombre de usuario del alumno.
 6. Los estudiantes completan el trabajo en el repo creado
 7. Los profesores  tienen acceso completo a todos los repositorios y pueden dar retroalimentación al alumno y evaluarle
+
+Vea el vídeo 
+
+<div class="embed-container">
+  <iframe src="https://www.youtube.com/embed/QxrA3taZdNM" 
+    width="700" 
+    height="480" 
+    frameborder="0"
+    allowfullscreen="true">
+  </iframe>
+</div>
+
+y este otro que muestra la aceptación y realización de la asignación por parte del estudiante:
+
+{% include youtubePlayer.html id="ObaFRGp_Eko" %}
 
 ## El problema de Enlazar las Cuentas GH con las cuentas del LMS
 
@@ -50,7 +65,7 @@ Mientras que el problema de encontrar el repositorio de un estudiante en particu
 El problema de identificación es mas fácil con la tarea `p5-t3-websockets-alu0101037653` ya que el alumno ha hecho coincidir su login GitHub `alu0101037653` con su identificador dentro de nuestra Universidad. Tendré ahora que ver que alumno es `alu0101037653`. 
 De hecho una solución parcial al problema es solicitar a los alumnos que tengan una cuenta github cuyo login coincida con su identificador en el LMS. Obviamente no todos los alumnos van a seguir esas instrucciones.
 
-## Primera Soluciòn: GHC Rosters
+## Primera Solución: GHC Rosters
 
 
 GHC aborda este problema permitiendo que los profesores suban una [lista o GHC roster](https://docs.github.com/en/education/manage-coursework-with-github-classroom/teach-with-github-classroom/manage-classrooms#about-classroom-rosters)
@@ -66,7 +81,12 @@ Hay dos maneras para que los profesores creen la lista de
 los alumnos en sus cursos.
 
 1. Los profesores pueden importar manualmente una lista cargando un CSV o un archivo de texto que contiene el ID en la institución del estudiante.
-2. Pueden importar la lista de un sistema de gestión de aprendizaje (LMS) como Canvas o Moodle.
+2. Pueden importar la lista de un sistema de gestión de aprendizaje (LMS) como Canvas o Moodle. Esto puede hacerse por ejemplo, desde los *settings* del aula GHC:
+
+  <a name="settings"><img src="{{ site.baseurl}}/assets/images/github-classroom-settings.png" width="100%"/></a>
+
+  Véase también este video:
+  {% include youtubePlayer.html id="DTzrKduaHj8" %}
 
 Para asociar los alumnos a sus cuentas de GH, los estudiantes deben identificarse en el roster y manualmente
 vinculan sus cuentas cuando aceptan por primera vez la asignación de GHC.

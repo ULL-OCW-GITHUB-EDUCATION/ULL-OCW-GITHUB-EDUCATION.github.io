@@ -7,6 +7,7 @@ permalink: registrarse-en-github
 classroom: https://classroom.github.com/a/q1VkdRLM
 date: 0000/01/01
 video: mtsyHWUFXjQ
+toc: true
 ---
 
 # {{ page.title }}
