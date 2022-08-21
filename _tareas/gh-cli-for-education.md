@@ -37,7 +37,7 @@ la idea es desarrollar un conjunto de extensiones `gh` que faciliten los tareas 
 
 ## Ejemplos de Evaluación Asistida desde la línea de comandos
 
-Reproduzca los ejemplos en la sección [evaluación asistida desde la línea de comandos]({{site.baseurl}}/pages/evaluacion-asistida) y elabore un informe con lo aprendido.
+Reproduzca los ejemplos en la sección [evaluación asistida desde la línea de comandos]({{site.baseurl}}/pages/evaluacion-asistida.html) y elabore un informe con lo aprendido.
 
 ## Referencias
 
