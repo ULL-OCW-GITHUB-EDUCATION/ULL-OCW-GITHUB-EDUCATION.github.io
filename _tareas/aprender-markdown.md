@@ -23,6 +23,8 @@ en la cabecera de la página. Para aprender a aceptar una tarea sigue los pasos 
 
 Un primer objetivo de esta lección/tarea es conseguir cierta familiaridad con los conceptos que conlleva Github Classroom: [asignación][assignment], asignación individual, asignación de grupo, [identificación del alumnado][identificacion], *[rosters][rosters]*, etc.
 
+Este video en YouTube [How to use VS Code to submit an assignment to Github Classroom (initially empty repository)](https://youtu.be/iqW_yzZkU_8) muestra como deben hacer los estudiantes para aceptar, trabajar y entregar una tarea asignada con GHC usando el editor VS Code
+
 [rosters]: https://docs.github.com/en/education/manage-coursework-with-github-classroom/get-started-with-github-classroom/glossary#roster
 [assignment]: https://docs.github.com/en/education/manage-coursework-with-github-classroom/get-started-with-github-classroom/glossary#assignment
 [identificacion]: {{ site.baseurl }}/pages/github-classroom.html#el-problema-de-enlazar-las-cuentas-gh-con-las-cuentas-del-lms
@@ -137,7 +139,7 @@ Si estás familiarizado con VSCode, basta con pulsar un punto en tu navegador cu
 * [Mastering (GitHub) Markdown](https://guides.github.com/features/mastering-markdown/#examples)
 * [Documentación GitHub sobre la Interfaz Web]({{site.baseurl}}/pages/documentacion-github-interfaz-web)
 * [Visual Studio Code in Browsers]({{site.baseurl}}/pages/gitpod)
-
+* [How to use VS Code to submit an assignment to Github Classroom (initially empty repository)](https://youtu.be/iqW_yzZkU_8) Vídeo que muestra como deben hacer los estudiantes para aceptar, trabajar y entregar una tarea asignada con GHC usando el editor VS Code
 * [GitHub Glossary](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/github-glossary)
 
 <!--
