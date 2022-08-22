@@ -7,7 +7,7 @@ toc: true
 
 ### What is 
 
-[gh](https://cli.github.com/manual/) pretends to facilitate the access to GitHub from the command line. It brings pull requests, issues, and other GitHub concepts to the terminal next to where you are already working with git and your code.
+[gh](https://cli.github.com/manual/) pretends to facilitate the access to GitHub from the command line. It brings pull requests, issues, and other GitHub concepts to the terminal next to where you are already working with git and your code. For GitLab there is a similar tool called [glab](https://glab.readthedocs.io/en/latest/)
 
 ### Version 
 

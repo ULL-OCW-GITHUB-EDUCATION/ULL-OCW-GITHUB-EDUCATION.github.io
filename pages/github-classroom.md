@@ -31,6 +31,7 @@ enlace de invitación (URL)
 4. Este enlace se pone a disposición de los estudiantes via el LMS (Moodle u otro) u otro mecanismo
 5. Cuando los estudiantes hacen click en el enlace y aceptan la invitación, obtienen su propio clon del repositorio plantilla. Los repositorios tienen nombres consistentes formados por el nombre de la tarea y el nombre de usuario del alumno.
 6. Los estudiantes completan el trabajo en el repo creado
+  - Este video en YouTube [How to use VS Code to submit an assignment to Github Classroom (initially empty repository)](https://youtu.be/iqW_yzZkU_8) muestra como deben hacer los estudiantes para aceptar, trabajar y entregar una tarea asignada con GHC usando el editor VS Code
 7. Los profesores  tienen acceso completo a todos los repositorios y pueden dar retroalimentación al alumno y evaluarle
 
 Vea el vídeo 
