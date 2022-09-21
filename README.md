@@ -32,3 +32,5 @@ Bienvenido a los apuntes del curso OCW de la de la Universidad de La Laguna **[I
 * [Jekyll: Understanding site.url and site.baseurl]({{ site.baseurl }}/pages/jekyll-baseurl.html)
 * [Usar LaTeX en tu Web Site]({{ site.baseurl }}/pages/mathjax.html)
 * [JSON y CSV en Jekyll. Usando *_data*]({{ site.baseurl }}/pages/data.html)
+
+* [GitHub Copilot]({{ site.baseurl }}/pages/copilot.html)
