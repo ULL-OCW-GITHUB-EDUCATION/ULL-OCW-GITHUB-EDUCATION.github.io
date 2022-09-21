@@ -7,7 +7,6 @@ Bienvenido a los apuntes del curso OCW de la de la Universidad de La Laguna **[I
 
 * [Objetivos y resumen del curso](https://github.com/ULL-OCW-GITHUB-EDUCATION/)
 
-
 <!--
 * [Foro de discusión](https://github.com/orgs/ULL-OCW-GITHUB-EDUCATION/discussions)
 -->
@@ -16,7 +15,7 @@ Bienvenido a los apuntes del curso OCW de la de la Universidad de La Laguna **[I
 
 {% include practicas-publicadas.md  %}
 
-## Tópicos Desordenados, Problemas y Soluciones 
+## Tópicos Desordenados
 
 ### GH Classroom 
 
