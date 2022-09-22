@@ -30,7 +30,12 @@ El problema del profesor en la evaluación siempre ha sido **asegurarse de que l
 
 Véase la publicación [Una experiencia con GitHub Copilot](https://github.com/community/Global-Campus-Teachers/discussions/118#discussioncomment-3606379) en Global-Campus-Teachers
 
-## Referencias
+## IA y el Futuro de la Educación en Informática
+
+* [Artificial Intelligence in Education: A Review](https://ieeexplore.ieee.org/abstract/document/9069875)
+* [A Study on the  State of AI Technologies and the Future of Coding Education](https://koreascience.kr/article/JAKO202028851207247.pdf). [Copy]({{ site.baseurl }}/assets/pdfs/A\ Study\ on\ the\ Current\ State\ of\ Artificial\ Intelligence\ Based\ Coding\ Technologies\ and\ the\ Direction\ of\ Future\ Coding\ Education.pdf)
+
+## Copilot Referencias
 
 * [GitHub Copilot](https://docs.github.com/en/copilot) documentación oficial
 * [Keyboard shortcuts for GitHub Copilot](https://docs.github.com/en/copilot/configuring-github-copilot/configuring-github-copilot-in-visual-studio-code#keyboard-shortcuts-for-github-copilot)
