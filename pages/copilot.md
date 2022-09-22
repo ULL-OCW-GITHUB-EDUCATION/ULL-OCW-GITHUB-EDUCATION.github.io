@@ -103,7 +103,7 @@ La siguiente imagen muestra la barra lateral de Copilot Labs con un código Type
 ![]({{ site.baseurl }}/assets/images/copilot-labs-explanation.png)
 
 
-## Copilot Referencias
+## Referencias sobre Copilot
 
 * [GitHub Copilot](https://docs.github.com/en/copilot) documentación oficial
 * [Keyboard shortcuts for GitHub Copilot](https://docs.github.com/en/copilot/configuring-github-copilot/configuring-github-copilot-in-visual-studio-code#keyboard-shortcuts-for-github-copilot)
