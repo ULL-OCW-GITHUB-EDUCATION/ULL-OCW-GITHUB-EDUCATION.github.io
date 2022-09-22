@@ -8,6 +8,10 @@ video: "bxadjvhtffs"
 
 GitHub Copilot es una herramienta de autocompletado de código que te ayuda a escribir código más rápido. Copilot te ayuda a escribir código que funciona, sin tener que preocuparte por la sintaxis. Copilot es una herramienta de autocompletado de código que te ayuda a escribir código más rápido. Copilot te ayuda a escribir código que funciona, sin tener que preocuparte por la sintaxis.
 
+Véase el [tweet](https://twitter.com/Anush_krishna_v/status/1456547858321076229) de Anush Krishnan V:
+
+> Programming with @github's copilot feels like teaching a person what has to be done in pure English and then checking and improving the work done. Will such way you writing code be normalized? Are we getting closer to a more conversational way of programming?
+
 ## En el Aula
 
 
@@ -15,6 +19,7 @@ GitHub Copilot es una herramienta de autocompletado de código que te ayuda a es
 * [GitHub Copilot generates useful explanations of source code](https://github.blog/2022-09-08-github-copilot-now-available-for-teachers/#github-copilot-generates-useful-explanations-of-source-code)
 * [GitHub Copilot can generate coding assignments](https://github.blog/2022-09-08-github-copilot-now-available-for-teachers/#github-copilot-can-generate-coding-assignments)
 * [Coping with Copilot](https://www.sigarch.org/coping-with-copilot/)
+* [8 things you didn’t know you could do with GitHub Copilot](https://github.blog/2022-09-14-8-things-you-didnt-know-you-could-do-with-github-copilot/)
 
 ## Una experiencia con GitHub Copilot
 
