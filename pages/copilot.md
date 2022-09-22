@@ -32,6 +32,8 @@ Véase la publicación [Una experiencia con GitHub Copilot](https://github.com/c
 
 ## IA y el Futuro de la Educación en Informática
 
+Estos dos artículos tratan el tema de la IA y el futuro de la educación:
+
 * [Artificial Intelligence in Education: A Review](https://ieeexplore.ieee.org/abstract/document/9069875)
 * [A Study on the  State of AI Technologies and the Future of Coding Education](https://koreascience.kr/article/JAKO202028851207247.pdf)
 
