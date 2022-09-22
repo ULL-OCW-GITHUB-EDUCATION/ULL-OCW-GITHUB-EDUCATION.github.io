@@ -12,22 +12,46 @@ Véase el [tweet](https://twitter.com/Anush_krishna_v/status/1456547858321076229
 
 > Programming with @github's copilot feels like teaching a person what has to be done in pure English and then checking and improving the work done. Will such way you writing code be normalized? Are we getting closer to a more conversational way of programming?
 
+Este es un vídeo introductorio mostrando como se usa:
+
+{% include video provider="youtube" id="VRUwWcY9cRQ" %}
+
 ## Artículos sobre Copilot en el Aula
 
 
-Estos artículos tratan el tema de la IA, Copilot y el futuro de la educación:
+Los  artículos que vienen a continuación tratan el tema de la IA, Copilot y el futuro de la educación.
 
-* [GitHub Copilot now available for teachers](https://github.blog/2022-09-08-github-copilot-now-available-for-teachers/).
-* [GitHub Copilot generates useful explanations of source code](https://github.blog/2022-09-08-github-copilot-now-available-for-teachers/#github-copilot-generates-useful-explanations-of-source-code)
+* Este es el artículo en el blog de GH que anuncia la disponibilidad gratuita de GH Copilot y da pautas de como usarlo:
 
-  <video width="100%" loop="" controls="" autoplay="" muted=""><source src="https://github.blog/wp-content/uploads/2022/09/assignmentexplain-Smallest.mp4" type="video/mp4"></video>
-* [GitHub Copilot can generate coding assignments](https://github.blog/2022-09-08-github-copilot-now-available-for-teachers/#github-copilot-can-generate-coding-assignments)
+  - [GitHub Copilot now available for teachers](https://github.blog/2022-09-08-github-copilot-now-available-for-teachers/)
+  - [GitHub Copilot generates useful explanations of source code](https://github.blog/2022-09-08-github-copilot-now-available-for-teachers/#github-copilot-generates-useful-explanations-of-source-code)
 
-  <video width="100%" loop="" controls="" autoplay="" muted=""><source src="https://github.blog/wp-content/uploads/2022/09/generation-Boxing.mp4" type="video/mp4"></video>
-* [Coping with Copilot](https://www.sigarch.org/coping-with-copilot/)
-* [The Robots Are Coming: Exploring the Implications of OpenAI Codex on Introductory Programming](https://dl.acm.org/doi/pdf/10.1145/3511861.3511863)ACE'22 por James Finnie-Ansley et al.
+    <video width="100%" loop="" controls="" autoplay="" muted=""><source src="https://github.blog/wp-content/uploads/2022/09/assignmentexplain-Smallest.mp4" type="video/mp4"></video>
+
+  - [GitHub Copilot can generate coding assignments](https://github.blog/2022-09-08-github-copilot-now-available-for-teachers/#github-copilot-can-generate-coding-assignments)
+
+    <video width="100%" loop="" controls="" autoplay="" muted=""><source src="https://github.blog/wp-content/uploads/2022/09/generation-Boxing.mp4" type="video/mp4"></video>
+
+* Este otro artículo está escrito en clave de humor y reflexiona sobre el futuro que nos espera a los profesores de programación. Muy recomendable
+  - [Coping with Copilot](https://www.sigarch.org/coping-with-copilot/)
+
 * [8 things you didn’t know you could do with GitHub Copilot](https://github.blog/2022-09-14-8-things-you-didnt-know-you-could-do-with-github-copilot/)
-* [GitHub Copilot AI pair programmer: Asset or Liability?](https://arxiv.org/abs/2206.15331) 2022
+
+
+- El siguiente artículo estudia las capacidades de Copilot en dos tareas de programación diferentes:
+
+  1. generar soluciones correctas y eficientes para problemas algorítmicos fundamentales (como clasificar e implementar estructuras de datos básicas), y 
+  2. comparar las soluciones propuestas por Copilot con las de los programadores humanos sobre un conjunto de datos de problemas de programación ya resueltos. 
+  
+  Los resultados muestran que Copilot es capaz de proporcionar soluciones para casi todos los problemas algorítmicos fundamentales, sin embargo, algunas soluciones tienen errores y no son reproducibles. Además, Copilot tiene algunas dificultades para combinar varios métodos para generar una solución. Al comparar Copilot con humanos, los resultados muestran que la proporción correcta de soluciones humanas es mayor que la proporción correcta de Copilot, pero las soluciones con errores generadas por Copilot requieren menos esfuerzo para repararse.
+
+  * [GitHub Copilot AI pair programmer: Asset or Liability?](https://arxiv.org/abs/2206.15331) 2022. 
+
+* El siguiente trabajo concluye que aunque este tipo de herramientas de IA suponen desafíos en el ámbito del aprendizaje de los estudiantes y la integridad académica,también presentan oportunidades  para replantear los planes de estudio. Se podrían usar herramientas como GH Copilot para crear fragmentos de código únicos para que cada estudiante los analice en exámenes no supervisados; eventualmente herramientas como estas pueden ayudar en la evaluación automática del código del estudiante.
+
+  - [The Robots Are Coming: Exploring the Implications of OpenAI Codex on Introductory Programming](https://dl.acm.org/doi/pdf/10.1145/3511861.3511863). ACE'22 por James Finnie-Ansley et al.
+
+<!--
 * [Choose your programming copilot: a comparison of the program synthesis performance of github copilot and genetic programming](https://dl.acm.org/doi/abs/10.1145/3512290.3528700) 
   - This paper compares GitHub Copilot on a standard program synthesis benchmark
 problems  with other programs taken from the  genetic programming literature. They conclude that GitHub Copilot and GP perform similar on the
@@ -37,6 +61,7 @@ many expensive hand-labeled training cases and takes too much
 time to generate a solution. Furthermore, the suggestions of GitHub
 Copilot are usually human readable while source code generated by
 GP is often bloated and difficult to understand.
+-->
 
 Artículos sobre el uso de IA en la educación:
 
@@ -49,8 +74,6 @@ Artículos sobre el uso de IA en la educación:
 El curso 2021/2022 utilizamos GH Copilot en la asignatura [Procesadores de Lenguajes](https://ull-esit-gradoii-pl.github.io/) del grado de Informática de la ULL y <a href="https://youtu.be /bxadjvhtffs" target="_blank">era sorprendente ver cómo completaba los ejercicios a partir de algunos comentarios y nombres de funciones</a>. Esta es la clase:
 
 {% include video-youtube.html%}
-
-### Primeras Reflexiones
 
 Los alumnos disponen ahora de una herramienta para realizar los trabajos de forma más rápida y los profesores disponemos de una herramienta que se comporta como si tuviéramos un tutor individual por alumno. Para la Comunidad Educativa, Copilot representa a la vez un avance y un desafío. 
 
