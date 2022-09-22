@@ -21,11 +21,13 @@ Véase el [tweet](https://twitter.com/Anush_krishna_v/status/1456547858321076229
 * [Coping with Copilot](https://www.sigarch.org/coping-with-copilot/)
 * [8 things you didn’t know you could do with GitHub Copilot](https://github.blog/2022-09-14-8-things-you-didnt-know-you-could-do-with-github-copilot/)
 
-## Una experiencia con GitHub Copilot
+## Una primera experiencia con GitHub Copilot
 
 El curso 2021/2022 utilizamos GH Copilot en la asignatura [Procesadores de Lenguajes](https://ull-esit-gradoii-pl.github.io/) del grado de Informática de la ULL y <a href="https://youtu.be /bxadjvhtffs" target="_blank">era sorprendente ver cómo completaba los ejercicios a partir de algunos comentarios y nombres de funciones</a>. Esta es la clase:
 
 {% include video-youtube.html%}
+
+### Primeras Reflexiones
 
 Los alumnos disponen ahora de una herramienta para realizar los trabajos de forma más rápida y los profesores disponemos de una herramienta que se comporta como si tuviéramos un tutor individual por alumno. Para la Comunidad Educativa, Copilot representa a la vez un avance y un desafío. 
 
