@@ -12,8 +12,10 @@ Véase el [tweet](https://twitter.com/Anush_krishna_v/status/1456547858321076229
 
 > Programming with @github's copilot feels like teaching a person what has to be done in pure English and then checking and improving the work done. Will such way you writing code be normalized? Are we getting closer to a more conversational way of programming?
 
-## En el Aula
+## Artículos sobre Copilot en el Aula
 
+
+Estos artículos tratan el tema de la IA, Copilot y el futuro de la educación:
 
 * [GitHub Copilot now available for teachers](https://github.blog/2022-09-08-github-copilot-now-available-for-teachers/).
 * [GitHub Copilot generates useful explanations of source code](https://github.blog/2022-09-08-github-copilot-now-available-for-teachers/#github-copilot-generates-useful-explanations-of-source-code)
@@ -25,6 +27,14 @@ Véase el [tweet](https://twitter.com/Anush_krishna_v/status/1456547858321076229
 * [Coping with Copilot](https://www.sigarch.org/coping-with-copilot/)
 * [The Robots Are Coming: Exploring the Implications of OpenAI Codex on Introductory Programming](https://dl.acm.org/doi/pdf/10.1145/3511861.3511863)ACE'22 por James Finnie-Ansley et al.
 * [8 things you didn’t know you could do with GitHub Copilot](https://github.blog/2022-09-14-8-things-you-didnt-know-you-could-do-with-github-copilot/)
+* [GitHub Copilot AI pair programmer: Asset or Liability?](https://arxiv.org/abs/2206.15331) 2022
+* [Choose your programming copilot: a comparison of the program synthesis performance of github copilot and genetic programming](https://dl.acm.org/doi/abs/10.1145/3512290.3528700)
+
+Artículos sobre el uso de IA en la educación:
+
+* [Artificial Intelligence in Education: A Review](https://ieeexplore.ieee.org/abstract/document/9069875)
+* [A Study on the  State of AI Technologies and the Future of Coding Education](https://koreascience.kr/article/JAKO202028851207247.pdf)
+* [Monitoring the Progress of Programming Students Supported by a Digital Teaching Assistant](https://link.springer.com/chapter/10.1007/978-3-319-65340-2_7)
 
 ## Una primera experiencia con GitHub Copilot
 
@@ -61,15 +71,6 @@ La siguiente imagen muestra la barra lateral de Copilot Labs con un código Type
 
 ![]({{ site.baseurl }}/assets/images/copilot-labs-explanation.png)
 
-## IA y el Futuro de la Educación en Informática
-
-Estos artículos tratan el tema de la IA, Copilot y el futuro de la educación:
-
-* [Artificial Intelligence in Education: A Review](https://ieeexplore.ieee.org/abstract/document/9069875)
-* [GitHub Copilot AI pair programmer: Asset or Liability?](https://arxiv.org/abs/2206.15331) 2022
-* [Choose your programming copilot: a comparison of the program synthesis performance of github copilot and genetic programming](https://dl.acm.org/doi/abs/10.1145/3512290.3528700)
-* [A Study on the  State of AI Technologies and the Future of Coding Education](https://koreascience.kr/article/JAKO202028851207247.pdf)
-* [Monitoring the Progress of Programming Students Supported by a Digital Teaching Assistant](https://link.springer.com/chapter/10.1007/978-3-319-65340-2_7)
 
 ## Copilot Referencias
 
