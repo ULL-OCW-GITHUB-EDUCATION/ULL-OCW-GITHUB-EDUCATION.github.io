@@ -17,8 +17,13 @@ Véase el [tweet](https://twitter.com/Anush_krishna_v/status/1456547858321076229
 
 * [GitHub Copilot now available for teachers](https://github.blog/2022-09-08-github-copilot-now-available-for-teachers/).
 * [GitHub Copilot generates useful explanations of source code](https://github.blog/2022-09-08-github-copilot-now-available-for-teachers/#github-copilot-generates-useful-explanations-of-source-code)
+
+  <video width="100%" loop="" controls="" autoplay="" muted=""><source src="https://github.blog/wp-content/uploads/2022/09/assignmentexplain-Smallest.mp4" type="video/mp4"></video>
 * [GitHub Copilot can generate coding assignments](https://github.blog/2022-09-08-github-copilot-now-available-for-teachers/#github-copilot-can-generate-coding-assignments)
+
+  <video width="100%" loop="" controls="" autoplay="" muted=""><source src="https://github.blog/wp-content/uploads/2022/09/generation-Boxing.mp4" type="video/mp4"></video>
 * [Coping with Copilot](https://www.sigarch.org/coping-with-copilot/)
+* [The Robots Are Coming: Exploring the Implications of OpenAI Codex on Introductory Programming](https://dl.acm.org/doi/pdf/10.1145/3511861.3511863)ACE'22 por James Finnie-Ansley et al.
 * [8 things you didn’t know you could do with GitHub Copilot](https://github.blog/2022-09-14-8-things-you-didnt-know-you-could-do-with-github-copilot/)
 
 ## Una primera experiencia con GitHub Copilot
