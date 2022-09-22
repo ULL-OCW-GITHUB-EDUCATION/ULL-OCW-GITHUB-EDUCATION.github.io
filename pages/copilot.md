@@ -41,8 +41,8 @@ Véase la publicación [Una experiencia con GitHub Copilot](https://github.com/c
 
 Actualmente, la extensión [Copilot Labs](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-labs) consta de una barra lateral de VS Code que alberga distintas funciones: 
 
-1. "explicar este código" y 
-2. "traducir este código". 
+1. "Explicar este código" y 
+2. "Traducir este código". 
 
 Una vez instalada la extensión de Copilot Labs, veremos un icono de Copilot  en la barra lateral. 
 
