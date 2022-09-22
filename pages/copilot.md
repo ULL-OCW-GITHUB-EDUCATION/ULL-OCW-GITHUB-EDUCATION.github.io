@@ -30,12 +30,33 @@ El problema del profesor en la evaluación siempre ha sido **asegurarse de que l
 
 Véase la publicación [Una experiencia con GitHub Copilot](https://github.com/community/Global-Campus-Teachers/discussions/118#discussioncomment-3606379) en Global-Campus-Teachers
 
+## Copilot Labs: Explicar y Traducir
+
+Actualmente, Copilot Labs consta de una barra lateral de VS Code que alberga distintas funciones: 
+1. "explicar este código" y 
+2. "traducir este código". 
+
+Una vez instalada la extensión de Copilot Labs, veremos un icono de Copilot  en la barra lateral. 
+
+Al hacer clic en el mismo, se mostrará la barra lateral, con cada experimento en un panel separado. 
+
+La siguiente imagen muestra la barra lateral de Copilot Labs con un código TypeScript en la derecha y su traducción a Rust en la izquierda abajo.
+
+![]({{ site.baseurl }}/assets/images/copilot-labs.png)
+
+La siguiente imagen muestra la barra lateral de Copilot Labs con un código TypeScript sencillo arriba y su explicación abajo:
+
+![]({{ site.baseurl }}/assets/images/copilot-labs-explanation.png)
+
 ## IA y el Futuro de la Educación en Informática
 
-Estos dos artículos tratan el tema de la IA y el futuro de la educación:
+Estos artículos tratan el tema de la IA, Copilot y el futuro de la educación:
 
 * [Artificial Intelligence in Education: A Review](https://ieeexplore.ieee.org/abstract/document/9069875)
+* [GitHub Copilot AI pair programmer: Asset or Liability?](https://arxiv.org/abs/2206.15331) 2022
+* [Choose your programming copilot: a comparison of the program synthesis performance of github copilot and genetic programming](https://dl.acm.org/doi/abs/10.1145/3512290.3528700)
 * [A Study on the  State of AI Technologies and the Future of Coding Education](https://koreascience.kr/article/JAKO202028851207247.pdf)
+* [Monitoring the Progress of Programming Students Supported by a Digital Teaching Assistant](https://link.springer.com/chapter/10.1007/978-3-319-65340-2_7)
 
 ## Copilot Referencias
 
