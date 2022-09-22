@@ -33,7 +33,7 @@ Véase la publicación [Una experiencia con GitHub Copilot](https://github.com/c
 ## IA y el Futuro de la Educación en Informática
 
 * [Artificial Intelligence in Education: A Review](https://ieeexplore.ieee.org/abstract/document/9069875)
-* [A Study on the  State of AI Technologies and the Future of Coding Education](https://koreascience.kr/article/JAKO202028851207247.pdf). [Copy]({{ site.baseurl }}/assets/pdfs/A\ Study\ on\ the\ Current\ State\ of\ Artificial\ Intelligence\ Based\ Coding\ Technologies\ and\ the\ Direction\ of\ Future\ Coding\ Education.pdf)
+* [A Study on the  State of AI Technologies and the Future of Coding Education](https://koreascience.kr/article/JAKO202028851207247.pdf)
 
 ## Copilot Referencias
 
