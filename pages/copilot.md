@@ -108,4 +108,5 @@ La siguiente imagen muestra la barra lateral de Copilot Labs con un código Type
 * [GitHub Copilot](https://docs.github.com/en/copilot) documentación oficial
 * [Keyboard shortcuts for GitHub Copilot](https://docs.github.com/en/copilot/configuring-github-copilot/configuring-github-copilot-in-visual-studio-code#keyboard-shortcuts-for-github-copilot)
 * [Rebinding keyboard shortcuts](https://docs.github.com/en/copilot/configuring-github-copilot/configuring-github-copilot-in-visual-studio-code#rebinding-keyboard-shortcuts)
-* [Departamento de Ingeniería Informática y de Sistemas->Consultas sobre métodos y herramientas docentes->GitHub Copilot](https://campusvirtual.ull.es/entornos/mod/forum/discuss.php?d=28352#p50499) Debate privado en el Campus Virtual de la ULL
+* Departamento de Ingeniería Informática y de Sistemas →
+Consultas sobre métodos y herramientas docentes → [GitHub Copilot](https://campusvirtual.ull.es/entornos/mod/forum/discuss.php?d=28352#p50499). Debate privado en el Campus Virtual de la ULL
