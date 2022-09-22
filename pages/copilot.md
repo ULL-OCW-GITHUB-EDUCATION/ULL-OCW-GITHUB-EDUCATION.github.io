@@ -18,7 +18,7 @@ GitHub Copilot es una herramienta de autocompletado de código que te ayuda a es
 
 ## Una experiencia con GitHub Copilot
 
-El curso pasado utilizamos GH Copilot en la asignatura [Procesadores de Lenguajes](https://ull-esit-gradoii-pl.github.io/) del grado de Informática de la ULL y <a href="https://youtu.be /bxadjvhtffs" target="_blank">era sorprendente ver cómo completaba los ejercicios a partir de algunos comentarios y nombres de funciones</a>. Esta es la clase:
+El curso 2021/2022 utilizamos GH Copilot en la asignatura [Procesadores de Lenguajes](https://ull-esit-gradoii-pl.github.io/) del grado de Informática de la ULL y <a href="https://youtu.be /bxadjvhtffs" target="_blank">era sorprendente ver cómo completaba los ejercicios a partir de algunos comentarios y nombres de funciones</a>. Esta es la clase:
 
 {% include video-youtube.html%}
 
