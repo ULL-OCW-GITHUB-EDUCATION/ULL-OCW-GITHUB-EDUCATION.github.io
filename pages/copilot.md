@@ -1,3 +1,6 @@
+---
+video: bxadjvhtffs
+---
 
 # GitHub Copilot en el Aula
 
@@ -13,14 +16,19 @@ GitHub Copilot es una herramienta de autocompletado de código que te ayuda a es
 * [GitHub Copilot can generate coding assignments](https://github.blog/2022-09-08-github-copilot-now-available-for-teachers/#github-copilot-can-generate-coding-assignments)
 * [Coping with Copilot](https://www.sigarch.org/coping-with-copilot/)
 
+## Una experiencia con GitHub Copilot
 
-## [An Experience with GitHub Copilot](https://github.com/community/Global-Campus-Teachers/discussions/118#discussioncomment-3606379)
+El curso pasado utilizamos GH Copilot en la asignatura [Procesadores de Lenguajes](https://ull-esit-gradoii-pl.github.io/) del grado de Informática de la ULL y <a href="https://youtu.be /bxadjvhtffs" target="_blank">era sorprendente ver cómo completaba los ejercicios a partir de algunos comentarios y nombres de funciones</a>.
 
-Last course we used GH Copilot in the [Language Processors](https://ull-esit-gradoii-pl.github.io/) subject at the ULL Computer Science degree and  <a href="https://youtu.be/bxadjvhtffs" target="_blank">it was amazing to see how it  completed the exercises from a few comments and function names</a>.
+{% include video-youtube.html%}
 
-Students have now a tool to carry out the assignments more quickly and we teachers have a tool that behaves like if we had an individual tutor per student. It represents an advance and a challenge in the sense that we can propose more complex projects to our students.
+Los alumnos disponen ahora de una herramienta para realizar los trabajos de forma más rápida y los profesores disponemos de una herramienta que se comporta como si tuviéramos un tutor individual por alumno. Para la Comunidad Educativa, Copilot representa a la vez un avance y un desafío. 
 
-The problem of the teacher in the evaluation has always been **to be sure that students understand what they present** and not to detect if the task has been copied or has been done by another student or an AI like GH Copilot. **The evaluation task is a sort of Turing's game**. I don't think the advent of AI tools like Copilot will make the **already complicated** job of issuing a fair grade much more difficult.
+Es una avance ya que nos permite proponer proyectos más complejos a nuestros alumnos. Es un desafío en cuanto que nos obliga a reflexionar sobre  la forma en que evaluamos.
+
+El problema del profesor en la evaluación siempre ha sido **asegurarse de que los alumnos entienden lo que presentan** y no detectar si la tarea ha sido copiada o la ha hecho otro alumno o una IA como GH Copilot. **La tarea de evaluación es una especie de juego de Turing**. No creemos que la llegada de herramientas de inteligencia artificial como Copilot haga que el trabajo **ya complicado** de emitir una calificación justa sea mucho más difícil.
+
+Véase la publicación [Una experiencia con GitHub Copilot](https://github.com/community/Global-Campus-Teachers/discussions/118#discussioncomment-3606379) en Global-Campus-Teachers
 
 ## Referencias
 
