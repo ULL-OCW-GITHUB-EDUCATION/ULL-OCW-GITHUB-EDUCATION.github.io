@@ -1,5 +1,5 @@
 ---
-video: bxadjvhtffs
+video: "bxadjvhtffs"
 ---
 
 # GitHub Copilot en el Aula
