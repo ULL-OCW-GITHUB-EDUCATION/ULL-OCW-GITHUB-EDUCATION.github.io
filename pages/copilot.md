@@ -37,9 +37,10 @@ El problema del profesor en la evaluación siempre ha sido **asegurarse de que l
 
 Véase la publicación [Una experiencia con GitHub Copilot](https://github.com/community/Global-Campus-Teachers/discussions/118#discussioncomment-3606379) en Global-Campus-Teachers
 
-## Copilot Labs: Explicar y Traducir
+## La extensión Copilot Labs: Explicar y Traducir
 
-Actualmente, Copilot Labs consta de una barra lateral de VS Code que alberga distintas funciones: 
+Actualmente, la extensión [Copilot Labs](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-labs) consta de una barra lateral de VS Code que alberga distintas funciones: 
+
 1. "explicar este código" y 
 2. "traducir este código". 
 
