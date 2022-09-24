@@ -93,6 +93,9 @@ El equipo de GitHub Next realizó una investigación utilizando una combinación
 MAPS 2022. Proceedings of the 6th ACM SIGPLAN International Symposium on Machine Programming
 
 
+Desde el punto de vista de la educación habría que investigar como se deben modificanr los procesos de enseñanza y evaluación cuando se usa una IA.
+
+
 ## La extensión Copilot Labs: Explicar y Traducir
 
 Actualmente, la extensión [Copilot Labs](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-labs) consta de una barra lateral de VS Code que alberga distintas funciones: 
