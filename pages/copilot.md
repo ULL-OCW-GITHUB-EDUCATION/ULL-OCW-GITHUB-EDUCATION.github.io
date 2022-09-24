@@ -83,6 +83,10 @@ El problema del profesor en la evaluación siempre ha sido **asegurarse de que l
 
 Véase la publicación [Una experiencia con GitHub Copilot](https://github.com/community/Global-Campus-Teachers/discussions/118#discussioncomment-3606379) en Global-Campus-Teachers
 
+## Estudio de Satisfacción 
+
+* [Research: quantifying GitHub Copilot’s impact on developer productivity and happiness](https://github.blog/2022-09-07-research-quantifying-github-copilots-impact-on-developer-productivity-and-happiness/)
+
 ## La extensión Copilot Labs: Explicar y Traducir
 
 Actualmente, la extensión [Copilot Labs](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-labs) consta de una barra lateral de VS Code que alberga distintas funciones: 
