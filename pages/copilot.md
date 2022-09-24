@@ -95,7 +95,7 @@ MAPS 2022. Proceedings of the 6th ACM SIGPLAN International Symposium on Machine
 Extraemos el siguiente fragmento de las conclusiones de la versión académica del trabajo:
 
 > Programar no es teclear, y el valor central de GitHub Copilot no radica en maximizar el  número  de líneas de código que introduce el usuario.
-Por el contrario, radica en ayudar al progreso del usuario hacia sus objetivos. Una plantilla de sugerencia que permita al usuario experimentar y modificar puede ser mejor que una línea de código obvia pero correcta que solo ahorra algunas pulsaciones.
+Por el contrario, radica en ayudar al progreso del usuario hacia sus objetivos. Una plantilla de sugerencia que permita al usuario experimentar y modificar es mejor que una línea de código correcta pero que es obvia y que solo ahorra algunas pulsaciones.
 > Esto sugiere que un enfoque centrado en la corrección de las sugerencias no cuenta toda la historia para este tipo de herramienta. Es mas una especie de conversación dentro de la IDE con un chatbot que hace sugerencias.
 
 Desde el punto de vista de la educación habría que investigar como se deben modificanr los procesos de enseñanza y evaluación cuando se usa una IA.
