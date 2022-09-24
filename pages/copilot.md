@@ -86,9 +86,12 @@ Véase la publicación [Una experiencia con GitHub Copilot](https://github.com/c
 ## Estudio de Satisfacción 
 
 
-El equipo de GitHub Next realizó una investigación utilizando una combinación de encuestas y experimentos sobre cómo la herramienta está ayudando a los desarrolladores. Dado que cualquier estudiante de Ciencias de la Computación es una especie de desarrollador de software, creo que los resultados se pueden aplican a los estudios de Informática:
+El equipo de GitHub Next realizó una investigación utilizando una combinación de encuestas y experimentos sobre cómo la herramienta está ayudando a los desarrolladores. Dado que cualquier estudiante de Informática es un desarrollador software, creo que los resultados se pueden aplicar a los estudiantes de Informática:
 
 * [Research: quantifying GitHub Copilot’s impact on developer productivity and happiness](https://github.blog/2022-09-07-research-quantifying-github-copilots-impact-on-developer-productivity-and-happiness/)
+* [Productivity assessment of neural code completion](https://dl.acm.org/doi/10.1145/3520312.3534864) por Albert Ziegler, Eirini Kalliamvakou, X. Alice Li, Andrew Rice, Devon Rifkin, Shawn Simister, Ganesh Sittampalam, Edward Aftandilian.
+MAPS 2022. Proceedings of the 6th ACM SIGPLAN International Symposium on Machine Programming
+
 
 ## La extensión Copilot Labs: Explicar y Traducir
 
