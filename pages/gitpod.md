@@ -35,6 +35,24 @@ See also:
 
 * [One-Click VS Code in Browser from GitHub Repo ](https://visualstudiomagazine.com/articles/2021/08/31/github-vs-code.aspx)
 
+## CodeSpaces
+
+ Codespaces is a GH service that allows you to run a configurable development environment with one-click launch with a remote compute in the cloud.
+
+* [GitHub Codespaces](https://docs.github.com/en/codespaces)
+* [GitHub Codespaces vs Gitpod – Full Stack Development Moves to the Cloud](https://www.freecodecamp.org/news/github-codespaces-vs-gitpod-cloud-based-dev-environments/) AUGUST 30, 2021
+
+There this amazing set of videos which is perfect for getting started with Codespaces <https://m.youtube.com/playlist?list=PLmsFUfdnGr3wTl-NCblzcrEv2lFSX975->
+
+A full tutorial introduction to GitHub Codespaces <https://github.com/features/codespaces>
+
+This course will show you everything you need to know to be productive using GitHub Codespaces
+
+Being able to run Visual Studio Code in the cloud for any project with a pre-configured environment is going to allow you to concentrate on the learning if you are student, the teaching if you are a professor, or being plain productive if you are already a technologist.
+<https://www.youtube.com/playlist?app=desktop&list=PLmsFUfdnGr3wTl-NCblzcrEv2lFSX975->
+
+See discussion at <https://github.com/community/Global-Campus-Teachers/discussions/118#discussioncomment-3715087>
+
 ## GitPod 
 
 Gitpod is an open source platform for automated and ready-to-code development environments that blends into your existing workflow. It enables developers to describe their dev environment as code and start instant and fresh development environments for each new task directly from your browser.
@@ -218,20 +236,3 @@ If you already have a Kubernetes cluster, or don’t want/cannot use AWS or GCP,
 
 {% include gitpod-references.md %}
 
-## CodeSpaces
-
- Codespaces is a GH service that allows you to run a configurable development environment with one-click launch with a remote compute in the cloud.
-
-* [GitHub Codespaces](https://docs.github.com/en/codespaces)
-* [GitHub Codespaces vs Gitpod – Full Stack Development Moves to the Cloud](https://www.freecodecamp.org/news/github-codespaces-vs-gitpod-cloud-based-dev-environments/) AUGUST 30, 2021
-
-There this amazing set of videos which is perfect for getting started with Codespaces <https://m.youtube.com/playlist?list=PLmsFUfdnGr3wTl-NCblzcrEv2lFSX975->
-
-A full tutorial introduction to GitHub Codespaces <https://github.com/features/codespaces>
-
-This course will show you everything you need to know to be productive using GitHub Codespaces
-
-Being able to run Visual Studio Code in the cloud for any project with a pre-configured environment is going to allow you to concentrate on the learning if you are student, the teaching if you are a professor, or being plain productive if you are already a technologist.
-<https://www.youtube.com/playlist?app=desktop&list=PLmsFUfdnGr3wTl-NCblzcrEv2lFSX975->
-
-See discussion at <https://github.com/community/Global-Campus-Teachers/discussions/118#discussioncomment-3715087

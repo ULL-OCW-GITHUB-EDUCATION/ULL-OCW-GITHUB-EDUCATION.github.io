@@ -94,7 +94,7 @@ en estas [notas]({{site.baseurl}}/pages/gitpod) recogemos estas alternativas:
 3. Usar [GitPod]({{ site.baseurl }}/pages/gitpod#gitpod), una alternativa a [Codespaces][codespaces]
 
 [githubdev]: https://docs.github.com/en/codespaces/the-githubdev-web-based-editor
-[codespaces]: https://docs.github.com/es/codespaces
+[codespaces]: /pages/gitpod#codespaces
 
 ### Objetivo 4: Aprender a Usar GitHub Discussions
 

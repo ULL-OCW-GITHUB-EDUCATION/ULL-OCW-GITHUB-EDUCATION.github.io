@@ -18,7 +18,7 @@ toc: true
     2. Su correspondiente aula GitHub Classroom,
     3. Si eres profesor a solicitar los descuentos del programa "Global Campus" y a actualizar tus organizaciones 
     3. Aprender a crear un repo de perfil de una organización en GitHub
-3. Aprender a usar CodeSpaces
+3. Aprender a usar [CodeSpaces]({{ site.baseurl }}/pages/gitpod#codespaces)
 
 ## Crea tu repo profile
 
