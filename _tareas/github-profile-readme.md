@@ -83,7 +83,7 @@ Si estás familiarizado con VSCode no será difícil usar CodeSpaces.
 
 Los siguientes recursos te facilitarán la edición con CodeSpaces:
 
-* [GitHub Codespaces](https://docs.github.com/en/codespaces)
+* [GitHub Codespaces](/pages/gitpod#codespaces)
 
 Para el objetivo de crear la asignación classroom configurada con codeSpaces es conveniente que leas:
 

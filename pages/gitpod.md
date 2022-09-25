@@ -37,7 +37,7 @@ See also:
 
 ## CodeSpaces
 
- Codespaces is a GH service that allows you to run a configurable development environment with one-click launch with a remote compute in the cloud.
+ Codespaces is a GH service that allows you to run a configurable development environment with one-click launch using a remote computer in the cloud.
 
 * [GitHub Codespaces](https://docs.github.com/en/codespaces)
 * [GitHub Codespaces vs Gitpod – Full Stack Development Moves to the Cloud](https://www.freecodecamp.org/news/github-codespaces-vs-gitpod-cloud-based-dev-environments/) AUGUST 30, 2021
