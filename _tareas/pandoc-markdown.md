@@ -40,6 +40,7 @@ Despliegue el repo en GitPod usando el botón GitPod. El contenedor/Docker/Máqu
 
 ## References
 
+* [GitHub Codespaces - R, Python, Julia](https://youtu.be/h7QLx2isrw4) YouTube video (includes LaTeX)
 * [hegerdes/VSCode-LaTeX-Container](https://github.com/hegerdes/VSCode-LaTeX-Container)
   * Lee el post asociado [Getting started with LaTex as a Dev](https://henrikgerdes.me/articles/2022-01-vscode-latex)
 * [pandoc](https://pandoc.org/)

@@ -33,6 +33,7 @@ Bienvenido a los apuntes del curso OCW de la de la Universidad de La Laguna **[I
 
 ### GH Codespaces y VSCode
 
+* [GitHub Codespaces]({{ site.baseurl }}/pages/gitpod#codespaces)
 * [Usando Contenedores Remotos desde VSCode]({{ site.baseurl }}/pages/remote-containers-vscode.html)
 
 ### GH Pages

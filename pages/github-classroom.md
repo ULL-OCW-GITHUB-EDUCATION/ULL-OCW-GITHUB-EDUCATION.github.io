@@ -117,6 +117,65 @@ Una solución equivalente a la anterior es hacer que todas las asignaciones indi
 
 <img src="{{site.baseurl}}/assets/images/github-classroom-group-assignment-naming-scheme.png" width="70%"/>
 
+Una ventaja de esta solución es que es posible usar la API de GitHub para obtener un JSON con información del team y del alumno.
+Este es un ejemplo de solicitud graphql para obtener la información de un equipo:
+
+```graphql
+query getInfo($organization: String!) {
+  organization(login: $organization) {
+    teams(first: 100) {
+      totalCount
+      edges {
+        node {
+          name
+          members(first: 100) {
+            totalCount
+            edges {
+              memberAccessUrl
+              node {
+                name
+                url
+                email
+                login
+                
+              }
+            }
+          }
+          url
+        }
+      }
+    }
+  }
+}
+```
+
+El JSON generado puede ser utilizado desde el generador estático de sites (Jekyll, Hugo, Vuepress, etc) para generar una página web con la información de los equipos y los alumnos. Este es un ejemplo con un fragmento de una macro Jekyll `_includes/teams.html` que podemos usar para generar este tipo de información:
+
+```html
+{% assign teams = site.data.teams.data.organization.teams.edges %}
+{% for team in teams -%}
+  {%- assign name = team.node.name -%}
+  {%- assign names = name | split: "-" -%}
+  {%- assign studentName = names[0] | | capitalize }} -%}
+  {%- assign url = team.node.url -%}
+<h2>{{ studentName }}</h2>
+
+<ul>
+  <li> Team:
+    <a href="{{url}}" target="_blank">{{ name }}</a>
+  </li>
+  <li> {{ studentName }} repos: 
+  <a href="{{url}}/repositories" target="_blank">Repositories</a>
+  </li>
+  {% assign memberAccessUrl = team.node.members.edges[0].memberAccessUrl %}
+  {%- assign student = team.node.members.edges[0].node -%}
+  <li> <a href="{{ memberAccessUrl }}" target="_blank">{{ studentName }} ({{ student.login }})</a>  at the organization {{ site.organization.name }}</li>
+  <li> <a href="{{ student.url }}" target="_blank">{{ studentName }} at GitHub</a> is {{ student.login }}</li>
+  <li><a href="https://github.com/notifications?query=author%3A{{ student.login }}" target="_blank">Notifications</a></li>
+</ul>
+{% endfor -%}
+```
+
 
 ## Tercera solución: Spreadsheet y la extensión gh org-members
 
