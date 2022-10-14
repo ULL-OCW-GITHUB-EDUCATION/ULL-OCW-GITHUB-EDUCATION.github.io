@@ -151,6 +151,7 @@ query getInfo($organization: String!) {
 
 El JSON generado puede ser utilizado desde el generador estático de sites (Jekyll, Hugo, Vuepress, etc) para generar una página web con la información de los equipos y los alumnos. Este es un ejemplo con un fragmento de una macro Jekyll `_includes/teams.html` que podemos usar para generar este tipo de información:
 
+{% raw %}
 ```html
 {% assign teams = site.data.teams.data.organization.teams.edges %}
 {% for team in teams -%}
@@ -175,6 +176,7 @@ El JSON generado puede ser utilizado desde el generador estático de sites (Jeky
 </ul>
 {% endfor -%}
 ```
+{% endraw %}
 
 
 ## Tercera solución: Spreadsheet y la extensión gh org-members
