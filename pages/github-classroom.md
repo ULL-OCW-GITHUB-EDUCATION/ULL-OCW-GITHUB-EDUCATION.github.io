@@ -321,7 +321,7 @@ Además, los profesores también pueden añadir mediante un script en la fase de
 
 Puede ver ejemplos de como hacerlo en diferentes lenguajes de programación (C, C++, Python, Java, Node) en [los repos `autograding-example-*` ](https://github.com/orgs/education/repositories?q=AUTOGRADING-example&type=all&language=&sort=) de la organización GitHub education.
 
-Nóese que hasta el momento no existe la posibilidad de tener pruebas privadas. Véase la pregunta [Keep tests for autograder secret](https://education.github.community/t/keep-tests-for-autograder-secret/56898).
+Nótese que hasta el momento no existe la posibilidad de tener pruebas privadas. Véase la pregunta [Keep tests for autograder secret](https://education.github.community/t/keep-tests-for-autograder-secret/56898).
 
 ## Referencias
 
