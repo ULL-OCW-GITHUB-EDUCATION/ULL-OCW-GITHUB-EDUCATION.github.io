@@ -106,6 +106,10 @@ Haga click en *http://127.0.0.1:4000 Follow link using forwarded port*
 
 A continuación lea los tutorials de [Jekyll](https://jekyllrb.com/docs/) y [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/)
 
+## Añadir una sección de Comentarios
+
+Instale  utterances en su repo [https://github.com/apps/utterances](https://github.com/apps/utterances) y configurela para añadir comentarios a su repo.
+
 ## Desplegando nuestro Web Site como nuestra página Web personal en GitHub
 
 

@@ -319,6 +319,8 @@ aumentando las posibilidades de que los estudiantes se ajusten a lo solicitado.
 
 Además, los profesores también pueden añadir mediante un script en la fase de evaluación pruebas privadas no publicadas en sus clones/submódulos de los repositorios de estudiantes que darán lugar a la calificación final.
 
+Puede ver ejemplos de como hacerlo en diferentes lenguajes de programación (C, C++, Python, Java, Node) en [los repos `autograding-example-*` ](https://github.com/orgs/education/repositories?q=AUTOGRADING-example&type=all&language=&sort=) de la organización GitHub education.
+
 ## Referencias
 
 {% include github-education-references.md %}

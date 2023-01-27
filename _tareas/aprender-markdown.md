@@ -6,6 +6,10 @@ classroom: https://classroom.github.com/a/PlGuI8vJ
 name: aprender-markdown
 date: 0000/02/01
 toc: true
+rubrica:
+  - "Se incluyen todos los aspectos solicitados en el markdown y se visualizan correctamente"
+  - "Informe elaborado correcto"
+  - "Ha entregado el enlace en el campus con el repo"
 ---
 
 # {{ page.title }}
@@ -136,6 +140,10 @@ Para manejar todo el proceso de edición pueden ayudarte estas [notas sobre Edic
 que en esta tarea uses el [editor on-line de GitHub]({{ site.baseurl }}/pages/gitpod#editor-on-line-de-github)**.
 
 Si estás familiarizado con VSCode, basta con pulsar un punto en tu navegador cuando estás visitando tu repo de trabajo para que se active una version reducida de VSCode que es conocida como [GitHub.dev Editor]({{ site.baseurl }}/pages/gitpod#editing-with-githubdev-editor). Aún mejor, usa [GitPod]({{ site.baseurl }}/pages/gitpod#gitpod) o [CodeSpaces]({{ site.baseurl }}/pages/gitpod#codespaces)
+
+## Rúbrica
+
+{% include rubrica.md -%}
 
 
 ## [Referencias](references)

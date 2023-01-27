@@ -16,3 +16,4 @@ Andrew Meads, Nasser Giacaman, Allan Fowler, Kelly Blincoe. University of Auckla
 * <a href="https://opensource.com/education/16/1/git-education-classroom" target="_blank" rel="noopener noreferrer">Why you should use GitHub: Lessons for the classroom and newsroom</a>. StoryBench. 2015
 
 * [David C Conner, Matthew McCarthy, and Lynn Lambert. 2019. Integrating Git into CS1/2. Journal of Computing Sciences in Colleges](https://dl.acm.org/doi/10.5555/3381569.3381583) 35, 3 (2019), 112–121.
+* Ejemplos de autograding en diferentes lenguajes de programación (C, C++, Python, Java, Node) en [los repos `autograding-example-*` ](https://github.com/orgs/education/repositories?q=AUTOGRADING-example&type=all&language=&sort=) de la organización GitHub education
