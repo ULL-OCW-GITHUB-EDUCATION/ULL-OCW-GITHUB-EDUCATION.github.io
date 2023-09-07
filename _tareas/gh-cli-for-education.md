@@ -11,13 +11,92 @@ toc: true
 
 ## Objetivos
 
-* Conocer que es [gh-cli]()
+* Conocer que es [gh-cli](https://cli.github.com/)
 * Aprender a usar algunas extensiones para educación
 * Mejorar nuestra eficiencia en procesos de evaluación, retroalimentación al alumnado, detección de plagio, etc. usando `gh` *extensions* 
 
 ## Introducción a gh
 
 Véase las notas en [GitHub Command Line Interface]({{ site.baseurl }}/pages/gh)
+
+## Uso de GitHub Classroom con GitHub CLI
+
+Instale la extensión [GitHub Classroom](https://github.com/github/gh-classroom) para `gh`:
+
+```bash
+gh extension install github/gh-classroom
+```
+o actualícela:
+
+```bash
+gh extension upgrade classroom
+```
+
+Esta es la ayuda:
+
+```
+$ gh classroom --help
+A GitHub Classroom CLI
+
+Usage:
+  classroom [command]
+
+Available Commands:
+  accepted-assignments List your student's accepted assignments
+  assignment           Show the details of an assignment
+  assignment-grades    Download a CSV of grades for an assignment in a classroom
+  assignments          Display a list of assignments for a classroom
+  clone                Clone starter code or a student's submissions
+  completion           Generate the autocompletion script for the specified shell
+  help                 Help about any command
+  list                 List classrooms
+  view                 Show the details of a classroom
+
+Flags:
+  -h, --help   help for classroom
+
+Use "classroom [command] --help" for more information about a command.
+```
+
+```
+$ gh classroom list --help
+List of classrooms you own
+
+Usage:
+  classroom list [flags]
+
+Aliases:
+  list, ls
+
+Examples:
+$ gh classroom list --page 1
+
+Flags:
+  -h, --help           help for list
+      --page int       Page number (default 1)
+      --per-page int   Number of classrooms per page (default 30)
+      --web            Open the classroom list in a browser
+```
+
+Por ejemplo:
+
+```
+➜  2122ocw gh classroom list --page 4 | grep 2324
+185636  ULL-ESIT-DMSI-2324                             https://classroom.github.com/classrooms/143794118-ull-esit-dmsi-2324
+185748  ULL-MII-SYTWS-2324                             https://classroom.github.com/classrooms/144119227-ull-mii-sytws-2324
+```
+
+Si queremos clonar los repos de los estudiantes para una asignación debemos usar el comando `gh classroom clone`:
+
+```
+practicas-alumnos gh classroom clone student-repos -a 482607      
+Creating directory:  /Users/casianorodriguezleon/campus-virtual/2324/dmsi2324/practicas-alumnos/aprender-markdown-submissions
+Cloning into: /Users/casianorodriguezleon/campus-virtual/2324/dmsi2324/practicas-alumnos/aprender-markdown-submissions/aprender-markdown-casiano-rodriguez-leon-alu0100291865
+...
+```
+
+Sin embargo, si se pretende clonar repos de asignaciones por nombre la extensión [gh-cli-for-education/gh-org-clone](https://github.com/gh-cli-for-education/gh-org-clone) es mas adecuada.
+
 
 ## gh-cli en la Enseñanza
 
