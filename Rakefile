@@ -1,6 +1,6 @@
 desc "Publicar en GitHub los apuntes de OCW"
 task :default do
-  sh "git ci -am 'OCW 2022' && git push -u origin main"
+  sh "git ci -am 'OCW 2023' && git push -u origin main"
 end
 
 desc "serve locally"
