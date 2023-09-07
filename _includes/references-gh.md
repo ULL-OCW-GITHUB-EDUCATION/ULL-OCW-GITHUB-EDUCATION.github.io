@@ -1,5 +1,5 @@
 * [Using GitHub Classroom with GitHub CLI](https://docs.github.com/en/education/manage-coursework-with-github-classroom/teach-with-github-classroom/using-github-classroom-with-github-cli)
-* [GitHub Classroom](https://github.com/github/gh-classroom)
+* [GitHub Classroom extension github/gh-classroom](https://github.com/github/gh-classroom)
 * [gh-cli-for-education/gh-org-clone](https://github.com/gh-cli-for-education/gh-org-clone)
 * TFG de Cristo Garcia González [Github cli extensions for the github education community. Herramientas para la automatización de los flujos de trabajo del docente que usa github](http://riull.ull.es/xmlui/handle/915/29410)
 * [Awesome Github CLI Extensions ![Awesome](https://awesome.re/badge.svg)](https://github.com/kodepandai/awesome-gh-cli-extensions)
