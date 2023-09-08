@@ -49,4 +49,4 @@ Es posible alojar un sitio web dentro de Moodle siguiendo estas instrucciones:
 
 ## Referencias
 
-* Aquí está el artículo original [Importing a Website into Moodle](https://help.lafayette.edu/importing-a-website-into-moodle/)
+* Véase también [Importing a Website into Moodle](https://help.lafayette.edu/importing-a-website-into-moodle/) 
