@@ -8,7 +8,7 @@ Es posible alojar un sitio web dentro de Moodle siguiendo estas instrucciones:
 
 1. Asegúrese de que todos los enlaces dentro de sus páginas web sean relativos entre sí, es decir, si tiene una página `index.html` y una página `book.html` en el mismo directorio, como un enlace a la página `book.html` desde la "página de índice", tiene "/book.html". De lo contrario, los enlaces no funcionarán correctamente. 
    - Lea la sección [Comprensión de site.url y site.baseurl](jekyll-baseurl.html) para aprender cómo hacerlo con Jekyll
-2. Construya su site. Por ejemplo en Jekyll el comando `build` admite una opción `-b` para establecer la `baseurl`. Utilice como `baseurl` el camino donde se alojará su sitio en Moodle. Por ejemplo, si el sitio se aloja en  
+2. **Construya su site estableciendo su `baseurl`**. Por ejemplo en Jekyll el comando `build` admite una opción `-b` para establecer la `baseurl`. Utilice como `baseurl` el camino donde se alojará su sitio en Moodle. Por ejemplo, si el sitio se aloja en  
    
    ```
    https://campusvirtual.ull.es/ocw/pluginfile.php/19489/mod_resource/content/3/_site/
