@@ -1,7 +1,3 @@
----
-toc: true
----
-
 # Referencias y Bibliografía
 
 ## GitHub Education

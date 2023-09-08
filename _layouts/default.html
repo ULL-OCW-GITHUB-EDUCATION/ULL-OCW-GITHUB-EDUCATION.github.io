@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script src="{{ '/assets/js/respond.js' | relative_url }}"></script>
-    
+
     <!-- Mathjax Support  -->
     <!-- version 2
     <script 
@@ -20,19 +20,19 @@
 
     <!-- MathJax version 3 -->
     <script type="text/javascript">
-    window.MathJax = {
-    tex: {
-        packages: ['base', 'ams']
-    },
-    loader: {
-        load: ['ui/menu', '[tex]/ams']
-    }
-    };
+        window.MathJax = {
+            tex: {
+                packages: ['base', 'ams']
+            },
+            loader: {
+                load: ['ui/menu', '[tex]/ams']
+            }
+        };
     </script>
 
     <script type="text/javascript" id="MathJax-script" async
-    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
-    </script>
+        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+        </script>
 
 
 
@@ -60,11 +60,11 @@
 
         <section>
             {% if page.toc %}
-              <h2 >Índice de Contenidos</h2>
-              {% include toc.html html=content id="pltoc" %}
+            <h2>Índice de Contenidos</h2>
+            {% include toc.html html=content id="pltoc" %}
             {% endif %}
             {% if page.classroom %}
-              <nav >
+            <nav>
                 <ul>
                     <li>
                         <a href="{{ page.classroom }}" target="_blank">
@@ -75,22 +75,22 @@
                     </li>
                 </ul>
 
-              </nav>
+            </nav>
             {% endif %}
 
             {% include navigation-links.html %}
-  
-            
+
+
             {{ content }}
 
             <h2>Tus Comentarios</h2>
-            
+
             <!--
             {% include laguera.html %}
             -->
-            
+
             {% include utterances.html %}
-            
+
             <!--
 
             <details>
@@ -102,17 +102,26 @@
             -->
 
             <!-- Mathjax Support  -->
-            <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
+            <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML'
+                async></script>
 
 
+        </section>
+        <section>
+            <div class="no-overflow" id="yui_3_17_2_1_1531175062562_29" style="text-align: center;"><a rel="license"
+                    href="http://creativecommons.org/licenses/by-nc-nd/4.0/"> <img alt="Creative Commons License"
+                        style="border-width: 0;" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /> </a>
+                <br />All the work in this pages (including PDFs authored by us) is licensed under a <a rel="license"
+                    href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons
+                    Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.</div>
         </section>
     </div>
 
     {% if site.google_analytics %}
     <script type="text/javascript">
-        (function(i, s, o, g, r, a, m) {
+        (function (i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function() {
+            i[r] = i[r] || function () {
                 (i[r].q = i[r].q || []).push(arguments)
             }, i[r].l = 1 * new Date();
             a = s.createElement(o),
