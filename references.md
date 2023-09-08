@@ -1,3 +1,7 @@
+---
+permalink: /references
+---
+
 # Referencias y Bibliografía
 
 ## GitHub Education
