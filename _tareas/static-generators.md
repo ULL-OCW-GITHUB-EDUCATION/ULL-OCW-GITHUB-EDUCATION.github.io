@@ -24,7 +24,7 @@ Al aceptar esta asignación se creará un repo con los archivos y carpetas neces
 
 1. En este primer web site deberás construir tu página personal en GitHub y la publicarás en un repo con nombre `<usuario>/<usuario>.github.io`.
 2. Deberás también crear un segundo web site en un repo con nombre `<organization>/<organization>.github.io` para la organización que creaste en la tarea [Registrarse en GitHub]({{ site.baseurl }}/registrarse-en-github)  con una estructura similar al  web site de este curso conteniendo temas, tareas, comentarios, enlaces, etc. 
-3. Deberás alojar todo el HTML generado en el paso anterior en el Moodle de tu asignatura siguiendo las instrucciones en la sección [Desplegando el Web Site de la Asignatura en Moodle]()
+3. Deberás alojar todo el HTML generado en el paso anterior en el Moodle de tu asignatura siguiendo las instrucciones en la sección [Desplegando el Web Site de la Asignatura en Moodle]({{site.baseurl}}/moodle.html)
 
 ## Puesta a punto en CodeSpaces
 
