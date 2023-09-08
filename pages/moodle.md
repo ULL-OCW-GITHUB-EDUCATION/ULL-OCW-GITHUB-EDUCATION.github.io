@@ -35,7 +35,6 @@ Es posible alojar un sitio web dentro de Moodle siguiendo estas instrucciones:
      - Aparecerá una carpeta en el selector de archivos.
      - ![/assets/images/una-vez-descomprimido.png](/assets/images/una-vez-descomprimido.png)
 6.  Navegue hasta la carpeta y seleccione su página de "índice".
-   - ![]()
    - Una vez seleccionado, elija la opción "Establecer archivo principal" en la ventana emergente.
 
      <!-- ![Set the main file](https://forge.lafayette.edu/wp-content/uploads/sites/451/2018/07/Screen-Shot-2018-07-05-at-3.22.28-PM.png)-->
