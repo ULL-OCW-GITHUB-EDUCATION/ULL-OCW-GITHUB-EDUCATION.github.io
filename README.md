@@ -1,5 +1,5 @@
 ---
-title: Contenidos
+title: Contenidos y Actividades
 permalink: index.html
 ---
 
