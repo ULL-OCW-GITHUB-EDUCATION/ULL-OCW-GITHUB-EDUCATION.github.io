@@ -1,6 +1,6 @@
 ---
 layout: default
-title: GHC para Profesores
+title: GitHub Classroom para Profesores
 permalink:  ghc
 classroom: https://classroom.github.com/a/mgV_maOt 
 date: 0000/03/02
