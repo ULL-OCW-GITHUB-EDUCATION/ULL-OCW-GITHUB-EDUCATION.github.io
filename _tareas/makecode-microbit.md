@@ -1,6 +1,6 @@
 ---
 title: "MakeCode Arcade: Un entorno de Programación Visual"
-permalink: /practicas/makecode
+permalink: /practicas/makecode.html
 date: 0000/03/04
 key: makecode
 layout: default
@@ -59,10 +59,13 @@ Deja en el fichero `README.md` de este repositorio
 
 * [MakeCode](https://arcade.makecode.com/)
 * [Documentación de arcade makedocs](https://arcade.makecode.com/docs)
-* Sección [Concepts](https://arcade.makecode.com/concepts) de la documentación de MakeCode.
-* Sección [Blocks](https://arcade.makecode.com/blocks).
-* {% include youtubePlayer.html id="0dEM3qEHZ4A" %}
+* MakeCode docs: Sección [Concepts](https://arcade.makecode.com/concepts) de la documentación de MakeCode.
+* MakeCode docs: Sección [Blocks](https://arcade.makecode.com/blocks).
+
+{% include youtubePlayer.html id="0dEM3qEHZ4A" %}
+
 * Programación con Javascript y MakeCode Arcade. Programa tu primer videojuego. 2022. 
+
 {% include youtubePlayer.html id="u3GVIjvyJiU" %}
 
 
