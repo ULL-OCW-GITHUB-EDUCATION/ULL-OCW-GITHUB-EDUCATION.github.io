@@ -1,6 +1,6 @@
 ---
 title: "MakeCode Arcade: Un entorno de Programación Visual"
-permalink: /practicas/makecode.html
+permalink: /practicas/makecode
 date: 0000/03/04
 key: makecode
 layout: default
