@@ -53,7 +53,10 @@ To speed up codespace creation, you can configure your project to **prebuild cod
 - Repository-level settings for GitHub Codespaces are available for all repositories owned by personal accounts.
 - For repositories owned by organizations, repository-level settings for GitHub Codespaces are available for organizations on GitHub Team plans that there is the one you get from GH Education as a teacher. 
 
-See the documentation at [codespaces/prebuilding-your-codespaces](https://docs.github.com/en/codespaces/prebuilding-your-codespaces)
+See the documentation at [codespaces/prebuilding-your-codespaces](https://docs.github.com/en/codespaces/prebuilding-your-codespaces).
+
+A prebuild assembles the main components of a codespace for a particular combination of repository, branch, and devcontainer.json configuration file. 
+It provides a quick way to create a new codespace. For complex and/or large repositories in particular, you can create a new codespace more quickly by using a prebuild.
 
 
 ## GitPod 
