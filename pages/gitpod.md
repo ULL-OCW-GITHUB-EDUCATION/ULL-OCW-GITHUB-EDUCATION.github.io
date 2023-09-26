@@ -42,10 +42,18 @@ Codespaces es un servicio de GH que provee el mismo entorno de desarrollo que VS
 * Este conjunto de videos es conveniente para empezar con Codespaces <https://m.youtube.com/playlist?list=PLmsFUfdnGr3wTl-NCblzcrEv2lFSX975->
 * [GitHub Codespaces](https://docs.github.com/en/codespaces) en docs.github.com
 * [GitHub Codespaces vs Gitpod – Full Stack Development Moves to the Cloud](https://www.freecodecamp.org/news/github-codespaces-vs-gitpod-cloud-based-dev-environments/) AUGUST 30, 2021
- 
+* Consulte también la discusión en <https://github.com/community/Global-Campus-Teachers/discussions/118#discussioncomment-3715087>
+
+### Personalización 
+
 Si quieres personalizar tu Codespace, puedes leer [Personalizing GitHub Codespaces for your account](https://docs.github.com/en/codespaces/customizing-your-codespace/personalizing-github-codespaces-for-your-account).Puedes personalizar GitHub Codespaces usando un [repositorio `dotfiles` en GitHub](https://docs.github.com/en/codespaces/customizing-your-codespace/personalizing-github-codespaces-for-your-account#dotfiles) o usando [Settings Sync](https://docs.github.com/en/codespaces/customizing-your-codespace/personalizing-github-codespaces-for-your-account#settings-sync).
 
-Consulte también la discusión en <https://github.com/community/Global-Campus-Teachers/discussions/118#discussioncomment-3715087>
+To speed up codespace creation, you can configure your project to **prebuild codespaces **for specific branches in specific regions. You create and configure prebuilds in your repository's settings. Repository-level settings for GitHub Codespaces are available for all repositories owned by personal accounts.
+
+For repositories owned by organizations, repository-level settings for GitHub Codespaces are available for organizations on GitHub Team and GitHub Enterprise plans. 
+
+See the documentation at [codespaces/prebuilding-your-codespaces}(https://docs.github.com/en/codespaces/prebuilding-your-codespaces)
+
 
 ## GitPod 
 
