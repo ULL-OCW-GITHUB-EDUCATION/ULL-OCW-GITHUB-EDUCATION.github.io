@@ -48,9 +48,10 @@ Codespaces es un servicio de GH que provee el mismo entorno de desarrollo que VS
 
 Si quieres personalizar tu Codespace, puedes leer [Personalizing GitHub Codespaces for your account](https://docs.github.com/en/codespaces/customizing-your-codespace/personalizing-github-codespaces-for-your-account).Puedes personalizar GitHub Codespaces usando un [repositorio `dotfiles` en GitHub](https://docs.github.com/en/codespaces/customizing-your-codespace/personalizing-github-codespaces-for-your-account#dotfiles) o usando [Settings Sync](https://docs.github.com/en/codespaces/customizing-your-codespace/personalizing-github-codespaces-for-your-account#settings-sync).
 
-To speed up codespace creation, you can configure your project to **prebuild codespaces **for specific branches in specific regions. You create and configure prebuilds in your repository's settings. Repository-level settings for GitHub Codespaces are available for all repositories owned by personal accounts.
+To speed up codespace creation, you can configure your project to **prebuild codespaces** for specific branches in specific regions. You create and configure prebuilds in your repository's settings. 
 
-For repositories owned by organizations, repository-level settings for GitHub Codespaces are available for organizations on GitHub Team and GitHub Enterprise plans. 
+- Repository-level settings for GitHub Codespaces are available for all repositories owned by personal accounts.
+- For repositories owned by organizations, repository-level settings for GitHub Codespaces are available for organizations on GitHub Team plans that there is the one you get from GH Education as a teacher. 
 
 See the documentation at [codespaces/prebuilding-your-codespaces}(https://docs.github.com/en/codespaces/prebuilding-your-codespaces)
 
