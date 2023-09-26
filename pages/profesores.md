@@ -1,13 +1,10 @@
-## PROFESORADO
-
-<p style="text-align: center;"></p>
 <p style="text-align: center;"><span style="font-size: xx-large;"><strong>PROFESORADO</strong></span></p>
 
 <table border="0" style="width: 762px; height: 263px;" align="center">
 <tbody>
 <tr>
 <td width="50%" valign="top" style="text-align: center;">
-<p><img src="https://ull-ocw-github-education.github.io/assets/images/fotoCasiano.jpg" alt="foto Casiano" width="225" height="225" class="img-responsive atto_image_button_text-bottom" /></p>
+<p><img src="https://ull-ocw-github-education.github.io/assets/images/fotoCasiano.jpg" alt="foto Casiano" width="225" height="225"  /></p>
 </td>
 <td width="50%" valign="top">
 <p></p>
@@ -26,7 +23,7 @@
 <tr>
 <td width="50%" valign="top" style="text-align: center;">
 <p></p>
-<p><img src="https://ull-ocw-github-education.github.io/assets/images/fotoCoro.jpg" alt="" width="200" height="200" role="presentation" class="img-responsive atto_image_button_text-bottom" /></p>
+<p><img src="https://ull-ocw-github-education.github.io/assets/images/fotoCoro.jpg" alt="" width="200" height="200" role="presentation"  /></p>
 </td>
 <td width="50%" valign="top">
 <p></p>
@@ -48,7 +45,7 @@
 alt="" 
 width="225" height="225" 
 role="presentation" 
-class="img-responsive atto_image_button_text-bottom" />
+ />
 </p>
 </td>
 
@@ -73,7 +70,7 @@ src="https://ull-ocw-github-education.github.io/assets/images/esegredo.png"
 alt="Eduardo Segredo foto" 
 width="225" height="220" 
 role="presentation" 
-class="img-responsive atto_image_button_text-bottom" />
+ />
 </p>
 </td>
 <td width="50%" valign="top">
