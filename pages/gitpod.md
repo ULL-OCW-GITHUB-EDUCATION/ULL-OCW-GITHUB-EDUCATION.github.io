@@ -42,9 +42,10 @@ Codespaces es un servicio de GH que provee el mismo entorno de desarrollo que VS
 * Este conjunto de videos es conveniente para empezar con Codespaces <https://m.youtube.com/playlist?list=PLmsFUfdnGr3wTl-NCblzcrEv2lFSX975->
 * [GitHub Codespaces](https://docs.github.com/en/codespaces) en docs.github.com
 * [GitHub Codespaces vs Gitpod – Full Stack Development Moves to the Cloud](https://www.freecodecamp.org/news/github-codespaces-vs-gitpod-cloud-based-dev-environments/) AUGUST 30, 2021
+ 
+Si quieres personalizar tu Codespace, puedes leer [Personalizing GitHub Codespaces for your account](https://docs.github.com/en/codespaces/customizing-your-codespace/personalizing-github-codespaces-for-your-account).Puedes personalizar GitHub Codespaces usando un [repositorio `dotfiles` en GitHub](https://docs.github.com/en/codespaces/customizing-your-codespace/personalizing-github-codespaces-for-your-account#dotfiles) o usando [Settings Sync](https://docs.github.com/en/codespaces/customizing-your-codespace/personalizing-github-codespaces-for-your-account#settings-sync).
 
-
-Consulte la discusión en <https://github.com/community/Global-Campus-Teachers/discussions/118#discussioncomment-3715087>
+Consulte también la discusión en <https://github.com/community/Global-Campus-Teachers/discussions/118#discussioncomment-3715087>
 
 ## GitPod 
 
