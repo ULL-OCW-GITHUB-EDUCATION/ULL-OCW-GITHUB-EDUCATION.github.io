@@ -1,5 +1,8 @@
 ---
-permalink: /references
+layout: default
+title: Referencias y Bibliografía
+permalink: /references.html
+toc: true
 ---
 
 # Referencias y Bibliografía
