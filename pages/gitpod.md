@@ -53,7 +53,7 @@ To speed up codespace creation, you can configure your project to **prebuild cod
 - Repository-level settings for GitHub Codespaces are available for all repositories owned by personal accounts.
 - For repositories owned by organizations, repository-level settings for GitHub Codespaces are available for organizations on GitHub Team plans that there is the one you get from GH Education as a teacher. 
 
-See the documentation at [codespaces/prebuilding-your-codespaces}(https://docs.github.com/en/codespaces/prebuilding-your-codespaces)
+See the documentation at [codespaces/prebuilding-your-codespaces](https://docs.github.com/en/codespaces/prebuilding-your-codespaces)
 
 
 ## GitPod 
