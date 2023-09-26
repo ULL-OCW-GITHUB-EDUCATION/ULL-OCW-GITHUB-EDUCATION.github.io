@@ -69,7 +69,7 @@ class="img-responsive atto_image_button_text-bottom" />
 <td width="50%" valign="top" style="text-align: center;">
 
 <p><img 
-src="https://ull-ocw-github-education.github.io/assets/images/esegredo.jpeg" 
+src="https://ull-ocw-github-education.github.io/assets/images/esegredo.png" 
 alt="Eduardo Segredo foto" 
 width="225" height="220" 
 role="presentation" 
