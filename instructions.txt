@@ -7,6 +7,11 @@ y ve a la configuración de la tarea.
 
 Sigue las instrucciones en: 
 
-  https://ull-ocw-github-education.github.io/pages/moodle.html
+  https://ull-ocw-github-education.github.io/moodle.html
+  https://campusvirtual.ull.es/ocw/pluginfile.php/19489/mod_resource/content/3/_site/moodle.html
 
-para actualizar el site.
+para actualizar el site. 
+
+## Referencias
+
+- Fichero [pages/moodle.md](./pages.md).

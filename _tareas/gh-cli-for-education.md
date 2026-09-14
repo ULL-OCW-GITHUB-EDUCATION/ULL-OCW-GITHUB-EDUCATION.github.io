@@ -97,6 +97,8 @@ Cloning into: /Users/casianorodriguezleon/campus-virtual/2324/dmsi2324/practicas
 
 Sin embargo, si se pretende clonar repos de asignaciones por nombre la extensión [gh-cli-for-education/gh-org-clone](https://github.com/gh-cli-for-education/gh-org-clone) es mas adecuada.
 
+Para mas detalles lea [Using GitHub Classroom with GitHub CLI](https://docs.github.com/en/education/manage-coursework-with-github-classroom/teach-with-github-classroom/using-github-classroom-with-github-cli)
+
 
 ## gh-cli en la Enseñanza
 
