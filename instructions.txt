@@ -1,9 +1,18 @@
-Ahora abre el navegador en la tarea 
-  "Bienvenido al curso OCW de la de la Universidad de La Laguna INTEGRACIÓN DE LAS HERRAMIENTAS “GITHUB EDUCATION” EN EL AULA"
+Se ha ejecutado 'rake ocw' que conlleva los siguientes comandos en secuencia:
+
+- sh "rm -fR _site.zip" # Borrado del fichero _site.zip si existía
+- sh "bundle exec jekyll build -b '/ocw/pluginfile.php/19489/mod_resource/content/3/_site'" # Construcción del sitio web con Jekyll
+- sh "zip -r _site.zip _site" # Compresión del sitio web en un fichero _site.zip
+
+Ahora abre el navegador en la sección 
+"Bienvenido al curso OCW de la de la Universidad de La Laguna INTEGRACIÓN DE LAS HERRAMIENTAS “GITHUB EDUCATION” EN EL AULA" en:
 
    https://campusvirtual.ull.es/ocw/course/modedit.php?update=10766&return=0&sr=0
 
-y ve a la configuración de la tarea.
+Esta tarea está en la sección "¡Bienvenid@ a Integración de las herramientas "Github Education" en el aula!" y en la 
+actividad de tipo archivo llamada "HTML con los contenidos del curso en un ZIP" cuyos ajustes deberás editar 
+(los tres puntos verticales).
+Una vez allí, ve a la configuración de la tarea.
 
 Sigue las instrucciones en: 
 

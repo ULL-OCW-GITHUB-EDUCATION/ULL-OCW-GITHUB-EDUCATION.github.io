@@ -1,6 +1,6 @@
 desc "Publicar en GitHub los apuntes de OCW"
 task :default do
-  sh "git ci -am 'OCW 2023' && git push -u origin main"
+  sh "git ci -am 'OCW 2026' && git push -u origin main"
 end
 
 desc "serve locally"
@@ -23,6 +23,14 @@ desc "build for the ocw course. Run 'rake stop' first"
 task :ocw do
   sh "rm -fR _site.zip"
   sh "bundle exec jekyll build -b '/ocw/pluginfile.php/19489/mod_resource/content/3/_site'"
+  sh "zip -r _site.zip _site"
+  sh "cat instructions.txt"
+end
+
+desc "build for the UHU course. Run 'rake stop' first"
+task :uhu do
+  sh "rm -fR _site.zip"
+  sh "bundle exec jekyll build -b '/pluginfile.php/621656/mod_resource/content/2/_site'"
   sh "zip -r _site.zip _site"
   sh "cat instructions.txt"
 end
