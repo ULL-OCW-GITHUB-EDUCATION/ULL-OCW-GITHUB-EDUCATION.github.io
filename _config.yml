@@ -1,8 +1,9 @@
-title: 'GITHUB EN EL AULA'
+title: 'INTEGRACIÓN DE LAS HERRAMIENTAS "GITHUB EDUCATION" EN EL AULA'
 subtitle: 'Usando Git y GitHub en la Enseñanza Universitaria'
+universidad: "Universidad de La Laguna"
 theme: jekyll-theme-midnight
 light: true
-description: 'Un Curso OCW de la ULL'
+description: 'Usando Git y GitHub en la Enseñanza '
 acronym: GHA
 exclude: [ '_drafts/not-used/' ]
 baseurl: '' # /ocw/pluginfile.php/19489/mod_resource/content/3/_site' '/introduccion'

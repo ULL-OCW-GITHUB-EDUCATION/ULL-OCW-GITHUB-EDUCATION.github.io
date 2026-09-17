@@ -9,6 +9,11 @@ task :serve do
   sh "bundle exec jekyll serve --future --watch --host 0.0.0.0 --port 8084"
 end
 
+desc "serve locally UHU"
+task :serveuhu do
+  sh "bundle exec jekyll serve --config uhu.yml --future --watch --host 0.0.0.0 --port 8084"
+end
+
 desc "Stop jekyll running server"
 task :stop do
   sh "ps aux |grep jekyll |awk '{print $2}' | xargs kill -9"
@@ -30,7 +35,7 @@ end
 desc "build for the UHU course. Run 'rake stop' first"
 task :uhu do
   sh "rm -fR _site.zip"
-  sh "bundle exec jekyll build -b '/pluginfile.php/621656/mod_resource/content/2/_site'"
+  sh "bundle exec jekyll build --config uhu.yml -b '/pluginfile.php/621656/mod_resource/content/2/_site'"
   sh "zip -r _site.zip _site"
   sh "cat instructions.txt"
 end
