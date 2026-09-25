@@ -63,33 +63,12 @@
             <h2>Índice de Contenidos</h2>
             {% include toc.html html=content id="pltoc" %}
             {% endif %}
-            {% if page.classroom %}
-            <nav>
-                <ul>
-                    <li>
-                        <a href="{{ page.classroom }}" target="_blank">
-                            <button class="assign">
-                                Acepta la asignación de la tarea
-                            </button>
-                        </a>
-                    </li>
-                </ul>
 
-            </nav>
-            {% endif %}
 
             {% include navigation-links.html %}
 
 
             {{ content }}
-
-            <h2>Tus Comentarios</h2>
-
-            <!--
-            {% include laguera.html %}
-            -->
-
-            {% include utterances.html %}
 
             <!--
 

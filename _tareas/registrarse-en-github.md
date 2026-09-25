@@ -4,7 +4,6 @@ title: Registrarse, Obtener Descuentos y Crear un Aula
 name: Registrarse en GitHub
 myurl: https://campusdoctoradoyposgrado.ull.es/mod/assign/view.php?id=282455&forceview=1
 permalink: registrarse-en-github
-classroom: https://classroom.github.com/a/q1VkdRLM
 date: 0000/01/01
 video: mtsyHWUFXjQ
 toc: true
@@ -14,23 +13,25 @@ toc: true
 
 ## Introducción
 
-Bienvenido a la Organización GitHub del curso  **[{{ site.title }}]({{ site.campus_virtual }})**  de la {{ site.universidad }} 
+Bienvenido a la Organización GitHub del curso  **[{{ site.title }}]({{ site.campus_virtual }})**  de la 
+**{{ site.universidad }}**
 
-Git es el Sistema de Control de Versiones (VCS) más popular.
-En la encuesta Stack Overflow de 2021, se comenta que más del 93% de los desarrolladores profesionales
+[Git](https://anitacheng.com/writing/git-for-non-developers/) es el [Sistema de Control de Versiones (VCS)](https://www.geeksforgeeks.org/git/version-control-systems/) más popular.
+En la encuesta Stack Overflow de 2022, se comenta que cerca del 94% de los desarrolladores profesionales
 usa Git. El uso creciente de Git es cada vez más frecuente en cursos universitarios y en la formación profesional. En este contexto, el servicio de hosting GitHub (GH) y la aplicación para la educación Classroom 50 ([C50]) contribuyen a la mejora de la enseñanza.
 
-El uso de VCS ofrece una serie de beneficios para apoyar la enseñanza,
+El uso de GitHub ofrece una serie de beneficios para apoyar la enseñanza,
 como 
 
-1. la distribución de material didáctico, 
-2. apoyo a la evaluación, 
+1. la distribución de material didáctico, (GitHub repositorios, GitHub Pages, GitHub Actions, etc.),
+2. apoyo a la evaluación (GitHub Issues, GitHub Pull Requests, GitHub Actions, etc.) y, 
 3. desarrollo colaborativo
 
 
-El aprendizaje de Sistemas de Control de Versiones se ha simplificado en parte por el  
-soporte colaborativo basado en la nube proveído por servicios como GH, [GitLab][GitLab] y [Bitbucket][Bitbucket].
 
+El aprendizaje de Sistemas de Control de Versiones es complejo (sobre todo si no tienes formación en programación), pero se ha simplificado en parte por la existencia de plataformas en la nube para alojar, gestionar y colaborar en proyectos utilizando Sistemas de Control de Versiones como son [GitHub][GitHub], [GitLab][GitLab] y [Bitbucket][Bitbucket].
+
+[GitHub]: https://github.com/education
 [GitLab]: https://about.gitlab.com/solutions/education/
 [Bitbucket]: https://bitbucket.org/product/education
 [GH]: https://education.github.com/
@@ -48,32 +49,48 @@ Este curso va dirigido a cualquier educador de habla hispana interesado en desar
 
 Para seguir el curso trabaja los [Contenidos](https://ull-ocw-github-education.github.io/index.html) en los [Apuntes](https://ull-ocw-github-education.github.io/) y acepta cada una de las asignaciones de las tareas ✍️ asociadas,  dejando tu informe con los resultados en el repositorio, que será creado cuando aceptes, dentro dentro de esta misma organización. Si te animas, utilizando las incidencias puedes solicitar comentarios a los profesores y restantes miembros de la organización.
 
-Haz tus preguntas en el [foro de discusiones de la organización](https://github.com/orgs/ULL-OCW-GITHUB-EDUCATION/discussions). Para más instrucciones sobre los debates puedes leer la documentación en [GitHub Debates](https://docs.github.com/es/discussions)
-
-
-
-## Fundamentos: Que es el Control de los Fuentes (VCS)
-
-Este video comparte una descripción general de alto nivel de qué es el control de código fuente, por qué es útil, qué opciones existen y recorre el flujo básico de los sistemas comunes de control de código fuente
-
-{% include video-youtube.html %}
-
-Si eres totalmente nuevo en esto de Git y GitHub,es conveniente que no te saltes el capítulo 
-[Curso de Capacitación para Profesores para Dominar Git y GitHub]({{ site.baseurl }}/teacher-training.html). 
-En el mismo tendrás la oportunidad de profundizar en el manejo del control de fuentes.
+Además de en el LMS puedes hacer preguntas en el [foro de discusiones de la organización]({{ site.organization.url }}/discussions). Para más instrucciones sobre los debates puedes leer la documentación en [GitHub Debates](https://docs.github.com/es/discussions).
 
 ## Objetivos
 
 Las tareas para este capítulo son: 
 
-1. Antes de aceptar esta tarea deberás registrarte en [GitHub.com](https://github.com), 
-2. Una vez registrado ya estás en condiciones de <a href="{{ page.classroom }}" target="_blank"><button class="assign">Aceptar esta tarea</button></a> haciendo click en este botón. Para aprender a aceptar una tarea sigue los pasos en [Como aceptar una tarea de grupo]({{ site.baseurl}}/pages/aceptar-tarea.html)
-2. Deberás solicitar un [descuento para docentes](https://github.com/settings/education/benefits) (en [https://github.com/settings/education/benefits](https://github.com/settings/education/benefits)), 
-   - <img src="{{ site.baseurl }}/assets/images/github-benefits/apply-for-github-education-benefits.png" width="75%" />
-3. Deberás crear una organización para un curso. Puedes leer más sobre como hacerlo en el capítulo [Creando Perfiles, Organizaciones y Aulas]({{ site.baseurl }}/creando-un-perfil.html). Si ya tienes el descuento y quieres mejorar tu organización puedes hacerlo en [https://education.github.com/globalcampus/teacher](https://education.github.com/globalcampus/teacher)
-4. Deberás crear un aula github classroom  asociada a la organización. Puedes leer más sobre como hacerlo y profundizar en GHC en el capítulo [GitHub Classroom para Profesores]({{ site.baseurl }}/ghc.html)
+### Tarea 1: Alta en GitHub
 
-  Si eres profesor, sigue los pasos explicados en la sección [Inicio rápido para GitHub Educators](https://docs.github.com/es/education/quickstart). Si te encuentras cómodo con el lenguaje Inglés es mejor usar la [versión inglesa de la guía](https://docs.github.com/en/education/quickstart).
+Antes de aceptar esta tarea deberás registrarte en [GitHub.com](https://github.com), 
+
+### Tarea 2: Aceptar esta tarea. Primeros Pasos con Classroom 50
+
+Una vez registrado ya estás en condiciones de **Aceptar esta tarea** en el enlace proveído en el Campus Virtual. 
+
+Para crear el repositorio de trabajo para esta tarea deberás comenzar aceptando la tarea asociada a esta parte haciendo click en el correspondiente botón en el campus virtual de este curso. Para aprender a aceptar una tarea sigue los pasos en la sección 
+[Accept an assignment](https://github.com/foundation50/classroom50/wiki/Web-Student-Guide#accept-an-assignment)
+del capítulo de la wiki de Classroom 50 [Web Student Guide](https://github.com/foundation50/classroom50/wiki/Web-Student-Guide).
+
+Un primer objetivo de esta lección/tarea es conseguir cierta familiaridad con los conceptos que conlleva Classroom 50: 
+[asignación][assignment], 
+[asignación individual](https://github.com/foundation50/classroom50/wiki/Glossary#individual-assignment), [asignación de grupo](https://github.com/foundation50/classroom50/wiki/Glossary#group-assignment), 
+*[rosters][rosters]*, 
+etc.
+
+Como estudiante, tu entrega se realiza haciendo "[commit](https://github.com/git-guides/git-commit)" y "[push](https://github.com/git-guides/git-push)" al repositorio que obtienes cuando aceptas la asignación. Para más detalles lea la sección de la wiki de Classroom 50 [Submit your work](https://github.com/foundation50/classroom50/wiki/Web-Student-Guide#submit-your-work)
+
+Este video en YouTube "[Classroom 50 Training Session](https://youtu.be/gpIz6XEVlEE?si=spbnHJnVeQZFglR3)"  contiene una introducción a Classroom 50.
+
+{% include youtubePlayer.html id="gpIz6XEVlEE" %}
+
+[rosters]: https://github.com/foundation50/classroom50/wiki/Glossary#roster
+[assignment]: https://github.com/foundation50/classroom50/wiki/Glossary#assignmentget-started-with-github-classroom/glossary#assignment
+[identificacion]: {{ site.baseurl }}/pages/github-classroom.html#el-problema-de-enlazar-las-cuentas-gh-con-las-cuentas-del-lms
+
+### Tarea 3: Solicitar un descuento para docentes
+
+Deberás solicitar un [descuento para docentes](https://github.com/settings/education/benefits) (Puedes hacerlo en [https://github.com/settings/education/benefits](https://github.com/settings/education/benefits)), 
+   - <img src="{{ site.baseurl }}/assets/images/github-benefits/apply-for-github-education-benefits.png" width="75%" />
+  
+#### Si eres profesor 
+
+Sigue los pasos explicados en la sección [Inicio rápido para GitHub Educators](https://docs.github.com/es/education/quickstart). Si te encuentras cómodo con el lenguaje Inglés es mejor usar la [versión inglesa de la guía](https://docs.github.com/en/education/quickstart).
 
 Para obtener descuentos de docente o investigador, debes cumplir con los siguientes requisitos:
 
@@ -82,7 +99,9 @@ Para obtener descuentos de docente o investigador, debes cumplir con los siguien
 3. Es conveniente tener una dirección de correo electrónico verificable que haya emitido una institución educativa. En la universidad de La Laguna es el email que tiene el sufijo `ull.edu.es`
 4. Cargar los documentos que comprueben tu afiliación a la institución educativa.
 
-Si eres estudiante puedes optar a los descuentos del *Paquete de desarrollo para estudiantes* de GitHub.
+#### Si eres estudiante
+
+Si eres estudiante puedes optar a los descuentos del para estudiantes de GitHub.
 Sigue las instrucciones en la sección [Aplicar un paquete de desarrollo para alumnos](https://docs.github.com/es/education/explore-the-benefits-of-teaching-and-learning-with-github-education/use-github-for-your-schoolwork/apply-for-a-student-developer-pack).
 
 Para optar debes cumplir con los siguientes requisitos:
@@ -92,25 +111,39 @@ Para optar debes cumplir con los siguientes requisitos:
 1. Estar inscrito actualmente en un curso que otorgue un título o diploma que garantice un curso de estudio como colegio, escuela secundaria, facultad, universidad, escolarización en casa o institución educativa similar
 2. Tener una dirección de correo electrónico verificable suministrada por la escuela o cargar documentos que demuestren tu situación de estudiante actual. 
 
+### Tarea 4: Crear una organización GitHub para un curso
 
-En cualquier caso, seas profesor o estudiante, para completar esta tarea deberás completar estos  puntos:
+Deberás crear una organización para un curso. Puedes leer más sobre como hacerlo en el capítulo [Creando Perfiles, Organizaciones y Aulas]({{ site.baseurl }}/creando-un-perfil.html). Si ya tienes el descuento y quieres mejorar tu organización (**upgrade organization**) puedes hacerlo en la página de GitHub **GlobalCampus** para profesores:[https://education.github.com/globalcampus/teacher](https://education.github.com/globalcampus/teacher)
+
+* Para el nombre de la organización es aconsejable seguir un patrón. Por ejemplo, la organización asociada a este curso se llama `{{ site.organization.name }}`. 
+* Otros ejemplos de nombres de organizaciones combinan los acrónimos de los ámbitos: la universidad, el centro, la asignatura y el curso. Por ejemplo `ULL-ESIT-PL-2122`. 
+* Invita a los profesores de esta asignatura a tu organización. Asignales el rol de **owner**. 
+* Invita a un estudiante de este curso a tu organización. Asignale el rol de **member**.
+Para ello, en la página de tu organización, haz click en **People** y luego en **Invite member**.  Pídele al estudiante que acepte la invitación (le llegará un correo) y que se una a tu organización. 
+
+### Tarea 5: Crear un aula GitHub Classroom asociada a la organización creada
+
+Deberás crear un aula classroom 50 asociada a la organización que has creado. Yo suelo poner el mismo nombre a la correspondiente aula Classroom 50. 
+Puedes leer más sobre como hacerlo y profundizar en Classroom 50 en la [wiki](https://github.com/foundation50/classroom50/wiki) del repositorio [foundation50/classroom50](https://github.com/foundation50/classroom50).
+
+Comprueba que el roster del aula está correctamente configurado. Tu y los profesores de este curso deberían aparecer como `Teacher` y el estudiante que has invitado a tu organización debería aparecer como `Student`.
+
+
+
+
+## Puntos a Completar
 
 1. Registrarte en GitHub
 2. Obtener tus correspondientes descuentos
-2. Crear una organización para un curso que vas a impartir. 
-  * Para el nombre de la organización y de la asignatura es aconsejable seguir un patrón. Por ejemplo, la organización asociada a este curso se llama `ULL-OCW-GITHUB-EDUCATION`. 
-  * Otros ejemplos de nombres de organizaciones combinan los acrónimos de los ámbitos: la universidad, el centro, la asignatura y el curso. Por ejemplo `ULL-ESIT-PL-2122`. El nombre del aula GitHub Classroom puede ser igual. 
-  * Si eres profesor puedes hacer que la organización y el aula creados sean privados, si eres estudiante la organización creada deberá ser pública ya que este privilegio no se encuentra en el *student-developer-pack* (pero el resto de esta tarea funciona igual).
-3. Crear un aula GitHub Classroom asociada a la organización creada
+3. Crear una organización para un curso que vas a impartir. Añadir a los profesores de este curso con el rol de owners y a un estudiante de la misma con el rol de member.
+4. Crear un aula GitHub Classroom asociada a la organización creada. Configurar correctamente el roster del aula.
 
 ## Entrega
 
 Deja en el fichero README.md del repo de la asignación enlaces 
 
-1. a la organización GitHub que has creado y 
-2. a tu página de usuario en GitHub.
+1. A la organización GitHub que has creado y 
+2. A tu página de usuario en GitHub.
 
-Publica también en el [foro](https://github.com/orgs/ULL-OCW-GITHUB-EDUCATION/discussions) los enlaces.
-
-Tanto si te han concedido los descuentos como si no, puedes proceder con la tarea [{{ page.next.title}}]({{ site.baseurl}}/{{ page.next.url }}.html). Obtener los descuentos no es necesario para poder hacer este curso.
+Tanto si te han concedido los descuentos como si no, una vez hayas terminado puedes proceder con la siguiente tarea [{{ page.next.title}}]({{ site.baseurl}}/{{ page.next.url }}.html). 
 

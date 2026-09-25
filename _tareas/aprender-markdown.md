@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Aprender GitHub Classroom y Markdown
+title: Aprender Classroom 50 y Markdown
 permalink: aprender-markdown
 classroom: https://classroom.github.com/a/PlGuI8vJ
 name: aprender-markdown
@@ -19,22 +19,26 @@ Las subsiguientes secciones presentan los recursos para lograr estos objetivos.
 
 ## Objetivos
 
-### Objetivo 1: Primeros Pasos con GitHub Classroom
+### Objetivo 1: Primeros Pasos con Classroom 50
 
-Deberás comenzar aceptando la tarea asociada a esta parte haciendo click en el botón con el texto *"acepta la asignación de la tarea"* en la cabecera. En cada una de los temas que requieren de la creación de un repositorio de trabajo para la realización de las tareas asociadas al tema encontrarás un botón con el texto
-<a href="{{ page.classroom }}" target="_blank"><button class="assign">acepta la asignación de la tarea</button></a>
-en la cabecera de la página. Para aprender a aceptar una tarea sigue los pasos en [Como aceptar una tarea de grupo]({{ site.baseurl}}/pages/aceptar-tarea.html)
+Para crear el repositorio de trabajo deberás comenzar aceptando la tarea asociada a esta parte haciendo click en el correspondiente botón en el campus virtual de este curso. Para aprender a aceptar una tarea sigue los pasos en la sección 
+[Accept an assignment](https://github.com/foundation50/classroom50/wiki/Web-Student-Guide#accept-an-assignment)
+del capítulo de la wiki de Classroom 50 [Web Student Guide](https://github.com/foundation50/classroom50/wiki/Web-Student-Guide).
 
-Un primer objetivo de esta lección/tarea es conseguir cierta familiaridad con los conceptos que conlleva Github Classroom: [asignación][assignment], asignación individual, asignación de grupo, [identificación del alumnado][identificacion], *[rosters][rosters]*, etc.
+Un primer objetivo de esta lección/tarea es conseguir cierta familiaridad con los conceptos que conlleva Classroom 50: 
+[asignación][assignment], 
+[asignación individual](https://github.com/foundation50/classroom50/wiki/Glossary#individual-assignment), [asignación de grupo](https://github.com/foundation50/classroom50/wiki/Glossary#group-assignment), 
+*[rosters][rosters]*, 
+etc.
 
-Este video en YouTube "[How to use VS Code to submit an assignment to Github Classroom (initially empty repository)](https://youtu.be/iqW_yzZkU_8)" 
+Como estudiante, tu entrega se realiza haciendo "[commit](https://github.com/git-guides/git-commit)" y "[push](https://github.com/git-guides/git-push)" al repositorio que obtienes cuando aceptas la asignación. Para más detalles lea la sección de la wiki de Classroom 50 [Submit your work](https://github.com/foundation50/classroom50/wiki/Web-Student-Guide#submit-your-work)
 
-{% include youtubePlayer.html id="iqW_yzZkU_8" %}
+Este video en YouTube "[Classroom 50 Training Session](https://youtu.be/gpIz6XEVlEE?si=spbnHJnVeQZFglR3)"  contiene una introducción a Classroom 50.
 
-muestra como deben hacer los estudiantes para aceptar, trabajar y entregar una tarea asignada con GHC usando el editor VS Code
+{% include youtubePlayer.html id="gpIz6XEVlEE" %}
 
-[rosters]: https://docs.github.com/en/education/manage-coursework-with-github-classroom/get-started-with-github-classroom/glossary#roster
-[assignment]: https://docs.github.com/en/education/manage-coursework-with-github-classroom/get-started-with-github-classroom/glossary#assignment
+[rosters]: https://github.com/foundation50/classroom50/wiki/Glossary#roster
+[assignment]: https://github.com/foundation50/classroom50/wiki/Glossary#assignmentget-started-with-github-classroom/glossary#assignment
 [identificacion]: {{ site.baseurl }}/pages/github-classroom.html#el-problema-de-enlazar-las-cuentas-gh-con-las-cuentas-del-lms
 
 ### Objetivo 2: Aprender Markdown
@@ -102,26 +106,11 @@ en estas [notas]({{site.baseurl}}/pages/gitpod) recogemos estas alternativas:
 
 ### Objetivo 4: Aprender a Usar GitHub Discussions
 
-Cuando termines esta tarea puedes ir al [foro de la organización y saludar](https://github.com/orgs/ULL-OCW-GITHUB-EDUCATION/discussions). Así practicas un poco mas de markdown.
+Cuando termines esta tarea puedes ir al [foro de la organización y saludar]({{ site.organization.url }}/discussions). Así practicas un poco mas de markdown.
 
 Publica tu entrada en la categoría **Cuéntanos lo que haces** (tienes un ejemplo de entrada en <https://github.com/orgs/ULL-OCW-GITHUB-EDUCATION/discussions/2>). 
 
 Si quieres saber mas sobre como añadir un foro de debate a tus repos y como administrar los foros puedes consultar la documentación en [GitHub Discussions](https://docs.github.com/en/discussions)
-
-
-## Introducción a GitHub Classroom (como estudiante)
-
-Los profesores de este curso han configurado la tarea asociada usando [GitHub Classroom  (que abreviaremos a veces como GHC)](https://docs.github.com/es/education/manage-coursework-with-github-classroom/teach-with-github-classroom). GitHub Classroom es una aplicación web para los docentes que proporciona herramientas para la administración de cursos integradas con GitHub. 
-
-En este capítulo tu contacto con GHC es como alumno.
-Para aprender a usar esta herramienta como profesor es conveniente que 
-
-1. Hagas posteriormente la tarea [GHC para Profesores]({{ site.baseurl}}/ghc.html)
-2. Sigas el curso [Teach with GitHub Classroom](https://docs.github.com/en/education/manage-coursework-with-github-classroom/teach-with-github-classroom). 
-3. Puedes encontrar un buen número de vídeos que complementan el curso en la sección [Videos about GitHub Classroom](https://docs.github.com/en/education/manage-coursework-with-github-classroom/get-started-with-github-classroom/basics-of-setting-up-github-classroom#videos-about-github-classroom)
-
-Verás que con GHC permite crear [asignaciones individuales](https://docs.github.com/en/education/manage-coursework-with-github-classroom/teach-with-github-classroom/create-an-individual-assignment) y de grupo. 
-
 
 ## Introduccion al Lenguaje de Marcas MarkDown
 
@@ -132,32 +121,15 @@ Lee
 2. Para mas detalles consulta la guía de usuario
 <a href="https://docs.github.com/en/free-pro-team@latest/github/writing-on-github/getting-started-with-writing-and-formatting-on-github" target="_blank">Getting started with writing and formatting on GitHub</a>
 
-## Introducción a la Edición en la Nube de Repositorios GitHub
+## Edición en la Nube de Repositorios GitHub
 
-Para manejar todo el proceso de edición pueden ayudarte estas [notas sobre Edición en la Nube]({{site.baseurl}}/pages/gitpod).
+* La sección de la documentación [Editar archivos](https://docs.github.com/es/repositories/working-with-files/managing-files/editing-files) sobre como editar archivosdirectamente en GitHub
+* [GitHub Codespaces](https://docs.github.com/en/codespaces) en docs.github.com
 
-**Si no tienes mucha experiencia y no estás familiarizado con VSCode lo mas sencillo es 
-que en esta tarea uses el [editor on-line de GitHub]({{ site.baseurl }}/pages/gitpod#editor-on-line-de-github)**.
-
-Si estás familiarizado con VSCode, basta con pulsar un punto en tu navegador cuando estás visitando tu repo de trabajo para que se active una version reducida de VSCode que es conocida como [GitHub.dev Editor]({{ site.baseurl }}/pages/gitpod#editing-with-githubdev-editor). Aún mejor, usa [GitPod]({{ site.baseurl }}/pages/gitpod#gitpod) o [CodeSpaces]({{ site.baseurl }}/pages/gitpod#codespaces)
 
 ## Rúbrica
 
 {% include rubrica.md -%}
 
 
-## [Referencias](references)
-
-* [Mastering (GitHub) Markdown](https://guides.github.com/features/mastering-markdown/#examples)
-* [Documentación GitHub sobre la Interfaz Web]({{site.baseurl}}/pages/documentacion-github-interfaz-web)
-* [Visual Studio Code in Browsers]({{site.baseurl}}/pages/gitpod)
-* [How to use VS Code to submit an assignment to Github Classroom (initially empty repository)](https://youtu.be/iqW_yzZkU_8) Vídeo que muestra como deben hacer los estudiantes para aceptar, trabajar y entregar una tarea asignada con GHC usando el editor VS Code
-* [GitHub Glossary](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/github-glossary)
-
-<!--
-* [A Simple Guide to GitHub for Non-Developers: How to Speak GitHub](https://unito.io/blog/guide-to-github-for-project-managers/#how-to-speak-github) contiene un glosario de términos
-* [A guide to using GitHub for people who don't code and don't want to code.](https://github.com/tvanantwerp/github-for-non-programmers) tvanantwerp/github-for-non-programmers GitBook
--->
-
-* [Apuntes del curso Elaboración de Material Docente con GitBook](https://casianorodriguezleon.gitbooks.io/elaboracion-de-material-docente-con-gitbook/content/)
 

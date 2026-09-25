@@ -11,7 +11,7 @@ end
 
 desc "serve locally UHU"
 task :serveuhu do
-  sh "bundle exec jekyll serve --config uhu.yml --future --watch --host 0.0.0.0 --port 8084"
+  sh "bundle exec jekyll serve -b '' --config uhu.yml --future --watch --host 0.0.0.0 --port 8084"
 end
 
 desc "Stop jekyll running server"
