@@ -71,13 +71,8 @@ Un primer objetivo de esta lección/tarea es conseguir cierta familiaridad con l
 [asignación][assignment], 
 [asignación individual](https://github.com/foundation50/classroom50/wiki/Glossary#individual-assignment), [asignación de grupo](https://github.com/foundation50/classroom50/wiki/Glossary#group-assignment), 
 *[rosters][rosters]*, 
-etc.
+etc. Para mas detalles sobre Classroom 50 puedes leer la sección [Classroom 50 Training Session]({{ site.baseurl }}/pages/classroom50-training-session).
 
-Como estudiante, tu entrega se realiza haciendo "[commit](https://github.com/git-guides/git-commit)" y "[push](https://github.com/git-guides/git-push)" al repositorio que obtienes cuando aceptas la asignación. Para más detalles lea la sección de la wiki de Classroom 50 [Submit your work](https://github.com/foundation50/classroom50/wiki/Web-Student-Guide#submit-your-work)
-
-Este video en YouTube "[Classroom 50 Training Session](https://youtu.be/gpIz6XEVlEE?si=spbnHJnVeQZFglR3)"  contiene una introducción a Classroom 50.
-
-{% include youtubePlayer.html id="gpIz6XEVlEE" %}
 
 [rosters]: https://github.com/foundation50/classroom50/wiki/Glossary#roster
 [assignment]: https://github.com/foundation50/classroom50/wiki/Glossary#assignmentget-started-with-github-classroom/glossary#assignment
@@ -127,6 +122,10 @@ Deberás crear un aula classroom 50 asociada a la organización que has creado. 
 Puedes leer más sobre como hacerlo y profundizar en Classroom 50 en la [wiki](https://github.com/foundation50/classroom50/wiki) del repositorio [foundation50/classroom50](https://github.com/foundation50/classroom50).
 
 Comprueba que el roster del aula está correctamente configurado. Tu y los profesores de este curso deberían aparecer como `Teacher` y el estudiante que has invitado a tu organización debería aparecer como `Student`.
+
+### Tarea 6: Entrega de esta tarea
+
+Como estudiante de este curso, tu entrega de esta tarea se realiza haciendo "[commit](https://github.com/git-guides/git-commit)" y "[push](https://github.com/git-guides/git-push)" al repositorio que obtienes cuando aceptas la asignación. Para más detalles lea la sección de la wiki de Classroom 50 [Submit your work](https://github.com/foundation50/classroom50/wiki/Web-Student-Guide#submit-your-work)
 
 
 

@@ -19,27 +19,13 @@ Las subsiguientes secciones presentan los recursos para lograr estos objetivos.
 
 ## Objetivos
 
-### Objetivo 1: Primeros Pasos con Classroom 50
+### Objetivo 1: Classroom 50
 
-Para crear el repositorio de trabajo deberás comenzar aceptando la tarea asociada a esta parte haciendo click en el correspondiente botón en el campus virtual de este curso. Para aprender a aceptar una tarea sigue los pasos en la sección 
-[Accept an assignment](https://github.com/foundation50/classroom50/wiki/Web-Student-Guide#accept-an-assignment)
+Como en la tarea anterior, para crear el repositorio de trabajo deberás comenzar aceptando la tarea asociada a esta parte haciendo click en el correspondiente botón en el campus virtual de este curso. Para repasar el proceso de aceptar una tarea vuelve a estudiar las secciones:
+
+- [Accept an assignment](https://github.com/foundation50/classroom50/wiki/Web-Student-Guide#accept-an-assignment)
 del capítulo de la wiki de Classroom 50 [Web Student Guide](https://github.com/foundation50/classroom50/wiki/Web-Student-Guide).
-
-Un primer objetivo de esta lección/tarea es conseguir cierta familiaridad con los conceptos que conlleva Classroom 50: 
-[asignación][assignment], 
-[asignación individual](https://github.com/foundation50/classroom50/wiki/Glossary#individual-assignment), [asignación de grupo](https://github.com/foundation50/classroom50/wiki/Glossary#group-assignment), 
-*[rosters][rosters]*, 
-etc.
-
-Como estudiante, tu entrega se realiza haciendo "[commit](https://github.com/git-guides/git-commit)" y "[push](https://github.com/git-guides/git-push)" al repositorio que obtienes cuando aceptas la asignación. Para más detalles lea la sección de la wiki de Classroom 50 [Submit your work](https://github.com/foundation50/classroom50/wiki/Web-Student-Guide#submit-your-work)
-
-Este video en YouTube "[Classroom 50 Training Session](https://youtu.be/gpIz6XEVlEE?si=spbnHJnVeQZFglR3)"  contiene una introducción a Classroom 50.
-
-{% include youtubePlayer.html id="gpIz6XEVlEE" %}
-
-[rosters]: https://github.com/foundation50/classroom50/wiki/Glossary#roster
-[assignment]: https://github.com/foundation50/classroom50/wiki/Glossary#assignmentget-started-with-github-classroom/glossary#assignment
-[identificacion]: {{ site.baseurl }}/pages/github-classroom.html#el-problema-de-enlazar-las-cuentas-gh-con-las-cuentas-del-lms
+- Repasa el vídeo en la sección [Classroom 50 Training Session]({{ site.baseurl }}/pages/classroom50-training-session).
 
 ### Objetivo 2: Aprender Markdown
 
