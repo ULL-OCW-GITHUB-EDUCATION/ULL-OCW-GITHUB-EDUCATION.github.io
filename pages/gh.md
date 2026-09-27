@@ -3,65 +3,89 @@ title: GitHub Command Line Interface
 toc: true
 ---
 
-## Introduction
+## Introduction to GitHub CLI
 
-### What is 
+### What is GitHub CLI?
 
 [gh](https://cli.github.com/manual/) pretends to facilitate the access to GitHub from the command line. It brings pull requests, issues, and other GitHub concepts to the terminal next to where you are already working with git and your code. For GitLab there is a similar tool called [glab](https://glab.readthedocs.io/en/latest/)
 
 ### Version 
 
 ```
-➜  markdown git:(master) ✗ gh --version
-gh version 2.14.3 (2022-07-26)
-https://github.com/cli/cli/releases/tag/v2.14.3
+➜  apuntes git:(main) ✗ gh --version
+gh version 2.101.0 (2026-09-15)
+https://github.com/cli/cli/releases/tag/v2.101.0
 ```
 
 ### Help
 
 ```
-➜  markdown git:(master) ✗ gh help
+➜  apuntes git:(main) ✗ gh help
 Work seamlessly with GitHub from the command line.
 
 USAGE
   gh <command> <subcommand> [flags]
 
 CORE COMMANDS
-  auth:        Authenticate gh and git with GitHub
-  browse:      Open the repository in the browser
-  codespace:   Connect to and manage codespaces
-  gist:        Manage gists
-  issue:       Manage issues
-  pr:          Manage pull requests
-  release:     Manage releases
-  repo:        Manage repositories
+  auth:          Authenticate gh and git with GitHub
+  browse:        Open repositories, issues, pull requests, and more in the browser
+  codespace:     Connect to and manage codespaces
+  discussion:    Work with GitHub Discussions (preview)
+  gist:          Manage gists
+  issue:         Manage issues
+  org:           Manage organizations
+  pr:            Manage pull requests
+  project:       Work with GitHub Projects.
+  release:       Manage releases
+  repo:          Manage repositories
+  skill:         Install and manage agent skills (preview)
 
-ACTIONS COMMANDS
-  run:         View details about workflow runs
-  workflow:    View details about GitHub Actions workflows
-
-ADDITIONAL COMMANDS
-  alias:       Create command shortcuts
-  api:         Make an authenticated GitHub API request
-  completion:  Generate shell completion scripts
-  config:      Manage configuration for gh
-  extension:   Manage gh extensions
-  gpg-key:     Manage GPG keys
-  help:        Help about any command
-  label:       Manage labels
-  search:      Search for repositories, issues, and pull requests
-  secret:      Manage GitHub secrets
-  ssh-key:     Manage SSH keys
-  status:      Print information about relevant issues, pull requests, and notifications across repositories
-
-HELP TOPICS
-  actions:     Learn about working with GitHub Actions
-  environment: Environment variables that can be used with gh
-  formatting:  Formatting options for JSON data exported from gh
-  mintty:      Information about using gh with MinTTY
-  reference:   A comprehensive reference of all gh commands
+GITHUB ACTIONS COMMANDS
+  cache:         Manage GitHub Actions caches
+  run:           View details about workflow runs
+  workflow:      View details about GitHub Actions workflows
 
 EXTENSION COMMANDS
+  accepted:      Extension accepted
+  ...
+  student:       Extension student
+  ...
+  teacher:       Extension teacher
+  ...
+
+ALIAS COMMANDS
+  cd:            Shell alias for "!gh config set current-org \"$1\" 2>/dev/null"
+  pwd:           Shell alias for "!gh config get current-org"
+
+ADDITIONAL COMMANDS
+  agent-task:    Work with agent tasks (preview)
+  alias:         Create command shortcuts
+  api:           Make an authenticated GitHub API request
+  attestation:   Work with artifact attestations
+  completion:    Generate shell completion scripts
+  config:        Manage configuration for gh
+  copilot:       Run the GitHub Copilot CLI (preview)
+  extension:     Manage gh extensions
+  gpg-key:       Manage GPG keys
+  label:         Manage labels
+  licenses:      View third-party license information
+  preview:       Execute previews for gh features
+  ruleset:       View info about repo rulesets
+  search:        Search for repositories, issues, and pull requests
+  secret:        Manage GitHub secrets
+  ssh-key:       Manage SSH keys
+  status:        Print information about relevant issues, pull requests, and notifications across repositories
+  variable:      Manage GitHub Actions variables
+
+HELP TOPICS
+  accessibility: Learn about GitHub CLI's accessibility experiences
+  actions:       Learn about working with GitHub Actions
+  environment:   Environment variables that can be used with gh
+  exit-codes:    Exit codes used by gh
+  formatting:    Formatting options for JSON data exported fromgh
+  mintty:        Information about using gh with MinTTY
+  reference:     A comprehensive reference of all gh commands
+  telemetry:     Information about telemetry in gh
 
 FLAGS
   --help      Show help for command
@@ -73,11 +97,10 @@ EXAMPLES
   $ gh pr checkout 321
 
 LEARN MORE
-  Use 'gh <command> <subcommand> --help' for more information about a command.
+  Use `gh <command> <subcommand> --help` for more information about a command.
   Read the manual at https://cli.github.com/manual
-
-FEEDBACK
-  Open an issue using 'gh issue create -R github.com/cli/cli'
+  Learn about exit codes using `gh help exit-codes`
+  Learn about accessibility experiences using `gh help accessibility`
 ```
 
 ### Installation
@@ -137,47 +160,28 @@ $ gh issue list --json number,title,body
 * [Manual de gh auth](https://cli.github.com/manual/gh_auth)
   * [Manual de gh auth login](https://cli.github.com/manual/gh_auth_login)
 
-Go to [github.com/settings/tokens](https://github.com/settings/tokens)
-to generate a new token for `gh` and set then environment variable 
-`GITHUB_TOKEN` (`export GITHUB_TOKEN= ...`)
+Para el uso interactivo, lo más sencillo es ejecutar `gh auth login`; el asistente permite autenticarse con el navegador y guarda las credenciales en el almacén seguro del sistema cuando está disponible.
 
-Para generar el token:
+En automatizaciones se puede proporcionar el token mediante `GH_TOKEN` o `GITHUB_TOKEN`. `GH_TOKEN` tiene precedencia y ambas variables tienen precedencia sobre las credenciales guardadas. Para un token fine-grained, la documentación recomienda usar `GH_TOKEN` para tokens fine-grained. 
+`gh auth login --with-token` está pensado para un personal access token classic y lee el token desde la entrada estándar; evita guardar tokens en ficheros del repositorio.
 
-[user -> settings -> developer settings -> Personal access tokens](https://github.com/settings/tokens) 
+Consulta [Personal access tokens](https://github.com/settings/tokens) para crear o administrar tokens y [gh auth login](https://cli.github.com/manual/gh_auth_login) para conocer las opciones actuales.
 
-o mas rápido vete a <https://github.com/settings/tokens>
-
-Una vez se tiene un token:
-
-```
-# authenticate against github.com by reading the token from a file
-$ gh auth login --with-token < mytoken.txt
-```
-
-También es posible autenticarse con el browser usando la opción `-w`:
+También es posible autenticarse con el navegador usando la opción `-w`:
 
 ```
 ➜  graphql-examples git:(main) ✗ gh auth login -w
 
-! First copy your one-time code: F4D5-59E6
+! First copy your one-time code: <one-time-code>
 - Press Enter to open github.com in your browser...
 ```
 
-Esto abre el browser, nos pide la contraseña que aparece arriba 
-
-![]({{site.baseurl}}/assets/images/gh-auth-browser-1.png)
-
-y nos pide confirmar los permisos.
-
-
-![]({{site.baseurl}}/assets/images/gh-auth-browser-2.png)
-
 ### Example: Issues of a repo
 
-Placeholder values `:owner`, `:repo`, and `:branch` in the endpoint argument will get replaced with values from the repository of the current directory.
+Los placeholders `{owner}`, `{repo}` y `{branch}` del endpoint se sustituyen por los valores del repositorio actual (o de `GH_REPO`, si está definida).
 
 ```
-$  gh api repos/:owner/:repo/issues
+$  gh api repos/{owner}/{repo}/issues
 [
   {
     "url": "https://api.github.com/repos/ULL-MII-SYTWS-1920/ull-mii-sytws-1920.github.io/issues/5",
@@ -201,7 +205,7 @@ $  gh api repos/:owner/:repo/issues
 We can pipe the output to [jq](jq) or use the [`-q` or `--jq` option of `gh api`](https://cli.github.com/manual/gh_api):
 
 ```
-$  gh api repos/:owner/:repo/issues | jq '.[0] | .title'
+$  gh api repos/{owner}/{repo}/issues | jq '.[0] | .title'
 "tema0-presentacion/practicas/pb-gh-campus-expert/"
 ```
 
@@ -218,8 +222,10 @@ Of course, we can explicit the repo and owner. For example:
 Let us see an example using the `POST` method. We will start from this `curl` example 
 in the [GitHub API getting started guide](https://docs.github.com/en/free-pro-team@latest/rest/guides/getting-started-with-the-rest-api#repositories):
 
+Assuming `GITHUB_TOKEN` is set in the environment (for example, by a secret manager), the request is:
+
 ```
-$ curl -i -H "Authorization: token 5199831f4dd3b79e7c5b7e0ebe75d67aa66e79d4" \
+$ curl -i -H "Authorization: Bearer ${GITHUB_TOKEN}" \
     -d '{ \
         "name": "blog", \
         "auto_init": true, \
@@ -229,10 +235,10 @@ $ curl -i -H "Authorization: token 5199831f4dd3b79e7c5b7e0ebe75d67aa66e79d4" \
     https://api.github.com/user/repos
 ```
 
-and let us adapt to `gh api`. We use `-X` or `--method string`to set the HTTP method for the request (default `GET`) and `-f`to set the fields:
+and let us adapt it to `gh api`. The default method is `GET` when no parameters are supplied; adding fields switches it to `POST` unless another method is specified. Use `-F` (`--field`) when values need JSON type conversion, such as the boolean `true`:
 
 ```
-➜  /tmp gh api -X POST -f name=repo-prueba-gh-api -f private=true /user/repos
+➜  /tmp gh api -X POST -F name=repo-prueba-gh-api -F private=true /user/repos
 ```
 
 This way we have created a private repo inside the user scope:
@@ -241,14 +247,13 @@ This way we have created a private repo inside the user scope:
 
 
 ```
-➜  input-option git:(master) ✗ gh repo-delete crguezl/repo-prueba-gh-api
-➜  input-option git:(master) ✗ gh api -f name=repo-prueba-gh-api -f private=true /user/repos
+➜  input-option git:(master) ✗ gh repo delete crguezl/repo-prueba-gh-api --yes
+➜  input-option git:(master) ✗ gh api -F name=repo-prueba-gh-api -F private=true /user/repos
 ```
 
 ### Pagination
 
-The option `--paginate`allow us to make additional HTTP requests to fetch 
-all pages of results. Here is an example. 
+The option `--paginate` allows `gh api` to follow pagination links and fetch subsequent pages. Some endpoints, including repository search, impose their own result limits, so pagination does not necessarily return every match in GitHub.
 
 ```
 ➜  gh alias set get-repos 'api /orgs/$1/repos'
@@ -397,8 +402,10 @@ Por ejemplo:
 A partir de este alias podemos construir sub-alias:
 
 ```
-✗ gh alias set my-orgs-names --shell "gh my-orgs --jq '.[].organization.login'"
+✗ gh alias set --shell org-member-logins 'gh org-members "$1" | jq -r ".[].login"'
 ```
+
+This alias calls the previously defined `org-members` alias and prints member logins; the members endpoint returns user objects, not organization objects.
 
 ### Example: Search for repos inside an organization
 
@@ -412,9 +419,9 @@ Let us search for repos inside our organization using GitHub API v3:
 
 Here is [the JSON with the full output](gh-get-labs-output.json).
 
-* See the [SEARCH](https://docs.github.com/en/free-pro-team@latest/rest/reference/search)
+* See the [SEARCH](https://docs.github.com/en/rest/search)
 section of the REST API GitHub docs to know more about the API.
-* See section [Search Repositories](https://docs.github.com/en/free-pro-team@latest/rest/reference/search#search-repositories) for more info on how to search for repos
+* See section [Search Repositories](https://docs.github.com/en/rest/search/search#search-repositories) for more info on how to search for repos
 
 Now we can use `gh alias set` to make an alias `get-lab` to get the repos:
 
@@ -506,7 +513,7 @@ Let us use our new alias:
 ### Example: Number of repos in an Organization 
 
 ```
-gh api graphql --paginate --field query=@org-num-repos.gql --jq .data.organization.repositories.totalCount
+gh api graphql --field query=@org-num-repos.gql --jq .data.organization.repositories.totalCount
 ```
 
 These are the contents of the file `org-num-repos.gql`:
@@ -533,7 +540,7 @@ Execution:
 ```
 ➜  graphql-learning git:(main) ✗ gh config set pager cat
 ➜  graphql-learning git:(main) ✗ cat my-repos.bash
-gh api graphql --paginate -F number_of_repos=3 --field query=@my-repos.gql
+gh api graphql -F number_of_repos=3 --field query=@my-repos.gql
 ```
 
 In this example `$number_of_repos` is a variable that is set to `3` inside the command using the option `-F number_of_repos=3`
@@ -556,7 +563,7 @@ query($number_of_repos:Int!){
 Here is the output of an execution:      
 
 ```
-➜  graphql-learning git:(main) ✗ gh api graphql --paginate -F number_of_repos=3 --field query=@my-repos.gql
+➜  graphql-learning git:(main) ✗ gh api graphql -F number_of_repos=3 --field query=@my-repos.gql
 ```
 
 ```GraphQL
@@ -592,9 +599,9 @@ We can set the GraphQL query in a separated file:
 ➜  bin git:(master) cat gh-api-example.graphql
 ```
 ```graphql
-query {
+query($endCursor: String) {
   repository(owner:"ULL-MII-SYTWS-2021", name:"p01-t1-iaas-alu0101040882") {
-    issues(last:2, states:OPEN) {
+    issues(first:2, after:$endCursor, states:OPEN) {
       edges {
         node {
           title
@@ -608,22 +615,25 @@ query {
           }
         }
       }
+      pageInfo {
+        hasNextPage
+        endCursor
+      }
     }
   }
 }
 ```
 
-To learn more, see the tutorial [Forming calls with GraphQL
-](https://docs.github.com/en/free-pro-team@latest/graphql/guides/forming-calls-with-graphql).
+To learn more, see the tutorial [Forming calls with GraphQL](https://docs.github.com/en/graphql/guides/forming-calls-with-graphql).
 
 
 Looking at the composition line by line:
 
 ```
-query {
+query($endCursor: String) {
 ```
 
-Because we want to read data from the server, not modify it, `query` is the **root operation**. (If you don't specify an operation, `query` is also the default.)
+Because we want to read data from the server, not modify it, `query` is the **root operation**. (If you don't specify an operation, `query` is also the default.) `$endCursor` is a variable used to request the next page.
 
 ```
 repository(owner:"ULL-MII-SYTWS-2021", name:"p01-t1-iaas-alu0101040882") 
@@ -638,7 +648,7 @@ The `schema` validation indicates this object requires
 A `schema` defines a **GraphQL API's type system**. It describes the complete set of possible data (objects, fields, relationships, everything) that a client can access
 
 ```
-issues(last:2, states:OPEN) {
+issues(first:2, after:$endCursor, states:OPEN) {
 ```
 
 A **field** is a unit of data you can retrieve from an object. As the official GraphQL docs say: *The GraphQL query language is basically about selecting fields on objects*.
@@ -647,7 +657,7 @@ To account for all issues in the repository, we call the `issues` object.
 
 Some details about the `issues` object:
 
-The docs tell us this object has the type [IssueConnection](https://docs.github.com/en/free-pro-team@latest/graphql/reference/objects#issueconnection).
+The docs tell us this object has the type [IssueConnection](https://docs.github.com/en/graphql/reference/objects#issueconnection).
 
 Schema validation indicates this object requires a `last` or `first` number of results as an argument, so we provide `2`.
 
@@ -659,7 +669,7 @@ To find only open issues, we give the states key a value of `OPEN`.
 edges {
 ```
 
-**Edges** represent connections between nodes. When you query a **connection**, you traverse its edges to get to its nodes.
+**Edges** represent connections between nodes. When you query a **connection**, you traverse its edges to get to its nodes. The `pageInfo` fields `hasNextPage` and `endCursor` let `gh api --paginate` request subsequent pages.
 
 We know **issues** is a *connection** because the Doc says it has the `IssueConnection` type. 
 
@@ -672,9 +682,9 @@ node {
 ```
 
 Here we retrieve the node at the end of the edge. 
-The [IssueConnection docs](https://docs.github.com/en/free-pro-team@latest/v4/object/issueconnection) indicate the node at the end of the `IssueConnection` type is an `Issue` object.
+The [IssueConnection docs](https://docs.github.com/en/graphql/reference/objects#issueconnection) indicate the node at the end of the `IssueConnection` type is an `Issue` object.
 
-Now that we know we're retrieving an `Issue` object, we can look at the [docs for issue](https://docs.github.com/en/free-pro-team@latest/graphql/reference/objects#issue)  and specify the fields we want to return:
+Now that we know we're retrieving an `Issue` object, we can look at the [docs for issue](https://docs.github.com/en/graphql/reference/objects#issue) and specify the fields we want to return:
 
 ```graphql
 title
@@ -684,18 +694,22 @@ labels(first:5) {
     node {
       name
     }
+  },
+  "pageInfo": {
+    "hasNextPage": false,
+    "endCursor": "opaque-cursor"
   }
 }
 ```
 
 Here we specify the `title`, `url`, and `labels` fields of the `Issue` object.
 
-The `labels` field has the type [LabelConnection](https://docs.github.com/en/free-pro-team@latest/v4/object/labelconnection). As with the `issues` object, because `labels` is a connection, we must travel its `edges` to a connected `node`: the `label` object. At the node, we can specify the `label` object fields we want to return, in this case, `name`.
+The `labels` field has the type [LabelConnection](https://docs.github.com/en/graphql/reference/objects#labelconnection). As with `issues`, because `labels` is a connection, we traverse its `edges` to a connected `node`: the `label` object. At the node, we can specify the fields we want to return, in this case, `name`.
 
 In `gh`, the `--field` flag behaves like `--raw-field` with magic type conversion based on the format of the value:
 
 * literal values "true", "false", "null", and integer numbers get converted to appropriate JSON types;
-* placeholder values ":owner", ":repo", and ":branch" get populated with values from the repository of the current directory;
+* placeholder values "{owner}", "{repo}", and "{branch}" get populated with values from the repository of the current directory;
 * if the value starts with "@", the rest of the value is interpreted as a filename to read the value from. Pass "-" to read from standard input.
 
 For GraphQL requests, all fields other than "query" and "operationName" are interpreted as GraphQL variables.
@@ -741,7 +755,7 @@ Execution:
 
 ```
 ➜  graphql-learning git:(main) cat findissueid.bash 
-gh api graphql --paginate --field query=@findissueid.gql
+gh api graphql --field query=@findissueid.gql
 ➜  graphql-learning git:(main) cat findissueid.gql 
 query FindIssueID {
   repository(owner:"crguezl", name:"learning-graphql-with-gh") {
@@ -759,7 +773,7 @@ gh issue -R crguezl/learning-graphql-with-gh view $@%
 # and
 # https://docs.github.com/en/enterprise-server@3.0/graphql/guides/forming-calls-with-graphql
 # for a list of supported emojis
-gh api graphql --paginate --field query=@addreactiontoissue.gql 
+gh api graphql --field query=@addreactiontoissue.gql
 ➜  graphql-learning git:(main) cat addreactiontoissue.gql 
 mutation AddReactionToIssue {
   addReaction(input:{subjectId:"I_kwDOGLyMF84838wt",content:ROCKET}) {
@@ -837,63 +851,20 @@ This is a extension written in Node.js
 
 ## Cambiando los permisos de GITHUB_TOKEN
 
-En el contenedor de CodeSpaces tenemos `gh` instalada. 
-Tanto `gh`como CodeSpaces usan 
-la variable de entorno `GITHUB_TOKEN` para hacer uso de la API. 
-De hecho `GITHUB_TOKEN`  es una de las muchas [variables de entorno](https://cli.github.com/manual/gh_help_environment) que `gh` usa. Otras variables interesantes son `GH_REPO` y `GH_CONFIG_DIR`.
+En un Codespace, `gh` puede recibir el token disponible en el entorno. `GH_TOKEN` y `GITHUB_TOKEN` tienen precedencia sobre las credenciales que `gh auth login` haya guardado, y `GH_TOKEN` tiene precedencia sobre `GITHUB_TOKEN`. Los permisos del token proporcionado por Codespaces dependen de la configuración del entorno y no se amplían modificando las credenciales guardadas de `gh`.
 
-Pero, por defecto, el token en `GITHUB_TOKEN` no tiene permisos suficientes 
-para acceder a otros repos distintos del de trabajo.
-
-Se plantea así el problema de cambiarle los permisos al token.
-
-En las ocasiones en las que queremos cambiar los `scopes` de `GITHUB_TOKEN` podemos proceder así:
-
-En primer lugar, tienes que desactivar `GITHUB_TOKEN`, de lo contrario `gh` cli lo usará y omitirá la autenticación
+Para operar con las credenciales guardadas de una cuenta, desactiva temporalmente los tokens del entorno en esa shell y añade los scopes necesarios a las credenciales de `gh`:
 
 ```sh
-unset GITHUB_TOKEN
+unset GH_TOKEN GITHUB_TOKEN
+gh auth refresh --hostname github.com --scopes repo,admin:org,delete_repo,codespace,read:packages
 ```
 
-Después usaremos `gh auth login` para cambiar los scopes del per-host token `oauth_token` de `gh`.
+`gh auth refresh` solicita autorización en el navegador y actualiza los scopes de las credenciales guardadas. Usa solo los permisos que necesites y ten en cuenta que los permisos de la organización, el tipo de token y sus políticas pueden limitar el acceso aunque se soliciten scopes adicionales. Comprueba la cuenta y el estado de autenticación con `gh auth status`; no imprimas ni copies el token desde `gh config` o `hosts.yml`.
 
-Las opciones que son interesantes de `gh auth login` son:
-
-1.  `-h`, `--hostname string` The hostname of the GitHub instance to authenticate with
-2.  `-s`, `--scopes strings`  Additional authentication scopes to request
-3.  `-w, --web`               Open a browser to authenticate
-
-Siempre podemos obtener el per-host oauth token así:
-
-```sh
-✗ gh config get -h github.com oauth_token
-gho_w-blah-blah-blah
-```
-
-o  bien accediendo directamente al fichero de configuración per-host de `gh`:
-
-```sh
-✗ ls -a ~/.config/gh/
-.          ..         config.yml hosts.yml
-✗ grep -i oauth ~/.config/gh/hosts.yml
-    oauth_token: gho_w-blah-blah-blah
-```
-
-Si queremos modificar los permisos del `oauth_token` deberemos hacer algo así:
-
-```sh
-gh auth login --hostname 'github.com' --scopes 'repo,admin:org,delete_repo,codespace,read:packages'
-```
-
-Podemos obtener el valor de este token y almacenarlo en una variable con:
-
-```sh
-token="$(gh config get -h github.com oauth_token)"
-
-export GITHUB_TOKEN="$token"
-```
-
-List of scopes: <https://docs.github.com/en/developers/apps/building-oauth-apps/scopes-for-oauth-apps#available-scopes>
+* [Variables de entorno de GitHub CLI](https://cli.github.com/manual/gh_help_environment)
+* [Actualizar los scopes de autenticación](https://cli.github.com/manual/gh_auth_refresh)
+* [Scopes de OAuth](https://docs.github.com/en/developers/apps/building-oauth-apps/scopes-for-oauth-apps#available-scopes)
 
 
 ## References
