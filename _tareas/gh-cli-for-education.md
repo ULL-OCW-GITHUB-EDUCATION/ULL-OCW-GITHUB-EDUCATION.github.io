@@ -36,6 +36,8 @@ Consulte también los documentos de referencias correspondientes:
 
 ## Descargando entregas de una tarea de Classroom 50
 
+Para descargar las entregas de una tarea de Classroom 50, primero debe autenticarse con `gh auth login` y luego ejecutar el comando:
+
 ```
 ➜  UHU git:(main) ✗ gh teacher download UHU-FPDU-GDI-2026 uhu-fpdu-gdi registrarse-descuentos-aula
 Your github.com login is missing scopes gh teacher needs (admin:org, read:org, repo, workflow); running `gh auth refresh` to add them (your existing token is kept, not replaced)...

@@ -77,18 +77,20 @@ a otra página
 
 En este [enlace puedes visitar ejemplos de lo que han hecho algunos alumnos de la asignatura *Aprendizaje y Enseñanza de la Tecnología* del master de Formación de Profesorado en el curso 21/22](https://github.com/orgs/ULL-MFP-AET-2122/repositories?q=aprender-markdown&type=all&language=&sort=)
 
-### Objetivo 3: Aprender a Usar un Editor en la Nube
+### Objetivo 3: Aprender a Usar Codespaces
 
-Hay múltiples formas de editar en la nube un repositorio GitHub.
-en estas [notas]({{site.baseurl}}/pages/gitpod) recogemos estas alternativas:
+Hay múltiples formas de editar en la nube un repositorio GitHub:
 
-1. Editar directamente usando el [editor on-line de GitHub](https://docs.github.com/es/repositories/working-with-files/managing-files/editing-files)
-2. [Usar el editor GitHub.dev][githubdev]. Véase también las [notas en estos apuntes sobre GitHub.dev][githubdev]. Véase también las [notas en estos apuntes sobre GitHub.dev]({{site.baseurl}}/pages/gitpod#editing-with-githubdev-editor): se activa simplemente  tecleando el punto cuando se está visitando el repo
-4. Usar [Codespaces][codespaces] (Probablemente la opción mas recomendable si dispones de este servicio)
-3. Usar [GitPod]({{ site.baseurl }}/pages/gitpod#gitpod), una alternativa a [Codespaces][codespaces]
+#### Objetivo 3.1. Editar directamente usando el [editor on-line de GitHub](https://docs.github.com/es/repositories/working-with-files/managing-files/editing-files)
 
-[githubdev]: https://docs.github.com/en/codespaces/the-githubdev-web-based-editor
-[codespaces]: /pages/gitpod#codespaces
+#### Objetivo 3.2. Usar [GitHub Codespaces](https://docs.github.com/en/codespaces)
+
+#### Objetivo 3.3: GitHub Copilot en Codespaces
+
+Utiliza el chat  con la IA (lado derecho de la pantalla) para consultar tus dudas y para que te ayude a escribir código. 
+
+![assets/images/codespace-copilot.png]({{ site.baseurl }}/assets/images/codespace-copilot.png)
+
 
 ### Objetivo 4: Aprender a Usar GitHub Discussions
 
@@ -98,19 +100,13 @@ Publica tu entrada en la categoría **Cuéntanos lo que haces** (tienes un ejemp
 
 Si quieres saber mas sobre como añadir un foro de debate a tus repos y como administrar los foros puedes consultar la documentación en [GitHub Discussions](https://docs.github.com/en/discussions)
 
-## Introduccion al Lenguaje de Marcas MarkDown
+## Referencias 
 
-Lee 
-
-1. [Escribir en GitHub](https://docs.github.com/es/get-started/writing-on-github)
-1. El tutorial <a href="https://guides.github.com/features/mastering-markdown/" target="_blank">Mastering Markdown</a> para saber mas sobre esta forma de elaborar documentos
-2. Para mas detalles consulta la guía de usuario
-<a href="https://docs.github.com/en/free-pro-team@latest/github/writing-on-github/getting-started-with-writing-and-formatting-on-github" target="_blank">Getting started with writing and formatting on GitHub</a>
-
-## Edición en la Nube de Repositorios GitHub
-
-* La sección de la documentación [Editar archivos](https://docs.github.com/es/repositories/working-with-files/managing-files/editing-files) sobre como editar archivosdirectamente en GitHub
-* [GitHub Codespaces](https://docs.github.com/en/codespaces) en docs.github.com
+1. <a href="https://guides.github.com/features/mastering-markdown/" target="_blank">Mastering Markdown</a> 
+2. [Writing on GitHub](https://docs.github.com/es/get-started/writing-on-github)
+3. <a href="https://docs.github.com/en/free-pro-team@latest/github/writing-on-github/getting-started-with-writing-and-formatting-on-github" target="_blank">Getting started with writing and formatting on GitHub</a>
+4. [Editing Files](https://docs.github.com/es/repositories/working-with-files/managing-files/editing-files) 
+5. [GitHub Codespaces](https://docs.github.com/en/codespaces)
 
 
 ## Rúbrica

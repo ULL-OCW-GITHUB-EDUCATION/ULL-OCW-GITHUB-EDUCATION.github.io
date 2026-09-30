@@ -150,17 +150,12 @@ $ gh issue list --json number,title,body
   }
 ]
 ```
-
-## Introduction to `gh api` 
-
-* [Manual de gh api](https://cli.github.com/manual/gh_api)
-
-### Authentication Token
+## Authentication 
 
 * [Manual de gh auth](https://cli.github.com/manual/gh_auth)
   * [Manual de gh auth login](https://cli.github.com/manual/gh_auth_login)
 
-Para el uso interactivo, lo más sencillo es ejecutar `gh auth login`; el asistente permite autenticarse con el navegador y guarda las credenciales en el almacén seguro del sistema cuando está disponible.
+Para el uso interactivo, lo más sencillo es ejecutar `gh auth login`. El asistente permite autenticarse con el navegador y guarda las credenciales en el almacén seguro del sistema cuando está disponible.
 
 En automatizaciones se puede proporcionar el token mediante `GH_TOKEN` o `GITHUB_TOKEN`. `GH_TOKEN` tiene precedencia y ambas variables tienen precedencia sobre las credenciales guardadas. Para un token fine-grained, la documentación recomienda usar `GH_TOKEN` para tokens fine-grained. 
 `gh auth login --with-token` está pensado para un personal access token classic y lee el token desde la entrada estándar; evita guardar tokens en ficheros del repositorio.
@@ -175,6 +170,10 @@ También es posible autenticarse con el navegador usando la opción `-w`:
 ! First copy your one-time code: <one-time-code>
 - Press Enter to open github.com in your browser...
 ```
+
+## Introduction to `gh api` 
+
+* [Manual de gh api](https://cli.github.com/manual/gh_api)
 
 ### Example: Issues of a repo
 

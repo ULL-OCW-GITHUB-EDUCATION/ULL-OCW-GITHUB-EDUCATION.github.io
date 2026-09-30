@@ -3,7 +3,7 @@ layout: default
 title: Construyendo Web Sites con un Generador estático
 permalink: generador-estatico
 classroom: https://classroom.github.com/a/IOBTV2l4
-date: 0000/05/01
+date: 0000/08/01
 video: "8KwoKgYz85k"
 toc: true
 ---
