@@ -30,13 +30,7 @@ Puedes encontrar ejemplos curiosos de *repos profile* en esta referencia:
 
 ## Crea repos Profile para las Organizaciones asociadas con tus Asignaturas, 
 
-En este paso, si no lo hiciste en la [tarea inicial]({{ site.baseurl }}/registrarse-en-github) deberás crear ahora 
-
-1. una Organización para una asignatura y 
-
-Añáde a la organización su repo de perfil/Profile. 
-
-Los siguientes recursos te ayudarán a realizar estas tareas:
+Añáde a la organización su repo de perfil/Profile. Los siguientes recursos te ayudarán a realizar estas tareas:
 
 * [Crear una organización nueva desde cero](https://docs.github.com/es/organizations/collaborating-with-groups-in-organizations/creating-a-new-organization-from-scratch)
 * [Personalizar el perfil de tu organización](https://docs.github.com/es/organizations/collaborating-with-groups-in-organizations/customizing-your-organizations-profile). Puedes personalizar la página de resumen de tu organización
