@@ -17,7 +17,7 @@ En este capítulo aprenderemos:
 * Aprenderemos a crear una asignación Individual 
 * Aprenderemos a crear una asignación de grupo 
 
-## Introducción a GitHub Classroom
+## Introducción a Classroom 50
 
 Para poder llevar a cabo la tarea de crear un classroom y hacer las asignaciones deberás leer con detenimiento 
 

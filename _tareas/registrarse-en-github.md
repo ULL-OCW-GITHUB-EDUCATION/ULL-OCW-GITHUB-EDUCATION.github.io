@@ -116,7 +116,7 @@ Deberás crear una organización para un curso. Puedes leer más sobre como hace
 * Invita a un estudiante de este curso a tu organización. Asignale el rol de **member**.
 Para ello, en la página de tu organización, haz click en **People** y luego en **Invite member**.  Pídele al estudiante que acepte la invitación (le llegará un correo) y que se una a tu organización. 
 
-### Tarea 5: Crear un aula GitHub Classroom asociada a la organización creada
+### Tarea 5: Crear un aula Classroom 50 asociada a la organización creada
 
 Deberás crear un aula classroom 50 asociada a la organización que has creado. Yo suelo poner el mismo nombre a la correspondiente aula Classroom 50. 
 Puedes leer más sobre como hacerlo y profundizar en Classroom 50 en la [wiki](https://github.com/foundation50/classroom50/wiki) del repositorio [foundation50/classroom50](https://github.com/foundation50/classroom50).
@@ -135,7 +135,7 @@ Como estudiante de este curso, tu entrega de esta tarea se realiza haciendo "[co
 1. Registrarte en GitHub
 2. Obtener tus correspondientes descuentos
 3. Crear una organización para un curso que vas a impartir. Añadir a los profesores de este curso con el rol de owners y a un estudiante de la misma con el rol de member.
-4. Crear un aula GitHub Classroom asociada a la organización creada. Configurar correctamente el roster del aula.
+4. Crear un aula Classroom 50 asociada a la organización creada. Configurar correctamente el roster del aula.
 
 ## Entrega
 
