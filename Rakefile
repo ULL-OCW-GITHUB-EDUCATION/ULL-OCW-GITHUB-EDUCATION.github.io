@@ -1,6 +1,10 @@
 desc "Publicar en GitHub los apuntes de OCW"
-task :default do
-  sh "git ci -am 'OCW and UHU 2026 ' && git push -u origin main && git push -u uhu main"
+task :deployull do
+  sh "git ci -am 'OCW 2026 ' && cp ull.yml _config.yml && git commit -am 'OCW 2026 ' && git push -u origin main"
+end
+
+task :deployuhu do
+  sh "git ci -am 'UHU 2026 ' && cp uhu.yml _config.yml && git commit -am 'UHU 2026 ' && git push -u uhu main"
 end
 
 desc "serve locally"

@@ -2,6 +2,7 @@ title: 'Github para la docencia y la investigación'
 subtitle: 'Desde Git a Classroom pasando por Copilot'
 theme: jekyll-theme-midnight
 universidad: "Universidad de Huelva"
+huelva: true
 light: true
 description: 'Usando Git y GitHub en la Enseñanza '
 acronym: GHA
