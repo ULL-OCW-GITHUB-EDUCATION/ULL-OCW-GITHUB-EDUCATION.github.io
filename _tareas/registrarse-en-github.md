@@ -59,6 +59,24 @@ Las tareas para este capítulo son:
 
 Antes de aceptar esta tarea deberás registrarte en [GitHub.com](https://github.com), 
 
+{% if site.huelva %}
+* Puede acceder a el documento [GitHub y la Universidad de Huelva](https://www.uhu.es/sic/catalogo-servicios/herramientas/github)
+* Tu cuenta de usuario universitaria UHU, te identifica personalmente como miembro de esta institución educativa, haciendo posible el uso del servicio.
+* Para los miembros de la UHU en [https://www.uhu.es/sic/catalogo-servicios/herramientas/github](https://www.uhu.es/sic/catalogo-servicios/herramientas/github) en la sección "**Disponibilidad para el usuario**" se indica que
+son necesarios dos requisitos:
+
+  1. Que el usuario tenga cuenta en Github que use como correo el de la Universidad (`*uhu.es`)
+  2. Que el usuario solicite beneficiarse del programa. Para ello accederá a: [https://education.github.com/discount_requests/application](https://education.github.com/discount_requests/application) y aportará la documentación que se le solicita, para demostrar su pertenencia a la comunidad universitaria.
+* En la sección "**Instalación en la UHU**" del mismo documento se indica
+  
+   > Además del acceso individual (profesor, estudiante) el programa permite la creación de repositorios grupales. La Universidad de Huelva se ha registrado como ‘Enterprise’ y gestiona el repositorio corporativo. Dentro de la Universidad se podrán crear organizaciones, que creen y gestionen sus propios repositorios.
+
+  > Atendiendo a las necesidades de los equipos de desarrollo software en la UHU, podemos distinguir dos modalidades:
+
+  > **Repositorio público**. El equipo es gestionado de forma autónoma y la publicación se realiza en un repositorio público vinculado al centro, departamento, grupo de investigación o proyecto de investigación bajo en entorno [https://github.com/unihuelva](https://github.com/unihuelva).
+  > **Repositorio privado**. "GitHub Campus Program" permite el uso de repositorios privados vinculados a "organizaciones" dentro del ámbito de la UHU. En ese caso, el equipo y los repositorios asociados son gestionados de forma autónoma.
+{% endif %}
+
 ### Tarea 2: Aceptar esta tarea. Primeros Pasos con Classroom 50
 
 Una vez registrado ya estás en condiciones de **Aceptar esta tarea** en el enlace proveído en el Campus Virtual. 
@@ -93,6 +111,9 @@ Para obtener descuentos de docente o investigador, debes cumplir con los siguien
 2. Ser profesor o  empleado de una institución educativa.
 3. Es conveniente tener una dirección de correo electrónico verificable que haya emitido una institución educativa. En la universidad de La Laguna es el email que tiene el sufijo `ull.edu.es`
 4. Cargar los documentos que comprueben tu afiliación a la institución educativa.
+{%- if site.huelva %}
+5. Solicita el [free trial](https://github.com/features/copilot) del Copilot.
+{%- endif %}
 
 #### Si eres estudiante
 
@@ -106,13 +127,14 @@ Para optar debes cumplir con los siguientes requisitos:
 1. Estar inscrito actualmente en un curso que otorgue un título o diploma que garantice un curso de estudio como colegio, escuela secundaria, facultad, universidad, escolarización en casa o institución educativa similar
 2. Tener una dirección de correo electrónico verificable suministrada por la escuela o cargar documentos que demuestren tu situación de estudiante actual. 
 
+
 ### Tarea 4: Crear una organización GitHub para un curso
 
 Deberás crear una organización para un curso. Puedes leer más sobre como hacerlo en el capítulo [Creando Perfiles, Organizaciones y Aulas]({{ site.baseurl }}/creando-un-perfil.html). Si ya tienes el descuento y quieres mejorar tu organización (**upgrade organization**) puedes hacerlo en la página de GitHub **GlobalCampus** para profesores:[https://education.github.com/globalcampus/teacher](https://education.github.com/globalcampus/teacher)
 
 * Para el nombre de la organización es aconsejable seguir un patrón. Por ejemplo, la organización asociada a este curso se llama `{{ site.organization.name }}`. 
 * Otros ejemplos de nombres de organizaciones combinan los acrónimos de los ámbitos: la universidad, el centro, la asignatura y el curso. Por ejemplo `ULL-ESIT-PL-2122`. 
-* Invita a los profesores de esta asignatura a tu organización. Asignales el rol de **owner**. 
+* Invita a los profesores de este curso (crguezl, coromoto) a tu organización. Asignales el rol de **owner**. 
 * Invita a un estudiante de este curso a tu organización. Asignale el rol de **member**.
 Para ello, en la página de tu organización, haz click en **People** y luego en **Invite member**.  Pídele al estudiante que acepte la invitación (le llegará un correo) y que se una a tu organización. 
 

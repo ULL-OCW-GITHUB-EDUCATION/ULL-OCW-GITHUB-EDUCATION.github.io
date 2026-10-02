@@ -9,7 +9,8 @@ Bienvenido a los apuntes del curso **[{{ site.title }}]({{ site.campusvirtual }}
 ## Enlaces de interés
 
 * Servicio de Formación del PDI de la Universidad de Huelva: [Github para la docencia y la investigación: Desde Git a Classroom pasando por Copilot](https://www.uhu.es/formacion-pdi/cursos/github-para-la-docencia-y-la-investigacion-desde-git-classroom-pasando-por-copilot)
-* [Campus virtual del curso en la UHU](https://espaciosvirtuales.uhu.es/course/view.php?id=4685)
+* Documento [GitHub y la Universidad de Huelva](https://www.uhu.es/sic/catalogo-servicios/herramientas/github) del Servicio de Comunicaciones de la Universidad de Huelva
+* [Campus virtual del curso en la UHU](https://espaciosvirtuales.uhu.es/course/view.php?id=4685) 
 * Fechas del curso:
   - Lunes, 5 de octubre de 2026
   - Martes, 6 de octubre de 2026
@@ -22,7 +23,10 @@ Bienvenido a los apuntes del curso **[{{ site.title }}]({{ site.campusvirtual }}
 * Classroom 50 wiki con la documentación:
   * [https://github.com/foundation50/classroom50/wiki](https://github.com/foundation50/classroom50/wiki)
 * [Organización GitHub del curso]({{ site.organization.url }}): [{{ site.organization.url }}]({{ site.organization.url }})
+
+ 
 {% endif %}
+
 
 ## {{ page.title }}
 
