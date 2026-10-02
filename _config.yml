@@ -1,7 +1,8 @@
-title: 'INTEGRACIÓN DE LAS HERRAMIENTAS "GITHUB EDUCATION" EN EL AULA'
-subtitle: 'Usando Git y GitHub en la Enseñanza Universitaria'
-universidad: "Universidad de La Laguna"
+title: 'Github para la docencia y la investigación'
+subtitle: 'Desde Git a Classroom pasando por Copilot'
 theme: jekyll-theme-midnight
+universidad: "Universidad de Huelva"
+huelva: true
 light: true
 description: 'Usando Git y GitHub en la Enseñanza '
 acronym: GHA
@@ -15,12 +16,12 @@ calendario_examenes: https://docs.google.com/document/d/1j5rJyULD1c42UV4o-g85puu
 horarios_tutorias: https://docs.google.com/spreadsheets/d/1ZTGvLA70qCYEsBwcA8dCiUZby3ZOM9oHt8kmiNNKId0/edit#gid=0
 google_plus: https://plus.google.com/u/1/communities/101901734024125937720
 organization: 
-  url: https://github.com/ULL-OCW-GITHUB-EDUCATION/
-  name: ULL-OCW-GITHUB-EDUCATION
-  master: https://github.com/ULL-OCW-GITHUB-EDUCATION/ULL-OCW-GITHUB-EDUCATION.github.io/tree/master/
-  discussions: https://github.com/orgs/ULL-OCW-GITHUB-EDUCATION/discussions
+  url: https://github.com/orgs/UHU-FPDU-GDI-2026
+  name: UHU-FPDU-GDI-2026
+  master: https://github.com/UHU-FPDU-GDI-2026/ULL-FPDU-GDI-2026.github.io
+  discussions: https://github.com/orgs/UHU-FPDU-GDI-2026/discussions
 apuntes_repo: https://github.com/ULL-OCW-GITHUB-EDUCATION/ULL-OCW-GITHUB-EDUCATION.github.io/
-campus_virtual: https://campusvirtual.ull.es/ocw/course/view.php?id=136
+campus_virtual: https://espaciosvirtuales.uhu.es/course/view.php?id=4685
 calificador: https://campusdoctoradoyposgrado.ull.es/grade/report/grader/index.php?id=2020110589
 tareas_en_el_campus: https://campusvirtual.ull.es/ingenieriaytecnologia/1920/mod/assign/index.php?id=201911070
 profesor: https://campusvirtual.ull.es/ocw/mod/page/view.php?id=8937
